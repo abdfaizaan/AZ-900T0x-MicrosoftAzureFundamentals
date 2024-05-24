@@ -32,7 +32,7 @@ In this task, we will create a new storage account.
 
 1. On the Azure portal, from the **Azure services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
-1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else.
+1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else, then click on **Next**.
 
     | Setting | Value | 
     | --- | --- |
@@ -45,7 +45,7 @@ In this task, we will create a new storage account.
 
 1. On the **Advanced** tab of the **Create storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
 
-1. Click **Review** to review your storage account settings and allow Azure to validate the configuration. 
+1. Click **Review + create** to review your storage account settings and allow Azure to validate the configuration. 
 
 1. Once validated, click **Create**. Wait for the **Deployment Succeeded** notification. 
 
@@ -57,7 +57,7 @@ In this task, we will create a new storage account.
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, and then click **Containers**.
+1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, and then click **Containers** under Data storage.
 
 1. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
@@ -70,7 +70,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Click the **container1** container, and then click **Upload**.
 
-1. Browse to a file **Test.txt** that you created in a previous task, located on the desktop.
+1. Browse to a file **Test.txt** that you created in a previous task, located on the desktop, then select the file and select **Open**.
   
 1. Click the **Advanced** arrow, leave the default values but review the available options, and then click **Upload**.
 
@@ -88,9 +88,11 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
-1. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
+1. On the storage account blade, scroll down to the **Monitoring** section and click **Monitor at scale with Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
 
     ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
+
+   <validation step="920a6ecb-b2ae-40e8-92c8-10039a6017e0" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
