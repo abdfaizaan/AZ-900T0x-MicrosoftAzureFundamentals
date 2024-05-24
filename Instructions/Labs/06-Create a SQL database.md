@@ -32,7 +32,9 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | --- | --- |
     | Subscription | **Choose your subscription** |
     | Resource group | **myRGDb-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Database name| **db1** | 
+    | Database name| **db1** |
+    | Workload Environment| **Development** |
+    | Compute + storage| **General Purpose - Serverless Gen 5** |
     
 1. Next to the **Server** drop down list, click **Create new**. Click **OK** when finished.          
 
@@ -121,6 +123,8 @@ In this task, we will configure the SQL server and run a SQL query.
 1. Click **Run**, and then review the query results in the **Results** pane. The query should run successfully.
 
     ![Screenshot of the database Query Editor pane with the SQL code having been run successfully and the output visible in the results pane.](../images/0508.png)
+
+   <validation step="75515f24-70f3-4cf2-9172-0dcd50b3f807" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
