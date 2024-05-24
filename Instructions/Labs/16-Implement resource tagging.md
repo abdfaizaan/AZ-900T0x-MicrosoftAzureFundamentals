@@ -95,6 +95,8 @@ In this task, we will create storage accounts to test the required tagging.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+<validation step="89462220-1bfd-4010-9d25-6aa484c243d8" />
+
 ### Task 4: Delete the policy assignment
 
 In this task, we will remove the **Require a tag and its value on resources** policy so it does not affect our future work. 
