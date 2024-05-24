@@ -147,6 +147,8 @@ In this task, we will try to test whether the virtual machines can communicate (
 1. You should be successful. You have pinged VM2 from VM1.
     
      ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
+
+   <validation step="c73f2f19-0113-47eb-9970-bdc18a42cb54" />
    
    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
