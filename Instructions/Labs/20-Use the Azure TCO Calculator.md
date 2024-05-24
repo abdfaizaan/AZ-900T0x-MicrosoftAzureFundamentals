@@ -34,7 +34,8 @@ In this task, we will add infrastructure information to the calculator.
     | Name | **Servers: Windows VMs** |
     | Workload | **Windows/Linux server** |
     | Environment | **Virtual Machines** |
-    | Operating system | **Windows** |  
+    | Operating system | **Windows** |
+    | Operating system license | **Datacenter** |
     | VMs | **50** |
     | Virtualization | **Hyper-V** |
     | Core(s) | **8**|
@@ -52,7 +53,8 @@ In this task, we will add infrastructure information to the calculator.
     | Name | **Servers: Linux VMs** |
     | Workload | **Windows/Linux server** |
     | Environment | **Virtual Machines** |
-    | Operating system | **Linux** |  
+    | Operating system | **Linux** |
+    | Operating system license | **Datacenter** |
     | VMs | **50** |
     | Virtualization | **VMware** |
     | Core(s) | **8**|
