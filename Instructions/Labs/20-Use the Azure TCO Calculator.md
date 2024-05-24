@@ -54,7 +54,6 @@ In this task, we will add infrastructure information to the calculator.
     | Workload | **Windows/Linux server** |
     | Environment | **Virtual Machines** |
     | Operating system | **Linux** |
-    | Operating system license | **Datacenter** |
     | VMs | **50** |
     | Virtualization | **VMware** |
     | Core(s) | **8**|
