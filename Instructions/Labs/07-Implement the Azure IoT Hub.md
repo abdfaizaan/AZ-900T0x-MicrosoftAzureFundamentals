@@ -113,6 +113,8 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
    ![](../images/lab7-image11.png)
 
+   <validation step="26929d92-e1ca-4d56-9087-22d15854f414" />
+
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
    > - Hit the Validate button for the corresponding task.
