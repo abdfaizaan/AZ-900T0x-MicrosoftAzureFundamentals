@@ -97,6 +97,8 @@ In this task, we will verify the virtual machine is deployed correctly.
 
    ![Screenshot of the Add filters page with Event type selected.](../images/l9.4.png)
 
+   <validation step="96efa9b4-389e-4cc9-9b9f-060cc6726976" />
+
    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
