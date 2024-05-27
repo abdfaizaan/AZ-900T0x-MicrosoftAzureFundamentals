@@ -88,13 +88,13 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) -->
 
-   <validation step="aa3ef50a-af7a-4070-b8a1-75c0a741eb60" />
+      <validation step="aa3ef50a-af7a-4070-b8a1-75c0a741eb60" />
 
-    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+      >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
