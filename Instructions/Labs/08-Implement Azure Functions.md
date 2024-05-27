@@ -27,7 +27,7 @@ In this task, we will create a Function app.
 
     ![](../images/lab8-image1.png)
       
-1. On the **Function App** blade, click **+ Create**. Choose Hosting plan as **App service**.
+1. On the **Function App** blade, click **+ Create**. Choose Hosting plan as **App service** then click on **Select**.
 
 1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values: 
 
