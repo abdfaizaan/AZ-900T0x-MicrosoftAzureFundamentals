@@ -58,9 +58,9 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![](../images/creatfunc.png)
 
-1. On the **Templates** tab of the **Create Function** blade, click **HTTP trigger (1)**. Click **Create (2)**  
+1. On the **Select a Templates** tab of the **Create Function** blade, click **HTTP trigger (1)**. Click **Next (2)**  
 
-    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/function02.png)
+    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/fun4.png)
 
 1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test** from the left navigation pane. 
 
