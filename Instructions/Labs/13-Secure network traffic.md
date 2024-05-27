@@ -101,9 +101,9 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. On the **Overview** pane, click **Connect** and then select **Connect**
 
-1. On **SimpleWinVM** | Connect page, under **Native RDP** click on **Select** and on Native RDP window select **Download RDP file**. and click on **Keep** for the warning message pop-up.
+1. On **SimpleWinVM** | Connect page, under **Native RDP** click on **Download RDP file**. and click on **Keep** for the warning message pop-up.
 
-    ![](../images/image-001.png)
+    ![](../images/M13T3S3.png)
 
 1. Open the downloaded rdp file.
    
@@ -173,7 +173,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
    > - Hit the Validate button for the corresponding task.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+<validation step="6cb758ec-f211-4b8d-a8cc-02b361092388"/>
 ### Review
 In this lab, you have completed:
 - Create a virtual machine
