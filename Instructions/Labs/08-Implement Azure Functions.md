@@ -38,7 +38,7 @@ In this task, we will create a Function app.
     | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>**|
     | Publish | **Code**|
     | Runtime stack | **.NET** |
-    | Version | **6 (LTS) IN PROGRESS** |
+    | Version | **6 (LTS), in-process model** |
     | Region | **<inject key="Region" enableCopy="false"/>**|
         
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
