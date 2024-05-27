@@ -33,16 +33,14 @@ In this task, we will create a Function app.
 
     | Settings | Value |
     | -- | --|
-    | Subscription | select existing Azure subscription (1) |
-    | Resource group | select **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>**  (2)|
-    | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>** (3)|
-    | Publish | **Code** (4)|
-    | Runtime stack | **.NET** (5)|
-    | Version | **6 (LTS)** (6)|
-    | Region | **<inject key="Region" enableCopy="false"/>** (7)|
-    
-    ![](../images/funcl8.1.png)
-    
+    | Subscription | select existing Azure subscription |
+    | Resource group | select **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>**|
+    | Publish | **Code**|
+    | Runtime stack | **.NET** |
+    | Version | **6 (LTS) IN PROGRESS** |
+    | Region | **<inject key="Region" enableCopy="false"/>**|
+        
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
 1. Wait for the notification that the resource has been created.
@@ -71,20 +69,20 @@ In this task, we will use the Webhook + API function to display a message when t
 
 1. Click **Get function URL** from the top section of function editor. 
 
-1. Ensure that the value in the **Key** drop-down list is set to **default** and click **Copy** to copy the function URL. 
+1. Ensure to copy the value in the **default (function key)** URL. 
 
-    ![Screenshot of the get function URL pane inside the function editor in Azure portal. The display elements get function URL button, set key dropdown, and copy URL button are highlighted to indicate how to obtain and copy the function URL from the function editor.](../images/az-204_03-05.png)
-
+   ![](../images/fun1.png)
+   
 1. Open a new browser tab and paste the copied function URL into your web browser's address bar. When the page is requested the function will run. Notice the returned message stating that the function requires a name in the request body.
 
-    ![Screenshot of the please provide a name message.](../images/az-204_03-06.png)
+    ![](../images/fun2.png)
+   
+1. Append **&name=yourname** to the end of the URL.
 
-1. Append **&name=*yourname*** to the end of the URL.
+    **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX&name=Cindy`
 
-    **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
-
-    ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/az-204_03-07.png)
-
+     ![](../images/fun3.png)
+   
     <!--1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1** blade, in the **Developer** section, click **Monitor**. For more advanced analysis, click **Run query in Application Insights**.
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) -->
