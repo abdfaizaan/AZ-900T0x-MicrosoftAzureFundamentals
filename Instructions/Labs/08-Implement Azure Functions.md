@@ -62,11 +62,11 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/fun4.png)
 
-1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test** from the left navigation pane. 
+1. On **Template details** tab accept default values and click on **Create**.
+
+   ![](../images/fun5.png)
 
 1. On the **HttpTrigger1 \| Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
-
-    ![Screenshot of the function code. The Hello message is hightlighted.](../images/az-204_03-04.png)
 
 1. Click **Get function URL** from the top section of function editor. 
 
@@ -82,7 +82,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
     **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX&name=Cindy`
 
-     ![](../images/fun3.png)
+     ![](../images/fun6.png)
    
     <!--1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1** blade, in the **Developer** section, click **Monitor**. For more advanced analysis, click **Run query in Application Insights**.
 
