@@ -84,10 +84,6 @@ In this task, we will use the Webhook + API function to display a message when t
 
      ![](../images/fun6.png)
    
-    <!--1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1** blade, in the **Developer** section, click **Monitor**. For more advanced analysis, click **Run query in Application Insights**.
-
-    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) -->
-
       <validation step="aa3ef50a-af7a-4070-b8a1-75c0a741eb60" />
 
       >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
