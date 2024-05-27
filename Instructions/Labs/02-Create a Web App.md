@@ -27,43 +27,43 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/lab2-image1.png) 
 
-1. On **App Services** blade, click **+ Create (1)** then from dropdown select **+ Web App (2)**.
+2. On **App Services** blade, click **+ Create (1)** then from dropdown select **+ Web App (2)**.
 
    ![](../images/lab2-image2.png) 
 
-1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next > Database (7)**.
+3. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Container > (7)**.
  
     | Setting | Value |
     | -- | -- |
     | Subscription | **Accept default subscription (1)** |
     | Resource Group | **myRGWebApp1-<inject key="DeploymentID" enableCopy="false"/>(2)**  |
     | Name | **myDockerWebApp<inject key="DeploymentID" enableCopy="false"/> (3)** |
-    | Publish | **Docker Container (4)** |
+    | Publish | **Container (4)** |
     | Operating System | **Linux (5)** |
     | Region | **<inject key="Region" enableCopy="false"/>** **(6)** (ignore any service plan availability warnings) |
+    | Linux Plan | **Pre Populated** |
+    | Pricing Plan | **Premium V3 POV3** |
     |||
 
-    ![](../images/lab2-image3.png)
+    ![](images/labnew-02-1.png)
 
-   
-1. **Database** tab, accept default settings and click on Click **Next > Docker** tab. 
+    ![](images/labnew-02-6.png)
 
-1. On **Docker** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
+6. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
 
     | Setting | Value |
     | -- | -- |
-    | Options | **Single container (1)** |
-    | Image Source | **Docker Hub (2)** |
-    | Access Type | **Public (3)** |
-    | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld (4)** |
+    | Image Source | **Quickstart (1)** |
+    | Options | **Single container (2)** |
+    | Sample | **NGINX (3)** |
     |||
 
-   ![](../images/lab2-image4.png)
+   ![](images/labnew-02-4.png)
 
 
    **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
-1. Once validation is passed click **Create**.
+8. Once validation is passed click **Create**.
 
 ### Task 2: Test the Web App
 
@@ -77,11 +77,13 @@ In this task, we will test the web app.
 
      ![](../images/lab2-image6.png)
 
-1. Copy the URL and paste it into a new browser tab to observe the "Welcome to Azure Container Instances!" page.
+1. Copy the URL and paste it into a new browser tab to observe the "Welcome to nginx" page.
 
-    ![](../images/lab2-image7.png)
+    ![](images/labnew-02-5.png)
 
 1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
+
+   <validation step="4e49a9a7-41fd-406c-84a6-1c9b821b0217" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.

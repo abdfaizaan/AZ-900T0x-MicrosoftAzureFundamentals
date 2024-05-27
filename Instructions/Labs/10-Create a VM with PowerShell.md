@@ -28,14 +28,20 @@ In this task, we will configure Cloud Shell.
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1001.png)
 
 1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
-   
-1. If you are prompted to create storage for your Cloud Shell, ensure your subscription is selected and click on **Show advanced settings**.
 
-1. Please make sure you have selected your resource group **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**.
+1. On the Getting started, select **Mount storage account** and select your subscription under storage account subscription. Click on **Apply**.
 
-1. Enter **blob<inject key="DeploymentID" enableCopy="false"/>** for the **Storage account**.
+1. On the Mount storage account tab, select **I want to create a storage account**. Click on **Next**.
 
-1. Enter **blobfileshare<inject key="DeploymentID" enableCopy="false"/>** for the  **File share** , then click on **Create Storage**.
+1. On the create storage account tab, provide the details and select **Create**
+
+    | Settings | Values |
+    |  -- | -- |
+    | Subscription | **Existing subscription**|
+    | Storage account name | **blob<inject key="DeploymentID" enableCopy="false"/>**|
+    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>**|
+    | Location | **(US) East US**|
+    | File share | **none**|
 
 ### Task 2: Create a virtual machine
 
@@ -80,6 +86,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/l10.4.1.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
+
+   <validation step="c360033e-35db-4af4-af84-b54e7711a019" />
 
     >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.

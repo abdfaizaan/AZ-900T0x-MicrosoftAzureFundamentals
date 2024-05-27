@@ -84,6 +84,8 @@ In this task, we verify that the container instance is running by ensuring that 
    ![](../images/lab3-image5.png)
 	
    **Note**: You could also use the container IP address in your browser.
+
+   <validation step="f87beab3-3bb6-467e-839f-c821f172a4b8" />
    
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.

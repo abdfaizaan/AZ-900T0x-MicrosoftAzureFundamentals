@@ -24,18 +24,18 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a virtual network. 
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Virtual networks**, and then select **Virtual networks** under services.
+1. On Azure Portal page, in **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Virtual networks**, and then select **Virtual networks** under services.
 
    ![](../images/lab4-image1.png)
    
-1. On **Create virtual network** blade, click **+ Create**. 
+1. On **Virtual networks** page, click **+ Create**. 
 
 1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
       | Setting | Value | 
       | ---     | ---   |
       | Name    | **vnet1** |
-      | Subscription | **Choose your subscription**  |
+      | Subscription | **Keep default subscription**  |
       | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
       | Location | **(US) East US** |
 
@@ -47,7 +47,7 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Address space |**10.1.0.0/16**|
  
- 1. Click on **+ Add Subnet** and ensure if the following address is reflecting (Delete if any subnet exists already with the name default) if you have made any changed then click on **Add**.
+ 1. Click on **+ Add a subnet** and ensure if the following address is reflecting (Delete if any subnet exists already with the name default) if you have made any changed then click on **Add**.
   
     | Setting | Value | 
     | --- | --- |
@@ -66,7 +66,7 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **Search resources, Services, and docs(G+/)** blade, search for **Virtual machines** and then click **+ Create** and choose **Azure virtual machine**.
+1. From the **Search resources, services, and docs(G+/)** blade, search for **Virtual machines** and then click **+ Create** and choose **Azure virtual machine**.
 
 1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -76,13 +76,13 @@ In this task, we will create two virtual machines in the virtual network.
    | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter -Gen2** |
+   | Image | **Windows Server 2019 Datacenter - x64 Gen2** |
    | Username| **azureuser** |
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
    | Selected inbound ports| **RDP (3389)** |
 
-1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
+1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
@@ -134,7 +134,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     **Repeat step 1 to 6 for vm2.**
 
-1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall.
+1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the Start menu > Settings > Network & Internet > Windows Firewall.
 
    ![image](../images/vnet01.png)
 
@@ -147,6 +147,8 @@ In this task, we will try to test whether the virtual machines can communicate (
 1. You should be successful. You have pinged VM2 from VM1.
     
      ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
+
+   <validation step="c73f2f19-0113-47eb-9970-bdc18a42cb54" />
    
    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.

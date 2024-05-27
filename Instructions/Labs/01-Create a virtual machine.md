@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
    ![](../images/lab1-image1.png) 
 
@@ -42,7 +42,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
     | Location | **(US) East US** (4)|
-    | Image | **Windows Server 2019 Datacenter - Gen2** (5)|
+    | Image | **Windows Server 2019 Datacenter - x64 Gen2** (5)|
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
@@ -54,7 +54,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
    
     ![](../images/VM2.png)
 
-1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
+1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
@@ -66,9 +66,9 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
    
     >**Note:** - Verify that both port 80 and 3389 are selected
 
-1. Click **Next** to switch to the **Management** tab and leave everything as default.
+1. Click **Next : Management >** to switch to the **Management** tab and leave everything as default.
 
-1. Click **Next** to switch to the **Monitoring** tab, select the following setting:
+1. Click **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting:
 
     | Settings | Values |
     | -- | -- |
@@ -94,7 +94,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
 
-    >**Note:**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+    >**Note:** The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
 1. Within the **Connect** page, click on **Download RDP File**.
 
@@ -122,7 +122,7 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![server manager](../images/az900-t3_s1.png)
 
-    >**Note:** If you get a pop-up related to **Networking** click **No**
+    >**Note:** If you get a pop-up related to **Networking** click **No**. If you get a tab Server Manager, close the tab.
     
     ![server manager](../images/network.png)
 
@@ -142,7 +142,7 @@ In this task, install the Web Server role on the server and host a basic website
 
     >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
-1. When the installation completes, click on**Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
+1. When the installation completes, click on **Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
 
     ![](../images/az900-t3_s9.png)
 
@@ -175,6 +175,8 @@ In this task, install the Web Server role on the server and host a basic website
 1. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
 
     ![](../images/az900-t3_last.png)
+
+   <validation step="5b0e6dcc-0bdc-40a8-8012-226e432663c5" />
 
     >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.

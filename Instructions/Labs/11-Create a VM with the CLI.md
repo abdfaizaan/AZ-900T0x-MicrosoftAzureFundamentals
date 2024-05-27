@@ -29,13 +29,19 @@ In this task, we will configure Cloud Shell.
 
 1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Bash**.
    
-1. If you are prompted to create storage for your Cloud Shell, ensure your subscription is selected and click on **Show advanced settings**.
+1. On the Getting started, select **Mount storage account** and select your subscription under storage account subscription. Click on **Apply**.
 
-1. Please make sure you have selected your resource group **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**.
+1. On the Mount storage account tab, select **I want to create a storage account**. Click on **Next**.
 
-1. Enter **blob<inject key="DeploymentID" enableCopy="false"/>** for the **Storage account**.
+1. On the create storage account tab, provide the details and select **Create**
 
-1. Enter **blobfileshare<inject key="DeploymentID" enableCopy="false"/>** for the  **File share** , then click on **Create Storage**.
+    | Settings | Values |
+    |  -- | -- |
+    | Subscription | **Existing subscription**|
+    | Storage account name | **blob<inject key="DeploymentID" enableCopy="false"/>**|
+    | Resource group | **myRGCLI-<inject key="DeploymentID" enableCopy="false"/>**|
+    | Location | **(US) East US**|
+    | File share | **none**|
 
 ### Task 2: Use CLI to create a virtual machine
 
@@ -137,6 +143,8 @@ In this task, we will review Azure Advisor recommendations.
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.1.png)
 
 1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
+
+   <validation step="b137934a-9c09-4976-8012-033240753e99" />
 
     >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
