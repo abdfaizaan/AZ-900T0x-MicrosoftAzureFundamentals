@@ -36,7 +36,7 @@ In this task, we will create a Function app.
     | Settings | Value |
     | -- | --|
     | Subscription | select existing Azure subscription |
-    | Resource group | select **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Resource group | select **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>** |
     | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>**|
     | Publish | **Code**|
     | Runtime stack | **.NET** |
