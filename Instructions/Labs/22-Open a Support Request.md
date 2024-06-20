@@ -28,6 +28,28 @@ In this lab, you will complete the following tasks:
 
 1. Go to the **Overview** option from the left navigation pane and click **+ Create a support request**. The ticket is created based on the values you specify. 
 
+1. Go to the **Overview** option from the left navigation pane and click **+ Create a support request**. The ticket is created based on the values you specify. 
+
+1. Under Describe your issue enter **VM performance** then click on **Go**
+
+    ![](../images/lab04-image13.png)
+   
+1. Under **Which service are you having issue with?** select **Virtual machine running windows** and click on **Next**.
+
+     ![](../images/lab04-image14.png)
+   
+1. Next select **Subscription** and any **Virtual machine**.
+
+    ![](../images/lab04-image15.png)
+
+1. Select **None of the above** and select **Problem type** : **VM performance** then **Problem subtype : Disk Caching.**
+
+   ![](../images/lab04-image16.png)
+
+1. From the top of the page select **Create a support request** then specify the following:
+
+    ![](../images/lab04-image16.png)
+
     | Setting | Value|
     |----|--------|
     | Issue Type| **Technical** (1) |
