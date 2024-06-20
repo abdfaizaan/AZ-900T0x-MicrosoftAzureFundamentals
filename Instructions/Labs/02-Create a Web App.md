@@ -45,9 +45,9 @@ In this task, you will create an Azure App Service Web App.
     | Pricing Plan | **Premium V3 POV3 (8)** |
     |||
 
-    ![](images/lab04-image1.png)
+    ![](images/labnew-02-1.png)
 
-    ![](images/lab04-image2.png)
+    ![](images/labnew-02-6.png)
 
 6. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
 
