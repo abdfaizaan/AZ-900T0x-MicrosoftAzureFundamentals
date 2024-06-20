@@ -29,17 +29,20 @@ In this task, we will create a Function app.
       
 1. On the **Function App** blade, click **+ Create**. Choose Hosting plan as **App service** then click on **Select**.
 
+   ![](../images/8-1.png)
+
 1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values: 
 
     | Settings | Value |
     | -- | --|
     | Subscription | select existing Azure subscription |
-    | Resource group | select **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Resource group | select **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
     | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>**|
     | Publish | **Code**|
     | Runtime stack | **.NET** |
     | Version | **6 (LTS), in-process model** |
     | Region | **<inject key="Region" enableCopy="false"/>**|
+    | Operating System  | **Windows**|
     | Pricing plan | Select **Basic B1** | 
         
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
