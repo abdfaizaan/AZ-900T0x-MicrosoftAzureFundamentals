@@ -31,7 +31,7 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/lab2-image2.png) 
 
-3. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Container > (7)**.
+3. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Container > (9)**.
  
     | Setting | Value |
     | -- | -- |
@@ -41,13 +41,13 @@ In this task, you will create an Azure App Service Web App.
     | Publish | **Container (4)** |
     | Operating System | **Linux (5)** |
     | Region | **<inject key="Region" enableCopy="false"/>** **(6)** (ignore any service plan availability warnings) |
-    | Linux Plan | **Pre Populated** |
-    | Pricing Plan | **Premium V3 POV3** |
+    | Linux Plan | **Pre Populated (7)** |
+    | Pricing Plan | **Premium V3 POV3 (8)** |
     |||
 
-    ![](images/labnew-02-1.png)
+    ![](images/lab04-image1.png)
 
-    ![](images/labnew-02-6.png)
+    ![](images/lab04-image2.png)
 
 6. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
 
