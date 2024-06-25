@@ -132,7 +132,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
-    **Repeat step 1 to 6 for vm2.**
+   >**Note**: Repeat step 1 to 6 for **vm2**.
 
 1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the Start menu > Settings > Network & Internet > Windows Firewall.
 
@@ -148,19 +148,18 @@ In this task, we will try to test whether the virtual machines can communicate (
     
      ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
 
-   <validation step="c73f2f19-0113-47eb-9970-bdc18a42cb54" />
+<validation step="c73f2f19-0113-47eb-9970-bdc18a42cb54" />
    
-   >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
-- Create a virtual network
-- Create two virtual machines
-- Test the connection
+- Created a virtual network
+- Created two virtual machines
+- Tested the connection
 
 ### Reference Links
 
