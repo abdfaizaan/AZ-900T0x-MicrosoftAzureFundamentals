@@ -68,7 +68,8 @@ In this task, we will add an IoT device to the IoT hub.
 1. To add a new IoT device, scroll down to the **Device management** section and click **Devices (1)**. Then, click **+ Add Device (2)**.
 
 	![](../images/lab7-image4.png)
-**Note:** If you are not able to see the left navigation pane, please try out zoom out/in in the browser settings inside the lab vm.
+
+   >**Note:** If you are not able to see the left navigation pane, please try out zoom out/in in the browser settings inside the lab vm.
 
 1. Provide a **Device ID** for your new IoT device, **<inject key="DeploymentID" enableCopy="false" />** **(1)**, and click the **Save (2)** button. This will create a new IoT device identity in your Azure IoT Hub.
 
@@ -109,23 +110,22 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 1. Return to the Azure portal and your IoT Hub.
 
-1. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information notice the chart and you can select **change show data for last** to see the data based on days.
+1. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information notice the chart and you can select change **Show data for last** to see the data based on days.
 
    ![](../images/lab7-image11.png)
 
-   <validation step="26929d92-e1ca-4d56-9087-22d15854f414" />
+<validation step="26929d92-e1ca-4d56-9087-22d15854f414" />
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
-- Create an IoT hub
-- Add an IoT device
-- Test the device using the Raspberry Pi Simulator
+- Created an IoT hub
+- Added an IoT device
+- Tested the device using the Raspberry Pi Simulator
 
 ## Reference links
 
