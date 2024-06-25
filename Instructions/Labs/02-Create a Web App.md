@@ -27,11 +27,11 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/lab2-image1.png) 
 
-2. On **App Services** blade, click **+ Create (1)** then from dropdown select **+ Web App (2)**.
+1. On **App Services** blade, click **+ Create (1)** then from dropdown select **+ Web App (2)**.
 
    ![](../images/lab2-image2.png) 
 
-3. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Container > (9)**.
+1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Database > (9)**.
  
     | Setting | Value |
     | -- | -- |
@@ -45,11 +45,13 @@ In this task, you will create an Azure App Service Web App.
     | Pricing Plan | **Premium V3 POV3 (8)** |
     |||
 
-    ![](images/labnew-02-1.png)
+    ![](../images/webapp.png)
 
-    ![](images/labnew-02-6.png)
+    ![](../images/webapp1.png)
 
-6. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
+1. On the **Database** tab, leave everything as default, click on **Next: Container >**.
+
+1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
 
     | Setting | Value |
     | -- | -- |
@@ -58,12 +60,12 @@ In this task, you will create an Azure App Service Web App.
     | Sample | **NGINX (3)** |
     |||
 
-   ![](images/labnew-02-4.png)
+   ![](../images/review+create.png)
 
 
-   **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
+   >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
-8. Once validation is passed click **Create**.
+1. Once validation is passed click **Create**.
 
 ### Task 2: Test the Web App
 
@@ -83,18 +85,17 @@ In this task, we will test the web app.
 
 1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
-   <validation step="4e49a9a7-41fd-406c-84a6-1c9b821b0217" />
+<validation step="4e49a9a7-41fd-406c-84a6-1c9b821b0217" />
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
-- Create a Web App
-- Test the Web App
+- Created a Web App
+- Tested the Web App
 
 ## Reference links
 

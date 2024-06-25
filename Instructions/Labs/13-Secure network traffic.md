@@ -67,7 +67,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. On the **SimpleWinVM** virtual machine blade, click **Networking**, review the **Inbound port rules** tab, and note that there is no network security group associated with the network interface of the virtual machine or the subnet to which the network interface is attached.
 
-    **Note**: Identify the name of the network interface. You will need it in the next task.
+    >**Note**: Identify the name of the network interface. You will need it in the next task.
 
 ### Task 2: Create a network security group
 
@@ -168,18 +168,20 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 <validation step="6cb758ec-f211-4b8d-a8cc-02b361092388"/>
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
 ### Review
 In this lab, you have completed:
-- Create a virtual machine
-- Create a network security group
-- Configure an inbound security port rule to allow RDP
-- Configure an outbound security port rule to deny Internet access
+- Created a virtual machine
+- Created a network security group
+- Configured an inbound security port rule to allow RDP
+- Configured an outbound security port rule to deny Internet access
 
 ### Reference Links
 - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview

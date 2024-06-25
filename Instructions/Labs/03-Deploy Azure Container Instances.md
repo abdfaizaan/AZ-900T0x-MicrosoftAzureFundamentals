@@ -53,7 +53,7 @@ In this task, we will create a new container instance for the web application.
 
     ![](../images/lab3-image2.png)
    
-	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
+	>**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
 
 1. Click **Create** to create the container instance. 
 
@@ -79,24 +79,23 @@ In this task, we verify that the container instance is running by ensuring that 
 
 1. Paste the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
-   **Note**: It might take 3 - 5 minutes to load the page.
+   >**Note**: It might take 3 - 5 minutes to load the page.
  
    ![](../images/lab3-image5.png)
 	
-   **Note**: You could also use the container IP address in your browser.
+   >**Note**: You could also use the container IP address in your browser.
 
-   <validation step="f87beab3-3bb6-467e-839f-c821f172a4b8" />
+<validation step="f87beab3-3bb6-467e-839f-c821f172a4b8" />
    
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Review
 In this lab, you have completed:
-- Create a container instance
-- Verify deployment of the container instance
+- Created a container instance
+- Verified deployment of the container instance
 
 ## Reference links
 

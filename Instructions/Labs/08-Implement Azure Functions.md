@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Function app.
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Function App (1)**, and then select **Function App (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Function App (1)**, and then select **Function App (2)** under services.
 
     ![](../images/lab8-image1.png)
       
@@ -45,13 +45,13 @@ In this task, we will create a Function app.
     | Operating System  | **Windows**|
     | Pricing plan | Select **Basic B1** | 
         
-1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+1. Click **Review + create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-1. Wait for the notification that the resource has been created.
+1. Wait for the notification that the resource has been created, select **Go to resource**.
 
-1. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+1. On the **function-<inject key="DeploymentID" enableCopy="false"/>** blade, verify that the function app has the **Running** status.  
 
-    ![Screenshot of the Function App page with the new Function app.](../images/az-204_03-01.png)
+    ![Screenshot of the Function App page with the new Function app.](../images/functionapp.png)
 
 # Task 2: Create a HTTP triggered function and test
 
@@ -87,18 +87,17 @@ In this task, we will use the Webhook + API function to display a message when t
 
      ![](../images/fun6.png)
    
-      <validation step="aa3ef50a-af7a-4070-b8a1-75c0a741eb60" />
+<validation step="aa3ef50a-af7a-4070-b8a1-75c0a741eb60" />
 
-      >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
-- Create a Function app
-- Create a HTTP triggered function and test
+- Created a Function app
+- Created a HTTP triggered function and test
 
 ## Reference link
 

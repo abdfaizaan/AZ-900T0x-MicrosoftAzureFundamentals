@@ -1,4 +1,3 @@
-
 # Lab 06 - Create a SQL database
 
 ## Lab overview
@@ -46,36 +45,30 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
     | Confirm Password | **Pa$$w0rd1234** |
-   
-   ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
 
-1. Move to the **Networking** tab and configure the following settings (leave others with their defaults) 
+1. Select **Next: Networking >** tab and configure the following settings (leave others with their defaults) 
 
     | Setting | Value | 
     | --- | --- |
     | Connectivity method | **Public endpoint** |    
     | Allow Azure services and resources to access this server | **Yes** |
     | Add current client IP address | **No** |
-  
-    
-   ![Screenshot of the Networking tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501b.png)
 
-1. On the **Security** tab. 
+1. Select **Next: Security >**. On the **Security** tab.
  
     | Setting | Value | 
     | --- | --- |
     | Enable Microsoft Defender for SQL| **Not now** |
 
-1. Move to the **Additional settings** tab. We will be using the AdventureWorksLT sample database, if pop-up comes, click on **OK**.
+1. Select **Next: Additional settings >**. We will be using the AdventureWorksLT sample database, if pop-up comes, click on **OK**.
 
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** |
-   
+
+1. Click **Review + create (2)**, review the configurations, and then click **Create** to deploy and provision the resource group, server, and database. Deployment may take approximately 2 to 5 minutes.
 
     ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/lab6nj.png)
-
-1. Click **Review + create**, review the configurations, and then click **Create** to deploy and provision the resource group, server, and database. Deployment may take approximately 2 to 5 minutes.
 
 1. Wait for the deployment to get succeeded.
 
@@ -85,17 +78,17 @@ In this task, we will configure the SQL server and run a SQL query.
 
 1. From the **Search resources, services, and docs** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
 
-    ![Screenshot of the SQL database and server that have just been deployed.](../images/0502.png)
+    ![Screenshot of the SQL database and server that have just been deployed.](../images/db1.png)
 
 1. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)** from the left navigation pane.
 
-1. Login as **sqluser** with the password **Pa$$w0rd1234**.
+1. Login as **sqluser** with the password **Pa$$w0rd1234**, and click on **OK**.
 
-1.  If you are not able to login. 
+1.  If you are not able to login, follow the below steps: 
 
     ![Screenshot of the Query Editor login page with IP address error.](../images/0503.png)
     
-    **Note:** If you are able to login proceed with step 9.
+    >**Note:** If you are able to login proceed with step 9.
 
 1. From the **db1** blade, click **Overview**. 
 
@@ -118,24 +111,23 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the Query editor with the query pane and the commands executing successfully.](../images/0507.png)
 
-    **Note**: This SQL query selects the top 20 records from the SalesLT.ProductCategory table and SalesLT.Product table, displaying the CategoryName from the ProductCategory table as "CategoryName" and the ProductName from the Product table as "ProductName." The query performs an inner join between the two tables based on the productcategoryid column
+    >**Note**: This SQL query selects the top 20 records from the SalesLT.ProductCategory table and SalesLT.Product table, displaying the CategoryName from the ProductCategory table as "CategoryName" and the ProductName from the Product table as "ProductName." The query performs an inner join between the two tables based on the productcategoryid column
 
 1. Click **Run**, and then review the query results in the **Results** pane. The query should run successfully.
 
     ![Screenshot of the database Query Editor pane with the SQL code having been run successfully and the output visible in the results pane.](../images/0508.png)
 
-   <validation step="75515f24-70f3-4cf2-9172-0dcd50b3f807" />
+<validation step="75515f24-70f3-4cf2-9172-0dcd50b3f807" />
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
-- Create the database
-- Test the database
+- Created the database
+- Tested the database
 
 ## Reference link
 

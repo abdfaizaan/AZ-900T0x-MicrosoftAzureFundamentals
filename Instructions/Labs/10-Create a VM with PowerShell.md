@@ -63,11 +63,10 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Create a virtual machine. When prompted provide the username as **azureuser** and the password: **Pa$$w0rd1234**. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
-   **Note**: In the below code, replace the Resource group name as **myRGPS-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```
      New-AzVm `
-    -ResourceGroupName "myRGPS-[DeploymentId]" `
+    -ResourceGroupName "myRGPS-<inject key="DeploymentID" enableCopy="false"/>" `
     -Name "myVMPS" `
     -Location "eastus" `
     -Size "Standard_B2s" `
@@ -77,25 +76,24 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-    **Note**: Wait for VM to deploy before closing PowerShell
+    >**Note**: Wait for VM to deploy before closing PowerShell
 
 1. Close the PowerShell session Cloud Shell pane.
 
 1. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/l10.4.1.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/myvmps.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
-   <validation step="c360033e-35db-4af4-af84-b54e7711a019" />
+<validation step="c360033e-35db-4af4-af84-b54e7711a019" />
 
-    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    >**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
+>**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
 
 ### Task 3: Execute commands in the Cloud Shell
 
@@ -113,9 +111,8 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 1. Stop the virtual machine. When prompted confirm (Yes) to the action.
 
-   **Note**: Replace myRGPS-[deployId] with **myRGPS-<inject key="DeploymentID" enableCopy="false" />**
     ```
-    Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
+    Stop-AzVM -ResourceGroupName myRGPS-<inject key="DeploymentID" enableCopy="false"/> -Name myVMPS
     ```
 1. For **This cmdlet will stop the specified virtual machine. Do you want to continue?** enter **Y**.
 
@@ -127,7 +124,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 ### Task 4: Review Azure Advisor Recommendations
 
-**Note:** This same task is also performed in hands-on-lab for **Create a VM with Azure CLI lab**.
+>**Note:** This same task is also performed in hands-on-lab for **Create a VM with Azure CLI lab**.
 
 In this task, we will review Azure Advisor recommendations for our virtual machine.
 
@@ -141,7 +138,7 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 1. Select **All recommendations** from the left navigation pane and take time to view each recommendation and suggested actions.
 
-    **Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
+    >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
@@ -153,10 +150,10 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 ### Review
 In this lab, you have completed:
-- Configure the Cloud Shell
-- Create a virtual machine
-- Execute commands in the Cloud Shell
-- Review Azure Advisor Recommendations
+- Configured the Cloud Shell
+- Created a virtual machine
+- Executed commands in the Cloud Shell
+- Reviewed Azure Advisor Recommendations
 
 ## Reference link
 

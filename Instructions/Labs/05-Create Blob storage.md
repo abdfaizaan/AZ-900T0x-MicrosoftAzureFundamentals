@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ### Prerequisites
 
-1. Launch Notepad by searching for it in the Start menu, then input a random text within the Notepad application.
+1. In the **Lab-VM**, launch **Notepad** by searching for it in the Start menu, then input a random text within the Notepad application.
 
 1. Next, access the menu bar at the top and select File > Save as. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
 
@@ -43,7 +43,7 @@ In this task, we will create a new storage account.
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
 
-1. On the **Advanced** tab of the **Create storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
+1. On the **Advanced** tab of the **Create a storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
 
 1. Click **Review + create** to review your storage account settings and allow Azure to validate the configuration. 
 
