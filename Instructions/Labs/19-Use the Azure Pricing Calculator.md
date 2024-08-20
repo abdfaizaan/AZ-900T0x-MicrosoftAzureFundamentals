@@ -1,5 +1,7 @@
 # Lab 19 - Use the Pricing Calculator
 
+### Please be aware that no Lab VM is provided for this exercise. You will need to complete the lab on your personal computer.
+
 ## Lab overview
 
 The Pricing Calculator is a tool provided by Microsoft Azure that allows users to estimate and understand the cost of Azure services before deployment. It enables users to explore various Azure products and services, configure different options and parameters, and generate cost estimates based on usage patterns and requirements.
@@ -25,15 +27,15 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 **Note**: To create an Azure Pricing Calculator estimate, this walkthrough provides example configurations for the VM and related resources. Use this example configurations or provide the Azure Pricing Calculator with details of your *actual* resource requirements instead.
 
-1. In your edge browser, navigate to the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) webpage.
+1. In your browser window, navigate to the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) webpage.
 
 1. To add details of your VM configuration, click **Virtual Machines** on the **Products** tab and subsequently click on **View** in the pop-up that appears. Scroll down to view the virtual machine details. 
 
-   ![.](../images/l19a.png)
+   ![.](../images/l19a1.png)
 
 1. Replace **Your Estimate** and **Virtual Machines** text with more descriptive names for your Azure Pricing Calculator estimate and your VM configuration. This walkthrough example uses **My Pricing Calculator Estimate** for the estimate.
 
-   ![.](../images/AZ-900-vm.png)
+   ![.](../images/pricing.png)
 
 1. Modify the default VM configuration.
 
@@ -118,7 +120,7 @@ In this task, we will review the results of the Azure Pricing Calculator.
 
    >**Note**: Explore the various options available within the Azure Pricing Calculator. For example, this walkthrough requires you to update the currency to Euro.
 
-1. Change the currency to Euro, then select **Export** to download a copy of the estimate for offline viewing in Microsoft Excel (`.xlsx`) format.
+1. We can change the currency from dollars to any other currency of our choice, for instance, let us change the currency to Euro, then select **Export** to download a copy of the estimate for offline viewing in Microsoft Excel (`.xlsx`) format.
 
     ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/l19ex1.png)
    
