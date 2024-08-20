@@ -35,7 +35,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 1. Replace **Your Estimate** and **Virtual Machines** text with more descriptive names for your Azure Pricing Calculator estimate and your VM configuration. This walkthrough example uses **My Pricing Calculator Estimate** for the estimate.
 
-   ![.](../images/AZ-900-vm.png)
+   ![.](../images/pricing.png)
 
 1. Modify the default VM configuration.
 
