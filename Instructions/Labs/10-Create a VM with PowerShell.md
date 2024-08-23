@@ -63,7 +63,6 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Create a virtual machine. When prompted provide the username as **azureuser** and the password: **Pa$$w0rd1234**. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
-
     ```
      New-AzVm `
     -ResourceGroupName "myRGPS-<inject key="DeploymentID" enableCopy="false"/>" `
@@ -75,8 +74,10 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
+
     ```
-    >**Note**: Wait for VM to deploy before closing PowerShell
+
+   >**Note**: Wait for VM to deploy before closing PowerShell
 
 1. Close the PowerShell session Cloud Shell pane.
 
