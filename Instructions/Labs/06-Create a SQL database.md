@@ -33,7 +33,6 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Resource group | **myRGDb-<inject key="DeploymentID" enableCopy="false"/>** |
     | Database name| **db1** |
     | Workload Environment| **Development** |
-    | Compute + storage| **General Purpose - Serverless Gen 5** |
     
 1. Next to the **Server** drop down list, click **Create new**. Click **OK** when finished.          
 
@@ -45,6 +44,14 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
     | Confirm Password | **Pa$$w0rd1234** |
+
+1. Back on Basics tab then specify the following:
+
+   | Setting | Value | 
+   | --- | --- |
+   | Compute + storage| **General Purpose - Serverless Gen 5** |
+
+   >**Note**: If Serverless is not select kindly click on **Configure database** > in **Compute tier** choose **Serverless**.
 
 1. Select **Next: Networking >** tab and configure the following settings (leave others with their defaults) 
 
