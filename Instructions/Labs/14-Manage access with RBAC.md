@@ -88,14 +88,15 @@ In this task, we will view the activity log to verify the role assignment, and t
    
     **Note**: Can you figure out how to remove your role assignment?
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="402a4212-b323-460b-bc90-58ed9e48c878" />
+<validation step="402a4212-b323-460b-bc90-58ed9e48c878" />
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+> - Hit the Validate button for the corresponding task.
+> - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+   
 ### Review
 In this lab, you have completed:
 - View and assign roles
