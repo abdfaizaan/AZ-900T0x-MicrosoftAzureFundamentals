@@ -90,7 +90,7 @@ In this task, we will test the Allowed location policy.
     
 1. You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
 
-<validation step="710e5a5f-229a-4391-b232-ebf723930b9a"/>
+<validation step="710e5a5f-229a-4391-b232-ebf723930b9a" />
       
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
