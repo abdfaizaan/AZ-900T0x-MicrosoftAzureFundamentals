@@ -74,10 +74,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
-
-    ```
-
-   >**Note**: Wait for VM to deploy before closing PowerShell
+   ```
+1. Wait for VM to deploy before closing PowerShell
 
 1. Close the PowerShell session Cloud Shell pane.
 
