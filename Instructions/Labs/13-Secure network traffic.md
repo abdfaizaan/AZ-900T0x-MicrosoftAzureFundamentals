@@ -149,7 +149,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
-1. Click **Add outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
+1. Click on **+ Create port rule** > **Outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
 
     | Setting | Value |
     | -- | -- |
