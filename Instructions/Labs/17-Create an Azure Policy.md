@@ -109,7 +109,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
     ![](../images/lab17-image1.png)
 
-1.  Select **Allowed locations** policy.
+1. Select **Allowed locations** policy.
 
      ![](../images/lab17-image9.png)
     
@@ -125,7 +125,6 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
     ![](../images/lab17-image11.png)
   
- 
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
 1. Now try to create a storage account and the policy will not block the creation.
