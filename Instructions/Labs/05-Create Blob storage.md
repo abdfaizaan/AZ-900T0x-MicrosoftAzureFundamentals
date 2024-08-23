@@ -88,7 +88,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
-1. On the storage account blade, scroll down to the **Monitoring** section and click **Monitor at scale with Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
+1. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
 
     ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
 
