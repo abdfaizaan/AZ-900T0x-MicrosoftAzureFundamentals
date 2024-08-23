@@ -95,7 +95,7 @@ In this task, we will add a password to the key vault.
 
    ![](../images/lab12-image11.png)
 
-<validation step="56a44935-46cd-410d-9304-81c9dfd8af4d"/>
+<validation step="56a44935-46cd-410d-9304-81c9dfd8af4d" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
