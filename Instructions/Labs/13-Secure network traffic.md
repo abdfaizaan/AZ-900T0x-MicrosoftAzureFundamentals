@@ -168,7 +168,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
-<validation step="6cb758ec-f211-4b8d-a8cc-02b361092388"/>
+<validation step="6cb758ec-f211-4b8d-a8cc-02b361092388" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
