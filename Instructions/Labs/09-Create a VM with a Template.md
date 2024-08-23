@@ -75,17 +75,17 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. Ensure your new virtual machine was created. 
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/VM1.png)
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/(VM1).png)
 
 1. Select your virtual machine and on the **Overview** pane scroll down to view monitoring data.
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/VM3.png)
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/(VM3).png)
 
     >**Note**: The monitoring timeframe can be adjusted from one hour to 30 days.
 
 1. Review different charts that are provided including **CPU (average)** and **Disk bytes (total)**. 
 
-    ![Screenshot of the virtual machine monitoring charts.](../images/VM2.png)
+    ![Screenshot of the virtual machine monitoring charts.](../images/(VM2).png)
 
 1. Click on any chart. Note that you can **Add metrics** and change the chart type.
 
