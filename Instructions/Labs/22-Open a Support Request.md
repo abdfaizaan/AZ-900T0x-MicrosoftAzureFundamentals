@@ -28,8 +28,6 @@ In this lab, you will complete the following tasks:
 
 1. Go to the **Overview** option from the left navigation pane and click **+ Create a support request**. The ticket is created based on the values you specify. 
 
-1. Go to the **Overview** option from the left navigation pane and click **+ Create a support request**. The ticket is created based on the values you specify. 
-
 1. Under Describe your issue enter **VM performance** then click on **Go**
 
     ![](../images/lab04-image13.png)
