@@ -113,7 +113,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
-1. On the **Inbound port rules** tab, click **Add inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
+1. Click **+ Create port rule** > **Inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
 
     | Setting | Value |
     | -- | -- |
