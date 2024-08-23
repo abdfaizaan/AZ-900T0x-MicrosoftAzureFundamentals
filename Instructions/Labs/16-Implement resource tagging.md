@@ -59,7 +59,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **<inject key="Region" enableCopy="false"/>** |
     
-1. Click **Review**. 
+1. Click **Review + create**. 
 
     **Note:** We are testing to see what happens when the tag is not supplied. 
 
@@ -75,7 +75,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Value| **Contoso** (may not be in the drop-down list) |
     | | |
 
-1. Click **Review** and verify that the validation was successful. Click **Create** to deploy the storage account. 
+1. Click **Review + create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
 
 ### Task 3: View all resources with a specific tag
 
