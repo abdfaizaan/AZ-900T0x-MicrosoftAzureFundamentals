@@ -90,13 +90,13 @@ In this task, we will test the Allowed location policy.
     
 1. You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
 
-   <validation step="710e5a5f-229a-4391-b232-ebf723930b9a" />
+    <validation step="710e5a5f-229a-4391-b232-ebf723930b9a" />
       
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+      > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+      > - Hit the Validate button for the corresponding task.
+      > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 3: Delete the policy assignment
 
@@ -106,15 +106,15 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
-    ![](../images/lab17-image1.png)
+   ![](../images/lab17-image1.png)
 
 1. Select **Allowed locations** policy.
 
-     ![](../images/lab17-image9.png)
+   ![](../images/lab17-image9.png)
     
-     >**Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
+   >**Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
 
-     >**Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
+   >**Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
 
 1. On the Allowed location page, select **View assignment** button.
 
