@@ -46,8 +46,6 @@ In this lab, you will complete the following tasks:
 
 1. From the top of the page select **Create a support request** then specify the following:
 
-    ![](../images/lab04-image16.png)
-
     | Setting | Value|
     |----|--------|
     | Issue Type| **Technical** (1) |
