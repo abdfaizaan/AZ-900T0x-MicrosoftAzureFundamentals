@@ -35,7 +35,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
    ![Add tags.](../images/lba16.3c.png)
 
-1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
+1. On the **Assign policy** blade, click **Next** to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
 
     ![Add tags.](../images/lab16.png)
 
