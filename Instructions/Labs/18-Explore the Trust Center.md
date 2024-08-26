@@ -1,5 +1,7 @@
 # Lab 18 - Explore Microsoft Compliance Offerings
 
+### Please be aware that no Lab VM is provided for this exercise. You will need to complete the lab on your personal computer.
+
 ## Lab overview
 
 Microsoft offers a comprehensive set of compliance offerings to help organizations meet regulatory standards. These offerings span across Microsoft 365, Azure, and other Microsoft services.
