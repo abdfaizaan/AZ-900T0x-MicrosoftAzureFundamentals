@@ -1,5 +1,7 @@
 # Lab 21 - Calculate Composite SLAs
 
+### Please be aware that no Lab VM is provided for this exercise. You will need to complete the lab on your personal computer.
+
 ## Lab overview
 
 Calculating Composite Service Level Agreements (SLAs) involves determining the overall availability or uptime of a system or service composed of multiple components, each with its own SLA. The composite SLA represents the combined reliability of all the individual components within the system.
