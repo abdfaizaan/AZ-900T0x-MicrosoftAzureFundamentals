@@ -94,6 +94,8 @@ In this task, we will create a Blob container and upload a blob file.
 
    <validation step="920a6ecb-b2ae-40e8-92c8-10039a6017e0" />
 
+   > **Congratulations** on completing the task! Now, it's time to validate it.
+   
 ### Review
 In this lab, you have completed:
 - Create a storage account
