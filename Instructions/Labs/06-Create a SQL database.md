@@ -126,7 +126,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 <validation step="75515f24-70f3-4cf2-9172-0dcd50b3f807" />
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it's time to validate it.
 
 ### Review
 In this lab, you have completed:
