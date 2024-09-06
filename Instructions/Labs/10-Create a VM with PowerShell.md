@@ -87,10 +87,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 <validation step="c360033e-35db-4af4-af84-b54e7711a019" />
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it.
 
 >**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
 
