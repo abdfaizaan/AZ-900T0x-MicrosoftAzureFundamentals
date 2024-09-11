@@ -46,13 +46,14 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
-    | Inbound port rules  | **Allow select ports** (9)|
-    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
+    | Administrator account Confirm password | **Pa$$w0rd1234** (9)|
+    | Public Inbound ports  | **Allow select ports** (10)|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (11)|
     |||
    
-    ![](../images/l1vm.png)
+    ![](../images/l1vmu.png)
    
-    ![](../images/VM2.png)
+    ![](../images/VM2u.png)
 
 1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
@@ -126,13 +127,13 @@ In this task, install the Web Server role on the server and host a basic website
     
     ![server manager](../images/network.png)
 
-1. Within the **Add Roles and Features Wizard** dialog box, click on **Next**.
+1. In the **Add Roles and Features Wizard** dialog box, on the **Before You Begin** page, click **Next** to continue.
 
-1. Ensure **Role-based or feature-based installation** is selected. Click Next.
+1. Ensure **Role-based or feature-based installation** is selected in **Select installation type** page and  Click Next.
 
-1. Ensure **Select a server from the server pool** is selected, and that your VM appears in the list below. Click on **Next**.
+1. Ensure **Select a server from the server pool** is selected in **Select destianation server** page, and that your VM appears in the list below. Click on **Next**.
 
-1. In the Server roles list, scroll to near bottom of the list and check **Web Server (IIS)**. Click on **Add Features**.
+1. On the **Select Server Roles** page, scroll down the list and check **Web Server (IIS)**. Then click **Add Features**.
 
     ![server pool](../images/az900-t3_s5.png)
 
@@ -154,9 +155,15 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_s12.png)
 
+    ![](../images/az900t3s12u.png)
+
+
    >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-1. Go to the Physical Path location specified in the Basic Settings. Copy and paste **iisstart.html** file in the same location. Rename the new file to **Default**. RIght click on Default.html file click on **Open With > Notepad** and paste the below code into the same file and save the file.
+1. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it 
+   to  **Default**. Right-click on Default.html, choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
+
+   >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
 
     ```
     <html>
@@ -178,7 +185,10 @@ In this task, install the Web Server role on the server and host a basic website
 
 <validation step="5b0e6dcc-0bdc-40a8-8012-226e432663c5" />
 
-> **Congratulations** on completing the task! Now, it's time to validate it.
+>**Congratulations** on completing the Task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully validated the lab. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com.
     
 ### Review
 
