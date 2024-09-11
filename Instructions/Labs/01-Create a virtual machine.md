@@ -161,10 +161,10 @@ In this task, install the Web Server role on the server and host a basic website
 
 >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-10. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it 
-   to  **Default**. Right-click on Default.html, choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
+10. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it to  **Default**. Right-click on Default.html, 
+    choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
 
-   >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
+    >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
 
     ```
     <html>
