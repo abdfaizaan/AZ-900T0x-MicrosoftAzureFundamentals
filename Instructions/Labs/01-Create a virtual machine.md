@@ -151,14 +151,15 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_s10.png)
 
-1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put your website html file.
+1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put 
+   your website html file.
 
     ![](../images/az900-t3_s12.png)
 
     ![](../images/az900t3s12u.png)
 
 
-   >**Note:** Keep a note of the path as it will be required in the preceding steps.
+    >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
 1. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it 
    to  **Default**. Right-click on Default.html, choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
