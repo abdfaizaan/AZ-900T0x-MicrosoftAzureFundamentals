@@ -127,31 +127,31 @@ In this task, install the Web Server role on the server and host a basic website
     
     ![server manager](../images/network.png)
 
-1. In the **Add Roles and Features Wizard** dialog box, on the **Before You Begin** page, click **Next** to continue.
+2. In the **Add Roles and Features Wizard** dialog box, on the **Before You Begin** page, click **Next** to continue.
 
-1. Ensure **Role-based or feature-based installation** is selected in **Select installation type** page and  Click Next.
+3. Ensure **Role-based or feature-based installation** is selected in **Select installation type** page and  Click Next.
 
-1. Ensure **Select a server from the server pool** is selected in **Select destianation server** page, and that your VM appears in the list below. Click on **Next**.
+4. Ensure **Select a server from the server pool** is selected in **Select destianation server** page, and that your VM appears in the list below. Click on **Next**.
 
-1. On the **Select Server Roles** page, scroll down the list and check **Web Server (IIS)**. Then click **Add Features**.
+5. On the **Select Server Roles** page, scroll down the list and check **Web Server (IIS)**. Then click **Add Features**.
 
     ![server pool](../images/az900-t3_s5.png)
 
-1. Click on **Next** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required** is checked. Then click on **Install**.
+6. Click on **Next** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required** is checked. Then click on **Install**.
 
     ![Restart the destination check box](../images/az900-t3_s7.png)
 
     >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
-1. When the installation completes, click on **Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
+7. When the installation completes, click on **Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
 
     ![](../images/az900-t3_s9.png)
 
-1. In the Internet Information Services (IIS) Manager window, locate your server’s Default Web Site in the Connections tree.
+8. In the Internet Information Services (IIS) Manager window, locate your server’s Default Web Site in the Connections tree.
 
     ![](../images/az900-t3_s10.png)
 
-1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put 
+9. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put 
    your website html file.
 
     ![](../images/az900-t3_s12.png)
@@ -159,9 +159,9 @@ In this task, install the Web Server role on the server and host a basic website
     ![](../images/az900t3s12u.png)
 
 
-    >**Note:** Keep a note of the path as it will be required in the preceding steps.
+>**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-1. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it 
+10. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it 
    to  **Default**. Right-click on Default.html, choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
 
    >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
@@ -176,11 +176,11 @@ In this task, install the Web Server role on the server and host a basic website
     ```
     ![](../images/root.png)
 
-1. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
+11. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
 
     ![](../images/az900-t3_vm_pip.png)
 
-1. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
+12. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
 
     ![](../images/az900-t3_last.png)
 
