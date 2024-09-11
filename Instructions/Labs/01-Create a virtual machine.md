@@ -187,9 +187,6 @@ In this task, install the Web Server role on the server and host a basic website
 <validation step="5b0e6dcc-0bdc-40a8-8012-226e432663c5" />
 
 >**Congratulations** on completing the Task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully validated the lab. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com.
     
 ### Review
 
