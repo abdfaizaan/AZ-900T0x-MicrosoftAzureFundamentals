@@ -47,7 +47,7 @@ In this task, you will create an Azure App Service Web App.
 
     ![](../images/webapp.png)
 
-    ![](../images/az900l02sri.png)
+    ![](../images/az900lo2sri.png)
 
 1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
 
