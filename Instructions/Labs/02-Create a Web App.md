@@ -31,7 +31,7 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/lab2-image2.png) 
 
-1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Database > (9)**.
+1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Container > (9)**.
  
     | Setting | Value |
     | -- | -- |
@@ -47,9 +47,7 @@ In this task, you will create an Azure App Service Web App.
 
     ![](../images/webapp.png)
 
-    ![](../images/webapp1.png)
-
-1. On the **Database** tab, leave everything as default, click on **Next: Container >**.
+    ![](../images/az900l02sri.png)
 
 1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
 
@@ -62,8 +60,7 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/review+create.png)
 
-
-   >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
+     >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
 1. Once validation is passed click **Create**.
 
