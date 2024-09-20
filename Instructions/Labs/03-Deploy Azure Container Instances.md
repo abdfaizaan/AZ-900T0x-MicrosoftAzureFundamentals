@@ -21,53 +21,41 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Create a container instance
 
-In this task, we will create a new container instance for the web application. 
+In this task, we will create a new container instance for the web application.
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Container instances (1)**, and then select **Container instances (2)** under services.
+1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
-   ![](../images/lab3-image1.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
+
+1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/new-az-900-lab3-2.png)
    
-1. On **Container instances** blade, click **+ Create**. 
+1. On the Getting started, select **No storage account required (1)** and select your **Subscription (2)** under storage account subscription. Click on **Apply (3)**.
 
-1. On the **basics** tab. Provide the following basic details for creating a new container instance then click **Next : Networking >**.
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/new-az-900-lab3-3.png)
 
-	| Setting| Value|
-	|----|----|
-	| Subscription | **Choose your subscription** |
-	| Resource group | **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** |
-	| Container name| **mycontainer**|
-	| Region | **<inject key="Region" enableCopy="false"/>** |
-	| Image source| **Other registry**|
-	| Image type| **Public**|
-	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
-	| OS type| **Linux** |
-	| Size| ***Leave at the default***|
+1. In the upper-left menu of the Cloud Shell pane, make sure you are using **Powershell**. If not selected select **Switch to Powershell**. In **Switch to Powershell in Cloud Shell** pop-up select **Confirm**.
 
-	
-1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create (2)**.
+1. In the Bash session, within the Cloud Shell pane, run the following command. 
 
-    | Setting| Value|
-    |--|--|
-    | DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" /> (1)** |
-    |||
+    ```cli
+    az container create --resource-group myRGContainer-<inject key="DeploymentID" enableCopy="false" /> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<inject key="DeploymentID" enableCopy="false" /> --ports 80
+    ```
 
-    ![](../images/lab3-image2.png)
-   
-	>**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
+1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder.
 
-1. Click **Create** to create the container instance. 
+1. You will see the resource created in the powershell window.
 
-1. Monitor the deployment page and the **Notifications** page. 
-
-1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/new-az-900-lab3-4.png)
 
 ### Task 2: Verify deployment of the container instance
 
 In this task, we verify that the container instance is running by ensuring that the welcome page displays.
 
-1. After the deployment is complete, click the **Go to resource** button.
+1. After the deployment is complete, navigate to **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** resource group and select **mycontainer** container instance.
 
-   ![](../images/lab3-image3.png)
+   ![](./images/new-az-900-lab3-5.png)
 
 1. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**.
 
