@@ -37,7 +37,7 @@ In this task, we will create a new container instance for the web application.
 
 1. In the upper-left menu of the Cloud Shell pane, make sure you are using **Powershell**. If not selected select **Switch to Powershell**. In **Switch to Powershell in Cloud Shell** pop-up select **Confirm**.
 
-1. In the Bash session, within the Cloud Shell pane, run the following command. 
+1. In the Powershell session, within the Cloud Shell pane, run the following command. 
 
     ```cli
     az container create --resource-group myRGContainer-<inject key="DeploymentID" enableCopy="false" /> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<inject key="DeploymentID" enableCopy="false" /> --ports 80
