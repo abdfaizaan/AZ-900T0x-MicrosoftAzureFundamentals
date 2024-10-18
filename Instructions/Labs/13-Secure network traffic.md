@@ -175,7 +175,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Priority | **4000** |
     | Name | **DenyInternet** |
    
-1. Once the outbound rule is created, please ensure that the Destination Port Ranges are set to **\***. If the values are changed, update them back to **\*** and click on **Save**. Before clicking the Validate button, confirm that the Destination Port Ranges are still set to **\***.
+1. Once the outbound rule is created, verify that the Destination Port Ranges are set to **\***. If the values are modified, change them back to **\*** and click **Save**. Before clicking the Validate button, **ensure that the Destination Port Ranges remain set to **\***, as not doing so will cause the validation to fail**.
 
 1. Return to your RDP session. 
 
