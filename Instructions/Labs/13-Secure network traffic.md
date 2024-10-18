@@ -65,8 +65,10 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. From the deployment blade or from the Notification area, click **Go to resource**. 
 
-1. On the **SimpleWinVM** virtual machine blade, click **Networking**, review the **Inbound port rules** tab, and note that there is no network security group associated with the network interface of the virtual machine or the subnet to which the network interface is attached.
+1. On the **SimpleWinVM** virtual machine blade, navigate to **Networking**, select **Network Settings**, scroll down, and click on **Add Network Security Group**. Next, click on **Create Port Rule** and select the **Inbound Port Rule** tab from the dropdown menu. Please note that there is currently no network security group associated with the virtual machine's network interface or the subnet linked to it.
 
+   ![](../images/add_network.png)
+   
     >**Note**: Identify the name of the network interface. You will need it in the next task.
 
 ### Task 2: Create a network security group
@@ -91,8 +93,16 @@ In this task, we will create a network security group and associate it with the 
 
 1. Under **Settings** click **Network interfaces** and then **Associate**.
 
-1. Select the **network interface** you identified in the previous task, and then Click **Ok**. 
+1. Select the **network interface** you identified in the previous task, and then Click **Ok**.
 
+   >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
+
+     - Go to the **simplewinvm502** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
+
+      - Then, proceed to complete steps 5 and 6.
+
+      ![](../images/choose-nsg.png)
+  
 ### Task 3: Configure an inbound security port rule to allow RDP
 
 In this task, we will allow RDP traffic to the virtual machine by configuring an inbound security port rule. 
@@ -149,6 +159,8 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
+    ![](../images/allowinterntOutbound.png)
+   
 1. Click on **+ Create port rule** > **Outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
 
     | Setting | Value |
@@ -163,8 +175,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Priority | **4000** |
     | Name | **DenyInternet** |
    
-    >**Note**: Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly change it to **\*** and 
-    click on **Save**.
+1. Once the outbound rule is created, verify that the Destination Port Ranges are set to **\***. If the values are modified, change them back to **\*** and click **Save**. **Before clicking the Validate button, ensure that the Destination Port Ranges remain set to **\***, as not doing so will cause the validation to fail**.
 
 1. Return to your RDP session. 
 
@@ -172,7 +183,10 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 <validation step="6cb758ec-f211-4b8d-a8cc-02b361092388" />
 
-> **Congratulations** on completing the task! Now, it's time to validate it.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 
 ### Review
