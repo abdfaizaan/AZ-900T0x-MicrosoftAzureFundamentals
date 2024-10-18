@@ -65,8 +65,10 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. From the deployment blade or from the Notification area, click **Go to resource**. 
 
-1. On the **SimpleWinVM** virtual machine blade, click **Networking**, review the **Inbound port rules** tab, and note that there is no network security group associated with the network interface of the virtual machine or the subnet to which the network interface is attached.
+1. On the **SimpleWinVM** virtual machine blade, navigate to **Networking**, select **Network Settings**, scroll down, and click on **Add Network Security Group**. Next, click on **Create Port Rule** and select the **Inbound Port Rule** tab from the dropdown menu. Please note that there is currently no network security group associated with the virtual machine's network interface or the subnet linked to it.
 
+   ![](../images/add_network.png)
+   
     >**Note**: Identify the name of the network interface. You will need it in the next task.
 
 ### Task 2: Create a network security group
@@ -91,8 +93,16 @@ In this task, we will create a network security group and associate it with the 
 
 1. Under **Settings** click **Network interfaces** and then **Associate**.
 
-1. Select the **network interface** you identified in the previous task, and then Click **Ok**. 
+1. Select the **network interface** you identified in the previous task, and then Click **Ok**.
 
+   >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
+
+     - Go to the **simplewinvm502** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
+
+      - Then, proceed to complete steps 5 and 6.
+
+      ![](../images/choose-nsg.png)
+  
 ### Task 3: Configure an inbound security port rule to allow RDP
 
 In this task, we will allow RDP traffic to the virtual machine by configuring an inbound security port rule. 
