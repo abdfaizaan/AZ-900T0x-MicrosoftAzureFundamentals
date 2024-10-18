@@ -159,6 +159,8 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
+    ![](../images/allowinterntOutbound.png)
+   
 1. Click on **+ Create port rule** > **Outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
 
     | Setting | Value |
@@ -173,8 +175,8 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Priority | **4000** |
     | Name | **DenyInternet** |
    
-    >**Note**: Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly change it to **\*** and 
-    click on **Save**.
+1. Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly 
+   change it to **\*** and click on **Save**.
 
 1. Return to your RDP session. 
 
