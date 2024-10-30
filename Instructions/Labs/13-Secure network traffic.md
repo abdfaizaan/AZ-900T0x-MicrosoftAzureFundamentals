@@ -97,9 +97,11 @@ In this task, we will create a network security group and associate it with the 
 
    >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
 
-     - Go to the **simplewinvm502** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
+     - Go to the **simplewinvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
 
-      - Then, proceed to complete steps 5 and 6.
+      - Navigate back to **myNSGSecure** Network security group then under **Settings** click **Network interfaces** and then **Associate**.
+
+      - Select the **network interface** you identified in the previous task, and then Click **Ok**.
 
       ![](../images/choose-nsg.png)
   
@@ -121,7 +123,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-1. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking** > **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+1. On the virtual machine blade, from left navigation pane, click on **Networking** > **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
 1. Click **+ Create port rule** > **Inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
 
@@ -155,7 +157,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
-1. Under **Settings**, click **Networking** > **Network settings**, and then **Outbound port rules**.
+1. From left navigation pane, click **Networking** > **Network settings**, and then **Outbound port rules**.
 
 1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
@@ -181,13 +183,14 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
+1. Kindly refresh the page twice before initiating validation, as it may take a few minutes to take effect.
+
 <validation step="6cb758ec-f211-4b8d-a8cc-02b361092388" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 
 ### Review
 In this lab, you have completed:
