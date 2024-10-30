@@ -123,7 +123,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-1. On the virtual machine blade, from left navigation pane, click on **Networking** > **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+1. On the virtual machine blade, from left navigation pane expand **Networking** select **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
 1. Click **+ Create port rule** > **Inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
 
@@ -157,7 +157,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
-1. From left navigation pane, click **Networking** > **Network settings**, and then **Outbound port rules**.
+1. From left navigation pane, expand **Networking** select **Network settings** > then **Outbound port rules**.
 
 1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
