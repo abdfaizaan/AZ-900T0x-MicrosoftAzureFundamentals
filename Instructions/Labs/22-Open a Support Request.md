@@ -45,7 +45,7 @@ In this lab, you will complete the following tasks:
    ![](../images/lab04-image16.png)
 
 1. From the top of the page select **Create a support request** then specify the following:
-
+     
     | Setting | Value|
     |----|--------|
     | Issue Type| **Technical** (1) |
@@ -57,6 +57,8 @@ In this lab, you will complete the following tasks:
     | Problem type | **VM performance** (7) |
     | Problem subtype | **Disk throughput or IOPS are lower than expected** (8) |    
 
+    ![](../images/st.png)
+   
     ![](../images/lab22-image3.png)
 
 1. Click **Next** and in the recommended solution tab, read through the recommended solutions and click on **Return to support request**
