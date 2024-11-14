@@ -132,12 +132,8 @@ In this task, we will remove the resource lock and test.
    
 > **Congratulations** on completing the task! Now, it's time to validate it.
 
-### Review
-In this lab, you have completed:
-- Verify the existing resource group
-- Add a Lock to the resource group and test deletion
-- Test deleting a member of the resource group
-- Remove the resource lock
+## Summary
+In this exercise, we verified the existing resource group and added a lock to prevent its accidental deletion. We tested the deletion of the resource group and a member within it, ensuring that the lock functioned as intended. Finally, we removed the resource lock to restore full management capabilities. Throughout the exercise, we gained experience in using resource locks to protect critical resources in a cloud environment.
 
 ## Reference link
 

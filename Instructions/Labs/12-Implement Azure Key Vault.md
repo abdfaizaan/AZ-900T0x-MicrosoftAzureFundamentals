@@ -99,10 +99,8 @@ In this task, we will add a password to the key vault.
 
  > **Congratulations** on completing the task! Now, it's time to validate it.
 
-### Review
-In this lab, you have completed:
-- Created an Azure Key Vault
-- Added a secret to the Key Vault
+## Summary
+In this exercise, we created an Azure Key Vault and added a secret to it. We explored the process of securely storing sensitive information in the Key Vault and managing access to the secret. Throughout the exercise, we gained hands-on experience with Azure Key Vault for secret management and security best practices.
 
 ## Reference link
 

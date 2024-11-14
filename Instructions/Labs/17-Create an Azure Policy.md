@@ -130,11 +130,8 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-### Review
-In this lab, you have completed:
-- Create a Policy assignment
-- Test Allowed location policy
-- Delete the policy assignment
+## Summary
+In this exercise, we created a policy assignment and tested the "Allowed Location" policy to restrict resource deployments to specific regions. We then deleted the policy assignment to remove the restriction. Throughout the exercise, we gained practical experience in using Azure Policy to enforce location-based governance for resource deployments.
 
 ## Reference link
 

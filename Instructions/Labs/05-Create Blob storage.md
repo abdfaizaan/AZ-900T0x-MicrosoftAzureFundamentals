@@ -96,11 +96,8 @@ In this task, we will create a Blob container and upload a blob file.
 
    > **Congratulations** on completing the task! Now, it's time to validate it.
    
-### Review
-In this lab, you have completed:
-- Create a storage account
-- Work with blob storage
-- Monitor the storage account
+## Summary
+In this exercise, we created a storage account and worked with blob storage to manage data efficiently. We also monitored the storage account to ensure optimal performance and health. Throughout the exercise, we gained practical experience in setting up and managing cloud storage, utilizing blob storage for data storage, and monitoring the account for any issues or performance metrics.
 
 ## Reference link
 

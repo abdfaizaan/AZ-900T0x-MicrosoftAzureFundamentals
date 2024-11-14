@@ -144,12 +144,8 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
 
-### Review
-In this lab, you have completed:
-- Configured the Cloud Shell
-- Created a virtual machine
-- Executed commands in the Cloud Shell
-- Reviewed Azure Advisor Recommendations
+## Summary
+In this exercise, we configured the Cloud Shell and created a virtual machine. We then executed commands within the Cloud Shell to manage resources and reviewed Azure Advisor recommendations to optimize the virtual machine setup. Throughout the exercise, we gained hands-on experience with Cloud Shell for managing Azure resources and leveraging Azure Advisor for best practice recommendations.
 
 ## Reference link
 

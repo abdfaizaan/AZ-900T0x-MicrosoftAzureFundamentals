@@ -140,12 +140,8 @@ In this task, we will review Azure Advisor recommendations.
 
 > **Congratulations** on completing the task! Now, it's time to validate it.
      
-### Review
-In this lab, you have completed:
-- Configured the Cloud Shell
-- Used CLI to create a virtual machine
-- Executed commands in the Cloud Shell
-- Reviewed Azure Advisor Recommendations
+## Summary
+In this exercise, we configured the Cloud Shell and used the CLI to create a virtual machine. We executed various commands within the Cloud Shell to manage the virtual machine and other resources. Additionally, we reviewed Azure Advisor recommendations to ensure best practices and optimize the configuration. Throughout the exercise, we gained practical experience with Cloud Shell, Azure CLI, and leveraging Azure Advisor for resource optimization.
 
  ## Reference link
 

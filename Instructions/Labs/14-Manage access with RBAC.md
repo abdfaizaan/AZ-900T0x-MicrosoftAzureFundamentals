@@ -92,10 +92,8 @@ In this task, we will view the activity log to verify the role assignment, and t
 
 > **Congratulations** on completing the task! Now, it's time to validate it.
   
-### Review
-In this lab, you have completed:
-- View and assign roles
-- Monitor role assignments and remove a role
+## Summary
+In this exercise, we viewed and assigned roles to manage access and permissions. We also monitored role assignments and learned how to remove a role when necessary. Throughout the exercise, we gained practical experience in managing role-based access control (RBAC) and ensuring appropriate access levels within a cloud environment.
 
 ## Reference link
 

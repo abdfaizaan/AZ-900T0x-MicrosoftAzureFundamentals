@@ -111,12 +111,8 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
 
-### Review
-In this lab, you have completed:
-- Create a Policy assignment
-- Create a storage account to test the required tagging
-- View all resources with a specific tag
-- Delete the policy assignment
+## Summary
+In this exercise, we created a policy assignment to enforce tagging requirements on resources. We then created a storage account to test the required tagging and viewed all resources with a specific tag. Finally, we deleted the policy assignment to stop enforcing the tag requirement. Throughout the exercise, we gained hands-on experience with Azure Policy for resource governance and tag management.
 
 ## Reference links
 
