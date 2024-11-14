@@ -57,7 +57,7 @@ In this lab, you will complete the following tasks:
     | Problem type | **VM performance** (7) |
     | Problem subtype | **Disk throughput or IOPS are lower than expected** (8) |    
 
-    ![](../images/st.png)
+    ![](../images/support1.png)
    
     ![](../images/lab22-image3.png)
 
