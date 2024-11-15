@@ -155,8 +155,11 @@ In this task, we will try to test whether the virtual machines can communicate (
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Summary
-In this exercise, we created a virtual network and deployed two virtual machines within it. We then tested the connection between the virtual machines to ensure proper network configuration and communication. Throughout the exercise, we gained hands-on experience in setting up virtual networks and configuring network connectivity between virtual machines in a cloud environment.
+### Review
+In this lab, you have completed:
+- Created a virtual network
+- Created two virtual machines
+- Tested the connection
 
 ### Reference Links
 

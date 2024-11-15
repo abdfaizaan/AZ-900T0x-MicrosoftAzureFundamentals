@@ -188,9 +188,12 @@ In this task, install the Web Server role on the server and host a basic website
 
 >**Congratulations** on completing the Task! Now, it's time to validate it. Here are the steps:
     
-## Summary
+### Review
 
-In this exercise, we created a virtual machine (VM) in the cloud and connected to it successfully. We then hosted a basic website on the new cloud VM, gaining hands-on experience with virtual machine setup, remote access, and web hosting. Throughout the exercise, we learned essential skills for managing cloud resources and deploying web applications on virtual machines.
+In this lab, you have completed:
+- Created the virtual machine
+- Connected to the virtual machine
+- Hosted a Basic Website on your New Cloud VM
 
 ## Reference links
 

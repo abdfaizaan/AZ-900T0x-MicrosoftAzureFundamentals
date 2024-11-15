@@ -104,8 +104,10 @@ In this task, we will verify the virtual machine is deployed correctly.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-## Summary
-In this exercise, we explored the gallery to locate a template for deploying resources and verified the deployment of a virtual machine using the selected template. We also monitored the virtual machine to ensure it was deployed correctly and functioning as expected. Throughout the exercise, we gained practical experience in using deployment templates and monitoring cloud-based virtual machines.
+### Review
+In this lab, you have completed:
+- Explored the gallery and locate a template
+- Verified and monitor your virtual machine deployment
 
 ## Reference link
 

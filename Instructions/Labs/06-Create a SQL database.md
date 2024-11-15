@@ -131,8 +131,10 @@ In this task, we will configure the SQL server and run a SQL query.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Summary
-In this exercise, we created a database and tested its functionality to ensure it was set up correctly. We explored the process of database creation, followed by verifying its performance and accessibility. Throughout the exercise, we gained hands-on experience in setting up and testing databases in the cloud environment.
+### Review
+In this lab, you have completed:
+- Created the database
+- Tested the database
 
 ## Reference link
 

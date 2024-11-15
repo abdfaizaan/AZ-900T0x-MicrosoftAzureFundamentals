@@ -121,8 +121,11 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Summary
-In this exercise, we created an IoT hub and added an IoT device to it. We then tested the device using the Raspberry Pi Simulator to ensure it was functioning correctly. Throughout the exercise, we gained practical experience in setting up an IoT hub, registering devices, and simulating device interactions in an IoT environment.
+### Review
+In this lab, you have completed:
+- Created an IoT hub
+- Added an IoT device
+- Tested the device using the Raspberry Pi Simulator
 
 ## Reference links
 
