@@ -90,7 +90,10 @@ In this task, we will view the activity log to verify the role assignment, and t
 
 <validation step="402a4212-b323-460b-bc90-58ed9e48c878" />
 
-> **Congratulations** on completing the task! Now, it's time to validate it.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 ## Summary
 In this exercise, we viewed and assigned roles to manage access and permissions. We also monitored role assignments and learned how to remove a role when necessary. Throughout the exercise, we gained practical experience in managing role-based access control (RBAC) and ensuring appropriate access levels within a cloud environment.
