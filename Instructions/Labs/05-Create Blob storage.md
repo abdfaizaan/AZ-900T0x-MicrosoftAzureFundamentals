@@ -94,7 +94,10 @@ In this task, we will create a Blob container and upload a blob file.
 
    <validation step="920a6ecb-b2ae-40e8-92c8-10039a6017e0" />
 
-   > **Congratulations** on completing the task! Now, it's time to validate it.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 ## Summary
 In this exercise, we created a storage account and worked with blob storage to manage data efficiently. We also monitored the storage account to ensure optimal performance and health. Throughout the exercise, we gained practical experience in setting up and managing cloud storage, utilizing blob storage for data storage, and monitoring the account for any issues or performance metrics.
