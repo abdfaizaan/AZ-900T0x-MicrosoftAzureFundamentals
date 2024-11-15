@@ -41,7 +41,6 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
     >**Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
  
-
 1. The **Require a tag and its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
 
 ### Task 2: Create a storage account to test the required tagging
@@ -90,9 +89,9 @@ In this task, we will create storage accounts to test the required tagging.
     ![Screenshot of the All Resources filter with Company selected.](../images/l16.5e.png)
        
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out. 
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help 
 
 <validation step="89462220-1bfd-4010-9d25-6aa484c243d8" />
 
