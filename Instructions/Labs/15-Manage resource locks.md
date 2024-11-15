@@ -37,7 +37,6 @@ In this task, we will verify the existing resource group for this exercise.
 
    ![image](../images/lab15-image1.png)
 
-
 ### Task 2:  Add a Lock to the resource group and test deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
@@ -131,9 +130,9 @@ In this task, we will remove the resource lock and test.
 <validation step="aeb5bfde-46eb-4f84-8ec7-29cd9438c2cd" />
    
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 ### Review
 In this lab, you have completed:
