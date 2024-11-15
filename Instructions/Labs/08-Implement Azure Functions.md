@@ -89,7 +89,10 @@ In this task, we will use the Webhook + API function to display a message when t
    
 <validation step="aa3ef50a-af7a-4070-b8a1-75c0a741eb60" />
 
-> **Congratulations** on completing the task! Now, it's time to validate it.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Summary
 In this exercise, we created a Function app and developed an HTTP-triggered function. We then tested the function to ensure it was triggered correctly and performed as expected. Throughout the exercise, we gained hands-on experience in setting up serverless applications and testing HTTP-triggered functions in a cloud environment.
