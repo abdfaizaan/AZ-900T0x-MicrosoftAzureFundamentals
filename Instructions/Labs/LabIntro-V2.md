@@ -52,6 +52,12 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
 
+## Lab Guide Zoom In/Zoom Out
+ 
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+  ![Manage Your Virtual Machine](../images/zoom-feature.png)
+
 ## Let's Get Started with Azure Portal
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
@@ -81,6 +87,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
     ![Start Your Azure Journey](../images/sc900-image(3).png)
 
- 8. Please review the **Note** sections in the lab guide for enhanced comprehension and improved lab performance.
+8. Please review the **Note** sections in the lab guide for enhanced comprehension and improved lab performance.
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!

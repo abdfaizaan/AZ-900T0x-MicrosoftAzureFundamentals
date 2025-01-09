@@ -64,7 +64,7 @@ In this task, we will create a Blob container and upload a blob file.
    | Setting | Value |
    | ---- | ---- |
    | Name | **container1**|
-   | Public access level| **Private (no anonymous access)** |
+   | Anonymous access level| **Private (no anonymous access)** |
     
     ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/AZ-9000502.png)
 

@@ -40,7 +40,7 @@ In this task, we will create a Function app.
     | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>**|
     | Publish | **Code**|
     | Runtime stack | **.NET** |
-    | Version | **6 (LTS), in-process model** |
+    | Version | **8 (LTS), in-process model** |
     | Region | **<inject key="Region" enableCopy="false"/>**|
     | Operating System  | **Windows**|
     | Pricing plan | Select **Basic B1** | 
