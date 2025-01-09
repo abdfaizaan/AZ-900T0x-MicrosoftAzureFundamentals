@@ -158,10 +158,9 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900t3s12u.png)
 
+   >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-    >**Note:** Keep a note of the path as it will be required in the preceding steps.
-
-10. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it to  **Default**. Right-click on Default.html, 
+11. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it to  **Default**. Right-click on Default.html, 
     choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
 
     >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
@@ -176,11 +175,11 @@ In this task, install the Web Server role on the server and host a basic website
     ```
     ![](../images/root.png)
 
-11. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
+12. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
 
     ![](../images/az900-t3_vm_pip.png)
 
-12. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
+13. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
 
     ![](../images/az900-t3_last.png)
 
