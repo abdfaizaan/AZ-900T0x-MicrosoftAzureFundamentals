@@ -1,5 +1,7 @@
 # Lab 15 - Manage resource locks
 
+### Estimated Duration: 15 minutes
+
 ## Lab overview
 
 To protect your Azure resources from accidental deletions or modifications, you can use management locks. These locks allow you to enforce restrictions at different levels: subscription, resource group, or individual resource.
@@ -19,13 +21,11 @@ In this lab, you will complete the following tasks:
 + Task 3: Test deleting a member of the resource group
 + Task 4: Remove the resource lock
 
-## Estimated timing: 15 minutes
-
 ## Architecture diagram
 
 ![](../images/az900lab15.png)
 
-### Task 1: Verify the existing resource group
+## Task 1: Verify the existing resource group
 
 In this task, we will verify the existing resource group for this exercise. 
 
@@ -37,7 +37,7 @@ In this task, we will verify the existing resource group for this exercise.
 
    ![image](../images/lab15-image1.png)
 
-### Task 2:  Add a Lock to the resource group and test deletion
+## Task 2:  Add a Lock to the resource group and test deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
@@ -69,7 +69,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
     ![](../images/lab15-image5.png)
 
-### Task 3: Test deleting a member of the resource group
+## Task 3: Test deleting a member of the resource group
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
@@ -105,7 +105,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
     **Note**: Although we did not create a lock specifically for the storage account, we did create a lock at the resource group level, which contains the storage account. As such, this *parent* level lock prevents us from deleting the resource and the storage account inherits the lock from the parent.
 
-### Task 4: Remove the resource lock
+## Task 4: Remove the resource lock
 
 In this task, we will remove the resource lock and test. 
 
@@ -134,8 +134,10 @@ In this task, we will remove the resource lock and test.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-### Review
+## Summary
+
 In this lab, you have completed:
+
 - Verify the existing resource group
 - Add a Lock to the resource group and test deletion
 - Test deleting a member of the resource group
