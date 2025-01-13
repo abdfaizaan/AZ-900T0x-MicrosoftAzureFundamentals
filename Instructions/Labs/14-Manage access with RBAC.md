@@ -50,7 +50,7 @@ In this task, we will assign the Virtual machine contributor role.
 
     ![image](../images/lab14-image6.png)
 
-1. Click **Review + Assign**.
+1. Click **Review + assign**.
 
    ![image](../images/lab14-image7.png)
    
