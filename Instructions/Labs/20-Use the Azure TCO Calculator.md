@@ -112,11 +112,11 @@ In this task, we will review cost saving recommendations and download a report.
     ![](../images/lab20-image8.png)
 
 
-1. To save or print a PDF copy of the report, click **Download**.
+2. To save or print a PDF copy of the report, scroll to the bottom and click on **Download**.
 
    ![](../images/lab20-image9.png)
 
-1. To modify the information you provided, go to the bottom of the page, and click **Back**. 
+3. To modify the information you provided, go to the bottom of the page, and click **Back**. 
 
     >**Congratulations!** You have used the TCO Calculator to generate a cost comparison report for an on-premises environment.
 
