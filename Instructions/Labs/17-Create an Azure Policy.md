@@ -1,7 +1,5 @@
 # Lab 17 - Create an Azure Policy
 
-### Estimated Duration: 20 minutes
-
 ## Lab overview
 
 Azure Policy is a service in Microsoft Azure that allows you to create, assign, and manage policies to enforce compliance with your organization's standards and governance requirements across Azure resources. It helps you ensure that your Azure environment stays compliant with regulations, follows internal policies, and meets security and operational standards.
@@ -16,6 +14,8 @@ In this lab, you will complete the following tasks:
 + Task 2: Test Allowed location policy
 + Task 3: Delete the policy assignment
 
+### Estimated timing: 20 minutes
+
 ## Architecture diagram
 
 ![](../images/az900lab17.png)
@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
    ![](../images/lab17-image1.png)
   
@@ -70,7 +70,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the Allowed location policy. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
 
    ![](../images/lab15-image6.png)
    
@@ -103,7 +103,7 @@ In this task, we will remove the Allowed location policy assignment and test.
 
 We will delete the policy assignment to ensure we are not blocked on any future work we wish to do.
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
    ![](../images/lab17-image1.png)
 
@@ -133,7 +133,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-## Summary
+## Review
 
 In this lab, you have completed:
 

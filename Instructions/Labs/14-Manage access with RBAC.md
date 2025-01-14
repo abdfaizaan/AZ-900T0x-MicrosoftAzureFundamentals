@@ -1,8 +1,6 @@
 # Lab 14 - Manage access with RBAC
 
-## Estimated Duration: 15 minutes
-
-### Lab overview
+## Lab overview
 
 Azure role-based access control (Azure RBAC) helps you manage who has access to Azure resources, what they can do with those resources, and what areas they have access to. Azure RBAC is an authorization system built on Azure Resource Manager that provides fine-grained access management to Azure resources.
 
@@ -15,15 +13,17 @@ In this lab, you will complete the following tasks:
 + Task 1: View and assign roles
 + Task 2: Monitor role assignments and remove a role
 
+### Estimated timing: 15 minutes
+
 ## Architecture diagram
 
 ![](../images/az900lab14.png)
 
-### Task 1: View and assign roles
+## Task 1: View and assign roles
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
    ![image](../images/lab14-image1.png)
 
@@ -31,9 +31,9 @@ In this task, we will assign the Virtual machine contributor role.
 
    ![image](../images/lab14-image2.png)
      
-1. You will be directed to the overview page of the resource group
+1. You will be directed to the overview page of the resource group.
 
-1. Click on the **Access control (IAM) (1)** blade, and then switch to the **Roles (2)** tab. Scroll down and notice roles definitions that are available. Use the View link under details to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
+1. On the **Resource group** page from the left navigation pane, select **Access control (IAM) (1)** blade, and then switch to the **Roles (2)** tab. Scroll down and notice roles definitions that are available. Use the View link under details to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
 
    ![image](../images/lab14-image3.png)
 
@@ -41,7 +41,7 @@ In this task, we will assign the Virtual machine contributor role.
 
    ![image](../images/lab14-image4.png)
    
-1. In  **Add Role assignments** blade on the **Role** tab, Search for the **Virtual Machine Contributor (1)** role and select **Virtual Machine Contributor (2)** then click on **Next (3)**
+1. In  **Add Role assignments** blade on the **Role** tab, search for the **Virtual Machine Contributor (1)** role and select **Virtual Machine Contributor (2)** then click on **Next (3)**
 
     ![image](../images/lab14-image5.png)
    
@@ -60,7 +60,7 @@ In this task, we will assign the Virtual machine contributor role.
 
     ![image](../images/lab14-image8.png)
 
-1. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor (you need to scroll down).
+1. **Refresh** the **Role assignments** page and ensure you are now listed as a **Virtual machine contributor** (you need to scroll down).
 
      ![image](../images/lab14-image9.png)
 
@@ -70,13 +70,13 @@ In this task, we will assign the Virtual machine contributor role.
 
 In this task, we will view the activity log to verify the role assignment, and then remove the role. 
 
-1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> resource group blade, click **Activity log**.
+1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> resource group blade, from the left navigation pane select **Activity log**.
 
 1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Activity log blade, click **Add filter**.
 
     ![image](../images/lab14-image10.png)
 
-5. From the **Resource (1)** drop-down, select **Operation (2)**. Then in the **Selected (3)** drop-down, search for **Create role assignment (4)** and choose **Create role assignment (microsoft.Authorization/roleAssignments/write) (5)**
+1. From the **Resource (1)** drop-down, select **Operation (2)**. Then in the **Selected (3)** drop-down, search for **Create role assignment (4)** and choose **Create role assignment (microsoft.Authorization/roleAssignments/write) (5).**
 
     ![image](../images/lab14-image11.png)
 
@@ -95,7 +95,7 @@ In this task, we will view the activity log to verify the role assignment, and t
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
   
-## Summary
+## Review
 
 In this lab, you have completed:
 
