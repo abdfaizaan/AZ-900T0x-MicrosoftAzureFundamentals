@@ -1,7 +1,5 @@
 # Lab 22 - Open a Support Request
 
-### Estimated Duration: 30 minutes
-
 ## Lab overview
 
 
@@ -15,6 +13,8 @@ In this lab, you will complete the following tasks:
 
 + Task 1: View available support plan options and a technical support request
 + Task 2: Create a billing support request
+
+### Estimated timing: 30 minutes
 
 ## Architecture diagram
 
