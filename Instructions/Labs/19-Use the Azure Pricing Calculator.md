@@ -53,15 +53,17 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
     **Note**: The VM instance specifications and pricing may differ from those in this example. Follow this walkthrough by choosing an instance that matches the example as closely as possible. 
 
-1. Set the **Savings Options** to **Pay as you go**.
-
-   ![Screenshot of the vm billing options area within the Azure pricing calculator estimate webpage. The highlighted pay as you go billing option indicates how to specify a billing option for a vm within an Azure pricing calculator estimate.](../images/l19c.png)
-
 1. In Azure, a month is defined as 730 hours. If your VM needs to be available 100 percent of the time each month, you set the hours-per-month value to `730`. This walkthrough example requires one VM to be available 50 percent of the time each month.
 
     Leave the number of VMs set at `1`, and change the hours-per-month value to `365`.
 
    ![Screenshot of the vm billing options area within the Azure pricing calculator estimate webpage. The highlighted number of vm instances and hours per month options indicate how to specify the number of instances and hours per month for a vm within an Azure pricing calculator estimate.](../images/l19gh.png)
+
+
+1. Set the **Savings Options** to **Pay as you go**.
+
+   ![Screenshot of the vm billing options area within the Azure pricing calculator estimate webpage. The highlighted pay as you go billing option indicates how to specify a billing option for a vm within an Azure pricing calculator estimate.](../images/l19c.png)
+
 
 1. Scroll down and in the **Managed OS Disks** pane, modify the default VM storage configuration.
 
@@ -104,7 +106,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
     | 50 GB |
     | | |
 
-    | Zone 1: North America, Europe |
+    | Outbound Data  Transfer |
     | ----------------------------- |
     | 50 GB |
     | | |
