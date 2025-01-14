@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Access Microsoft Compliance Offerings
 
-1. Open your preferred browser on your personal machine, access the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
+1. Open your preferred browser on your personal machine, and access the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
 
 1. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
@@ -33,9 +33,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 2: Access the Service Trust Portal (STP) (Read only)
 
-1. In a new tab in edge browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
+1. In a new tab in an edge browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
 
-1. Notice the **Reports, Whitepapers and Artifacts** section. In this section their are independent audit reports for different Microsoft Cloud services.
+1. Notice the **Reports, Whitepapers and Artifacts** section. In this section, there are independent audit reports for different Microsoft Cloud services.
 
 1. Scroll down on the page and notice the different categories of information available. From the **Certifications, Regulations, and Standards category** Select **ISO/IEC**.
 
