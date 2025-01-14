@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
    ![image](../images/lab14-image1.png)
 
@@ -73,7 +73,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
 
     ![](../images/lab15-image6.png)
   
@@ -125,7 +125,7 @@ In this task, we will remove the resource lock and test.
 
    Congratulations! You created a resource group, added a lock to the resource group and tested deletion, tested deleting a resource in the resource group and removed the resource lock. 
 
-1. **Wait for 10 minutes before heading to the Validation Step**
+1. **Wait for 10 minutes before heading to the Validation Step.**
  
 <validation step="aeb5bfde-46eb-4f84-8ec7-29cd9438c2cd" />
    
@@ -134,7 +134,7 @@ In this task, we will remove the resource lock and test.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-## Summary
+## Review
 
 In this lab, you have completed:
 
