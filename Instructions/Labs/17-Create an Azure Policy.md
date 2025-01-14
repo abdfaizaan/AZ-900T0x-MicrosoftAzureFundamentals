@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Test Allowed location policy
 + Task 3: Delete the policy assignment
 
-### Estimated time: 20 minutes
+### Estimated timing: 20 minutes
 
 ## Architecture diagram
 
