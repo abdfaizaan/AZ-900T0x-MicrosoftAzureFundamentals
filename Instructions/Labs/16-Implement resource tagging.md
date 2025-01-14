@@ -64,7 +64,7 @@ In this task, we will create storage accounts to test the required tagging.
 
 1. You will receive a Validation failed message. On the **Tags** tab note the error message stating that the resource was disallowed by Policy. 
 
-    ![Screenshot of disallowed due to policy error.](../images/AZ-900-module-16-storageacc.png)
+    ![Screenshot of disallowed due to policy error.](../images/az9-1.png)
 
 1. Provide the tagging information:- 
 
