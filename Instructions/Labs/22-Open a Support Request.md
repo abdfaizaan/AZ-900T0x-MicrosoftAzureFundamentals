@@ -1,5 +1,7 @@
 # Lab 22 - Open a Support Request
 
+### Estimated Duration: 30 minutes
+
 ## Lab overview
 
 
@@ -13,8 +15,6 @@ In this lab, you will complete the following tasks:
 
 + Task 1: View available support plan options and a technical support request
 + Task 2: Create a billing support request
-  
-## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
@@ -28,19 +28,19 @@ In this lab, you will complete the following tasks:
 
 1. Go to the **Overview** option from the left navigation pane and click **+ Create a support request**. The ticket is created based on the values you specify. 
 
-1. Under Describe your issue enter **VM performance** then click on **Go**
+1. Under Describe your issue enter **VM performance (1)** then click on **Go (2)**
 
     ![](../images/lab04-image13.png)
    
-1. Under **Which service are you having issue with?** select **Virtual machine running windows** and click on **Next**.
+1. Under **Which service are you having issue with?** select **Virtual machine running windows (1)** and click on **Next (2)**.
 
      ![](../images/lab04-image14.png)
    
-1. Next select **Subscription** and any **Virtual machine**.
+1. Next select **Subscription (1)** and any **Virtual machine (2)**.
 
     ![](../images/lab04-image15.png)
 
-1. Select **None of the above** and select **Problem type** : **VM performance** then **Problem subtype : Disk Caching.**
+1. Select **None of the above (1)** and select **Problem type** : **VM performance (2)** then **Problem subtype : Disk Caching (3)**.
 
    ![](../images/lab04-image16.png)
 
@@ -95,11 +95,8 @@ In this lab, you will complete the following tasks:
 
    >**Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 
-## Summary 
+## Summary
 
-In this lab, you explored Azure support plan options, created a technical support request, and practiced submitting a billing support request. This exercise provided an understanding of the support process in Azure, including monitoring requests and reviewing recommended solutions.
-
-## Review
 In this lab, you have completed:
 
 - View available support plan options and a technical support request

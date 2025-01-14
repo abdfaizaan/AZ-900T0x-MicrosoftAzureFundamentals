@@ -1,5 +1,7 @@
 # Lab 14 - Manage access with RBAC
 
+## Estimated Duration: 15 minutes
+
 ### Lab overview
 
 Azure role-based access control (Azure RBAC) helps you manage who has access to Azure resources, what they can do with those resources, and what areas they have access to. Azure RBAC is an authorization system built on Azure Resource Manager that provides fine-grained access management to Azure resources.
@@ -12,8 +14,6 @@ In this lab, you will complete the following tasks:
 
 + Task 1: View and assign roles
 + Task 2: Monitor role assignments and remove a role
-
-## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
@@ -50,7 +50,7 @@ In this task, we will assign the Virtual machine contributor role.
 
     ![image](../images/lab14-image6.png)
 
-1. Click **Review + Assign**.
+1. Click **Review + assign**.
 
    ![image](../images/lab14-image7.png)
    
@@ -95,8 +95,10 @@ In this task, we will view the activity log to verify the role assignment, and t
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
   
-### Review
+## Summary
+
 In this lab, you have completed:
+
 - View and assign roles
 - Monitor role assignments and remove a role
 
