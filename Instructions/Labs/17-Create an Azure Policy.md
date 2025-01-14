@@ -1,5 +1,7 @@
 # Lab 17 - Create an Azure Policy
 
+### Estimated Duration: 20 minutes
+
 ## Lab overview
 
 Azure Policy is a service in Microsoft Azure that allows you to create, assign, and manage policies to enforce compliance with your organization's standards and governance requirements across Azure resources. It helps you ensure that your Azure environment stays compliant with regulations, follows internal policies, and meets security and operational standards.
@@ -14,13 +16,11 @@ In this lab, you will complete the following tasks:
 + Task 2: Test Allowed location policy
 + Task 3: Delete the policy assignment
 
-## Estimated timing: 20 minutes
-
 ## Architecture diagram
 
 ![](../images/az900lab17.png)
 
-### Task 1: Create a Policy assignment
+## Task 1: Create a Policy assignment
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
@@ -45,7 +45,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![](../images/lab17-image5.png)
 
-    **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
+   **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
 1. Select the **Policy definition** ellipsis **(1)** button. In the **Search** box type **Allowed locations (2)** and click on the **Allowed locations (3)** definition, then click **Add**.
 
@@ -66,7 +66,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
    >**Note**: You need to refresh the age to see the policy.
    
-### Task 2: Test Allowed location policy
+## Task 2: Test Allowed location policy
 
 In this task, we will test the Allowed location policy. 
 
@@ -97,7 +97,7 @@ In this task, we will test the Allowed location policy.
    
    <validation step="710e5a5f-229a-4391-b232-ebf723930b9a" />
 
-### Task 3: Delete the policy assignment
+## Task 3: Delete the policy assignment
 
 In this task, we will remove the Allowed location policy assignment and test. 
 
@@ -133,8 +133,10 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-### Review
+## Summary
+
 In this lab, you have completed:
+
 - Create a Policy assignment
 - Test Allowed location policy
 - Delete the policy assignment
