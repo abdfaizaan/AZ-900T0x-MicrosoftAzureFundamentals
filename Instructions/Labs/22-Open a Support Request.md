@@ -95,7 +95,7 @@ In this lab, you will complete the following tasks:
 
    >**Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 
-## Summary
+## Review
 
 In this lab, you have completed:
 
