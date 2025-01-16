@@ -61,7 +61,7 @@ In this task, we will create an IoT hub.
 
 In this task, we will add an IoT device to the IoT hub. 
 
-1. When the deployment has completed, click **Go to resource** from the deployment blade. Alternatively, from the **All services** blade, search for and select **IoT Hub** and locate your new IoT Hub instance
+1. When the deployment has completed, click **Go to resource** from the deployment blade. Alternatively, from the **All services** blade, search for and select **IoT Hub** and locate your new IoT Hub instance.
 
 	![](../images/lab7-image3.png)
 
@@ -92,7 +92,6 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 1. Read about the Raspberry Pi simulator. If there is an overview pop-up select "**X**" to close the window.
 
     ![](../images/lab7-image8.png)
-
 
 1. In the code area, right side, locate the line with 'const connectionString ='. Replace **[Your IoT hub device connection string]**  with the connection string you copied from the Azure portal. Note that the connection sting includes the **DeviceId** and **SharedAccessKey** entries.
 
@@ -132,6 +131,5 @@ In this lab, you have completed:
 - https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub
   
 - https://learn.microsoft.com/en-us/azure/iot-edge/about-iot-edge?view=iotedge-1.4
-
   
 ## You have successfully completed this lab.
