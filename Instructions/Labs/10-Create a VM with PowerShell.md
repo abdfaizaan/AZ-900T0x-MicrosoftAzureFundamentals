@@ -33,7 +33,7 @@ In this task, we will configure Cloud Shell.
 
 1. On the Mount storage account tab, select **I want to create a storage account**. Click on **Next**.
 
-1. On the create storage account tab, provide the details and select **Create**
+1. On the create storage account tab, provide the details and select **Create**.
 
     | Settings | Values |
     |  -- | -- |
@@ -75,7 +75,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
    ```
-1. Wait for VM to deploy before closing PowerShell
+1. Wait for VM to deploy before closing PowerShell.
 
 1. Close the PowerShell session Cloud Shell pane.
 
