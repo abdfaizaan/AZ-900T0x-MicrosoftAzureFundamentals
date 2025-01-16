@@ -75,7 +75,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 In this task, we will create a network security group and associate it with the network interface.
 
-1. From the **Search resources, services, and docs** blade, search for and select **Network security groups** and then click **+ Create**
+1. From the **Search resources, services, and docs** blade, search for and select **Network security groups** and then click **+ Create**.
 
 1. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings.
 
@@ -97,7 +97,7 @@ In this task, we will create a network security group and associate it with the 
 
    >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
 
-     - Go to the **simplewinvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
+     - Go to the **simplewinvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)**.
 
       - Navigate back to **myNSGSecure** Network security group then under **Settings** click **Network interfaces** and then **Associate**.
 
@@ -111,7 +111,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
-1. On the **Overview** pane, click **Connect** and then select **Connect**
+1. On the **Overview** pane, click **Connect** and then select **Connect**.
 
 1. On **SimpleWinVM** | Connect page, under **Native RDP** click on **Download RDP file**. and click on **Keep** for the warning message pop-up.
 
