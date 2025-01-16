@@ -65,11 +65,11 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
    
-    >**Note:** - Verify that both port 80 and 3389 are selected
+    >**Note:** - Verify that both port 80 and 3389 are selected.
 
 1. Click **Next : Management >** to switch to the **Management** tab and leave everything as default.
 
-1. Click **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting:
+1. Click **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting.
 
     | Settings | Values |
     | -- | -- |
