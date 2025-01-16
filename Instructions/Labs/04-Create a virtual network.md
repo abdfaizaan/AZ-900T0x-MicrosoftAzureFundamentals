@@ -56,7 +56,7 @@ In this task, we will create a virtual network.
   
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
 
-    >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/)
+    >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/).
 
 1. Click the **Review + create** button. Ensure the validation passes.
 
@@ -97,7 +97,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 1. Monitor your deployment, but continue on to the next step. 
 
-1. Create a second virtual machine by repeating steps **1 to 5** above from the task 2. Make sure you use a different virtual machine name as given below, and also the virtual machine is within the same virtual network, and is using a new public IP address: 
+1. Create a second virtual machine by repeating steps **1 to 5** above from the task 2. Make sure you use a different virtual machine name as given below, and also the virtual machine is within the same virtual network, and is using a new public IP address. 
 
     | Setting | Value |
     | --- | --- |
@@ -138,7 +138,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    ![image](../images/vnet01.png)
 
-1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**.
 
 1. Try to ping vm2 (make sure vm2 is running). 
     ```
