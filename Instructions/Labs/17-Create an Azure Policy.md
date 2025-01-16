@@ -84,7 +84,7 @@ In this task, we will test the Allowed location policy.
     | Location | **(US) East US** |
     | | |
 
-1. Notice the error which is disallowing to create stoarge account in east us region which block by the policy
+1. Notice the error which is disallowing to create stoarge account in east us region which block by the policy.
 
      ![](../images/lab17-image8.png)
     
@@ -123,7 +123,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
     ![](../images/lab17-image11.png)
   
-1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
+1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**.
 
 1. Now try to create a storage account and the policy will not block the creation.
 
