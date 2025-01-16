@@ -33,7 +33,7 @@ In this task, we will configure Cloud Shell.
 
 1. On the Mount storage account tab, select **I want to create a storage account**. Click on **Next**.
 
-1. On the create storage account tab, provide the details and select **Create**
+1. On the create storage account tab, provide the details and select **Create**.
 
     | Settings | Values |
     |  -- | -- |
@@ -126,8 +126,6 @@ In this task, we will review Azure Advisor recommendations.
 
 1. Select **All recommendations** from the left navigation pane and take time to view each recommendation and suggested actions.
     
-    >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
-
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
 1. Notice that from the **Security** option in the left navigation pane,you can download the recommendations as a CSV or PDF file.
