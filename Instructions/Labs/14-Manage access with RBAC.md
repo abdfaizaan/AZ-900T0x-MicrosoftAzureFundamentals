@@ -41,7 +41,7 @@ In this task, we will assign the Virtual machine contributor role.
 
    ![image](../images/lab14-image4.png)
    
-1. In  **Add Role assignments** blade on the **Role** tab, search for the **Virtual Machine Contributor (1)** role and select **Virtual Machine Contributor (2)** then click on **Next (3)**
+1. In  **Add Role assignments** blade on the **Role** tab, search for the **Virtual Machine Contributor (1)** role and select **Virtual Machine Contributor (2)** then click on **Next (3)**.
 
     ![image](../images/lab14-image5.png)
    
@@ -54,7 +54,7 @@ In this task, we will assign the Virtual machine contributor role.
 
    ![image](../images/lab14-image7.png)
    
-     **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page
+     **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page.
 
 1. Back on **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade, select **Role assignments** tab.
 
