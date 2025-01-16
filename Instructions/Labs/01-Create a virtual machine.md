@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
-1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On Azure Portal page, in **Search resources, services, and docs (G+/) box** at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
    ![](../images/lab1-image1.png) 
 
@@ -77,11 +77,11 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
   
 1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
 
-1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+1. Once **Validation** is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
-   >**Note**: Here is the reference link for virtual machine https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
+   >**Note**: Here is the reference link for virtual machine https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/.
 
 ### Task 2: Connect to the virtual machine
 
@@ -119,17 +119,17 @@ In this task, we will connect to our new virtual machine using RDP.
 
 In this task, install the Web Server role on the server and host a basic website.
 
-1. In the Server Manager (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
+1. In the **Server Manager** (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
 
     ![server manager](../images/az900-t3_s1.png)
 
-    >**Note:** If you get a pop-up related to **Networking** click **No**. If you get a tab Server Manager, close the tab.
+    >**Note:** If you get a pop-up related to **Networking** click **No**. If you get a tab **Server Manager**, close the tab.
     
     ![server manager](../images/network.png)
 
 2. In the **Add Roles and Features Wizard** dialog box, on the **Before You Begin** page, click **Next** to continue.
 
-3. Ensure **Role-based or feature-based installation** is selected in **Select installation type** page and  Click Next.
+3. Ensure **Role-based or feature-based installation** is selected in **Select installation type** page and  Click **Next**.
 
 4. Ensure **Select a server from the server pool** is selected in **Select destianation server** page, and that your VM appears in the list below. Click on **Next**.
 
@@ -147,7 +147,7 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_s9.png)
 
-8. In the Internet Information Services (IIS) Manager window, locate your server’s Default Web Site in the Connections tree.
+8. In the **Internet Information Services (IIS) Manager** window, locate your server’s Default Web Site in the connections tree.
 
     ![](../images/az900-t3_s10.png)
 
@@ -160,8 +160,8 @@ In this task, install the Web Server role on the server and host a basic website
 
    >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-11. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it to  **Default**. Right-click on Default.html, 
-    choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
+11. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it to  
+    **Default**. Right-click on Default.html, choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
 
     >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
 
