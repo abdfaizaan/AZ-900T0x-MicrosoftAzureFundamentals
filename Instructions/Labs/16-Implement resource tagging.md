@@ -105,7 +105,7 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
    ![Screenshot of the All Resources filter with Company selected.](../images/lb16.2b.png)
 
-1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
+1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**.
 
 1. Now try to create a storage account and the policy will not block the creation.
 
