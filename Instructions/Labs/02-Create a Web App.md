@@ -53,12 +53,11 @@ In this task, you will create an Azure App Service Web App.
 
     | Setting | Value |
     | -- | -- |
-    | Image Source | **Quickstart (1)** |
-    | Options | **Single container (2)** |
-    | Sample | **NGINX (3)** |
+    | Image Source | **Quickstart** |
+    | Sample | **NGINX** |
     |||
 
-   ![](../images/review+create.png)
+   ![](../images/pax8-image60.png)
 
      >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
@@ -76,9 +75,9 @@ In this task, we will test the web app.
 
      ![](../images/lab2-image6.png)
 
-1. Copy the URL and paste it into a new browser tab to observe the "Welcome to nginx" page.
+1. Copy the URL and paste it into a new browser tab to observe the page.
 
-    ![](images/labnew-02-5.png)
+    ![](images/pax8-image59.png)
 
 1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
