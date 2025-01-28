@@ -57,7 +57,7 @@ In this task, you will create an Azure App Service Web App.
     | Sample | **NGINX** |
     |||
 
-   ![](../images/pax8-image60.png)
+   ![](../images/pax8-image(60).png)
 
      >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
