@@ -1,12 +1,12 @@
 # Lab 14 - Manage access with RBAC
 
-## Lab overview
+## Lab Overview
 
 Azure role-based access control (Azure RBAC) helps you manage who has access to Azure resources, what they can do with those resources, and what areas they have access to. Azure RBAC is an authorization system built on Azure Resource Manager that provides fine-grained access management to Azure resources.
 
 In this walkthrough, we will assign roles and view activity logs.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
