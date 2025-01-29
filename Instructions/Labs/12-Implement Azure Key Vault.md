@@ -1,6 +1,6 @@
 # Lab 12 - Implement Azure Key Vault
 
-## Lab overview
+## Lab Overview
 
 Azure Key Vault is a cloud service for securely storing and accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, or cryptographic keys. 
 
@@ -10,7 +10,7 @@ Certificates: Supports certificates, which are built on top of keys and secrets 
 
 In this walkthrough, we will create an Azure Key vault and then create a password secret within that key vault, providing a securely stored, centrally managed password for use with applications.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -50,7 +50,7 @@ In this lab, you will complete the following tasks:
 
    ![](../images/lab12-image3.png)
 
-1. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST API will need this URI.
+1. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the **REST API** will need this **URI**.
 
 1. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets**, **Certificates**.
 
