@@ -1,12 +1,12 @@
 # Lab 06 - Create a SQL database
 
-## Lab overview
+## Lab Overview
 
 A SQL database is a collection of tables that stores a specific set of structured data using a relational model. It is designed to efficiently organize and retrieve data using a language called Structured Query Language (SQL).
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -91,7 +91,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 1. Login as **sqluser** with the password **Pa$$w0rd1234**, and click on **OK**.
 
-1.  If you are not able to login, follow the below steps: 
+1. If you are not able to login, follow the below steps: 
 
     ![Screenshot of the Query Editor login page with IP address error.](../images/0503.png)
     
