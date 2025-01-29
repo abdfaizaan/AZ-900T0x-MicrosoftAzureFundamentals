@@ -1,12 +1,12 @@
 # Lab 17 - Create an Azure Policy
 
-## Lab overview
+## Lab Overview
 
 Azure Policy is a service in Microsoft Azure that allows you to create, assign, and manage policies to enforce compliance with your organization's standards and governance requirements across Azure resources. It helps you ensure that your Azure environment stays compliant with regulations, follows internal policies, and meets security and operational standards.
 
 In this walkthrough, we will create an Azure Policy to restrict the deployment of Azure resources to a specific location.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -84,7 +84,7 @@ In this task, we will test the Allowed location policy.
     | Location | **(US) East US** |
     | | |
 
-1. Notice the error which is disallowing to create stoarge account in east us region which block by the policy.
+1. 1. Notice the error that disallows to create of a storage account in the east us region which is blocked by the policy.
 
      ![](../images/lab17-image8.png)
     
