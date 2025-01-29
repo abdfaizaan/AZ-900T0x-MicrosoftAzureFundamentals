@@ -165,6 +165,9 @@ In this task, install the Web Server role on the server and host a basic website
 
     >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
 
+    >**Note:** Please make sure VM Native Clipboard is enabled if copy-paste is not working.
+    >    ![](../images/vm-native-clipboard.png)
+
     ```
     <html>
     <body>
