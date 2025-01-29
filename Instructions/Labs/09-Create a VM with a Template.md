@@ -1,10 +1,10 @@
 # Lab 09 - Create a VM with a Template
 
-## Lab overview
+## Lab Overview
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -25,7 +25,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?.
 
-1. Search and Select the **Deploy a simple Windows VM with tags**.
+1. Search and select the **Deploy a simple Windows VM with tags**.
 
     >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
