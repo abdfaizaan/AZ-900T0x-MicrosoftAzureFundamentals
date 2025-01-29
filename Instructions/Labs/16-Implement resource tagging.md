@@ -1,12 +1,12 @@
 # Lab 16 - Implement resource tagging
 
-## Lab overview
+## Lab Overview
 
 Resource tagging in Azure involves assigning metadata to Azure resources using key-value pairs called tags. These tags can provide additional information about resources, such as environment, department, cost center, owner, or any other relevant attributes. Azure resource tagging offers several benefits, including improved resource management, cost tracking, access control, and automation. 
 
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -101,7 +101,7 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. In the portal, from the **Search resources, services, and docs** blade, search for and select **Policy**.
 
-1. In the **Require a tag and its value on resources** policy entry scroll o the right and click on the elipsis button and selet**Delete Assignment**.
+1. In the **Require a tag and its value on resources** policy entry scroll o the right and click on the ellipsis button and select **Delete Assignment**.
 
    ![Screenshot of the All Resources filter with Company selected.](../images/lb16.2b.png)
 
