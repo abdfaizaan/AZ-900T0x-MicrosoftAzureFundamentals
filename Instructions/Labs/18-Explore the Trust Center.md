@@ -2,13 +2,13 @@
 
 ### Please be aware that no Lab VM is provided for this exercise. You will need to complete the lab on your personal computer.
 
-## Lab overview
+## Lab Overview
 
 Microsoft offers a comprehensive set of compliance offerings to help organizations meet regulatory standards. These offerings span across Microsoft 365, Azure, and other Microsoft services.
 
 In this walkthrough, we will access the Compliance Offerings and Service Trust Portal (STP).
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -55,11 +55,11 @@ In this lab, you will complete the following tasks:
    
    ![](../images/sc-900-lab11-7-1.png)
 
-1. From the top of the My Library page, select **Service Trust Portal** to return to the Service Trust Portal home page.
+1. From the top of the **My Library** page, select **Service Trust Portal** to return to the **Service Trust Portal** home page.
 
    ![](../images/sc-900-lab11-8.png)
    
-1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources** category.  Note the available tiles.  Select **Financial Services**.  Scroll down to see all the available regions and countries.  Select the tile for any country to view the applicable documents.
+1. From the **Service Trust Portal** home page, scroll down to the **Industry and Regional Resources** category.  Note the available tiles.  Select **Financial Services**.  Scroll down to see all the available regions and countries.  Select the tile for any country to view the applicable documents.
  
    ![](../images/sc-900-lab11-9.png)
    
@@ -69,13 +69,13 @@ In this lab, you will complete the following tasks:
    
     ![](../images/sc-900-lab11-8.png)
     
-1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.    
+1. From the **Service Trust Portal** home page, scroll down to the **Resource for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.    
 
    ![](../images/sc-900-lab11-11.png)
    
    ![](../images/sc-900-11-11-1.png)
    
-1. Navigate back to the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
+1. Navigate back to the **Service Trust Portal** home page, select the link **Service Trust Portal** at the top of the page.
 
    ![](../images/sc-900-lab11-8.png)
     
@@ -83,7 +83,7 @@ In this lab, you will complete the following tasks:
 
 In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
 
-1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts** category. Select **Privacy and Data Protection**.  
+1. From the **Service Trust Portal** home page, scroll down to the **Reports, Whitepapers, and Artifacts** category. Select **Privacy and Data Protection**.  
 
    ![](../images/sc-900lab11-T1-1.png)
 
