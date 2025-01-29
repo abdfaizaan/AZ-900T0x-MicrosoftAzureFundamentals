@@ -1,12 +1,12 @@
 # Lab 01 - Create a virtual machine in the portal
 
-## Lab overview
+## Lab Overview
 
 An Azure Virtual Machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
 
 In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -59,7 +59,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
-1. Within the Networking tab, look for the **Select inbound ports**:
+1. Within the Networking tab, look for the **Select inbound ports**.
 
     | Settings | Values |
     | -- | -- |
@@ -119,7 +119,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 In this task, install the Web Server role on the server and host a basic website.
 
-1. In the **Server Manager** (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
+1. In the **Server Manager** (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot.
 
     ![server manager](../images/az900-t3_s1.png)
 
