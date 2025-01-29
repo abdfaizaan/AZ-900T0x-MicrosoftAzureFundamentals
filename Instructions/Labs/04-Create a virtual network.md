@@ -1,12 +1,12 @@
 # Lab 04 - Create a virtual network
 
-## Lab overview
+## Lab Overview
 
 Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and to the internet.
 
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other within that virtual network.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -93,7 +93,7 @@ In this task, we will create two virtual machines in the virtual network.
    | --- | --- |
    | Virtual network | **vnet1** |
 
-1. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
+1. Click **Review + create**. After the **Validation** passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
 1. Monitor your deployment, but continue on to the next step. 
 
@@ -124,7 +124,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
 
-1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
+1. Once the file is downloaded, you will be directed with a warning, click on **Keep**.
 
 1. Open the downloaded RDP file and click **Connect** when prompted. 
 
