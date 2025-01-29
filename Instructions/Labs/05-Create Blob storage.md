@@ -1,12 +1,12 @@
 # Lab 05 - Create blob storage
 
-## Lab overview
+## Lab Overview
 
 Storage account is a resource that acts as a container that groups all the data services from Azure storage (Azure blobs, Azure files, Azure Queues, and Azure Tables). This helps us manage all of them as a group.
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -22,15 +22,15 @@ In this lab, you will complete the following tasks:
 
 ### Prerequisites
 
-1. In the **Lab-VM**, launch **Notepad** by searching for it in the Start menu, then input a random text within the Notepad application.
+1. In the **Lab-VM**, launch **Notepad** by searching for it in the Start menu, then input a random text within the **Notepad** application.
 
-1. Next, access the menu bar at the top and select File > Save as. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
+1. Next, access the menu bar at the top and select **File > Save as**. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
 
 ### Task 1: Create a storage account
 
 In this task, we will create a new storage account. 
 
-1. On the Azure portal, from the **Azure services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
+1. 1. On Azure Portal page, in **Search resources, services, and docs (G+/) box** at the top of the portal, enter **Storage accounts**, and then select **Storage accounts** under services, and then click **+ Create**. 
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else, then click on **Next**.
 
