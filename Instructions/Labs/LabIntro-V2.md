@@ -36,7 +36,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![Manage Your Virtual Machine](../images/az-900-gs4.png)
+  ![Manage Your Virtual Machine](../images/up4.png) 
  
 ## **Lab Duration Extension**
 
@@ -57,6 +57,10 @@ Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
   ![Manage Your Virtual Machine](../images/zoom-feature.png)
+
+## Pasting Commands in the PowerShell/CloudShell Environment
+
+Please make sure to use the CTRL+SHIFT+V or CTRL+V keys when pasting commands inside the PowerShell/CloudShell environment instead of right-clicking.
 
 ## Let's Get Started with Azure Portal
  
