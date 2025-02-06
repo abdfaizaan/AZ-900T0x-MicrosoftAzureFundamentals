@@ -50,14 +50,13 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | -- | -- |
     | NIC network security group | **None**|
    
-
-1. Switch to the **Monitoring** tab, select the following setting:
+1. Switch to the **Monitoring** tab, and select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
    
-1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take about five minutes to deploy the virtual machine.
 
@@ -85,7 +84,6 @@ In this task, we will create a network security group and associate it with the 
     | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** |
     | Name | **myNSGSecure** |
     | Region | **<inject key="Region" enableCopy="false"/>**  |
-   
 
 1. Click **Review + create** and then after the validation click **Create**.
 
@@ -117,13 +115,13 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![](../images/M13T3S3.png)
 
-1. Open the downloaded rdp file.
+1. Open the downloaded RDP file.
    
-1. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
+1. Attempt to connect to the virtual machine using RDP. By default, the network security group does not allow RDP. Close the error window. 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-1. On the virtual machine blade, from left navigation pane expand **Networking** select **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+1. On the virtual machine blade, from the left navigation pane expand **Networking** select **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
 1. Click **+ Create port rule** > **Inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
 
@@ -138,19 +136,19 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
     | Priority | **300** |
     | Name | **AllowRDP** |
   
-1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine using downloaded rdp file. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
+1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine using the downloaded RDP file. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
 ### Task 4: Configure an outbound security port rule to deny Internet access
 
-In this task, we will create a NSG outbound port rule that will deny Internet access and then test to ensure the rule is working.
+In this task, we will create an NSG outbound port rule that will deny Internet access and then test to ensure the rule is working.
 
-1. Continue in your virtual machine RDP session. If pop-up comes then select **yes**.
+1. Continue in your virtual machine RDP session. If a pop-up comes then select **yes**.
 
 1. After the machine starts, open an **Internet Explorer** browser, then click on **Ok**. 
 
-1. Open a New tab in the browser and browse to **https://www.bing.com** , and then close Internet Explorer Pop-ups. You will need to work through the IE enhanced security pop-ups. The page is displayed.
-
-    **Note**: We will now configure a rule to deny outbound internet access. 
+1. Open a new browser tab and navigate to **https://www.bing.com**. If any Internet Explorer security pop-ups appear, close them and proceed through the IE enhanced security prompts. The page should then be displayed.
+   
+   > **Note**: We will now configure a rule to deny outbound internet access. 
 
 1. Minimize the RDP session to navigate back to **Azure Portal**.
 
