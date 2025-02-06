@@ -95,7 +95,7 @@ In this task, we will create a network security group and associate it with the 
 
    >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
 
-     - Go to the **simplewinvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)**.
+     - Go to the **simplewinvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it **(2)**, choose **None (3)** from the dropdown, and Click on **save (4)**.
 
       - Navigate back to **myNSGSecure** Network security group then under **Settings** click **Network interfaces** and then **Associate**.
 
@@ -176,18 +176,32 @@ In this task, we will create an NSG outbound port rule that will deny Internet a
    
 1. Once the outbound rule is created, verify that the Destination Port Ranges are set to **\***. If the values are modified, change them back to **\*** and click **Save**. **Before clicking the Validate button, ensure that the Destination Port Ranges remain set to **\***, as not doing so will cause the validation to fail**.
 
-1. Return to your RDP session. 
+1. Return to SimpleWinVM **RDP session**.
 
-1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
+1. Browse to **[https://www.bing.com](https://www.bing.com)**. The page should not load. You may need to navigate through additional IE Enhanced Security pop-ups.
 
 1. Kindly refresh the page twice before initiating validation, as it may take a few minutes to take effect.
 
-<validation step="6cb758ec-f211-4b8d-a8cc-02b361092388" />
+1. Open **Microsoft Edge** from the desktop inside **SimpleWinVM**.
+
+   ![](../images/edge.png)
+   
+1. Once the new tab opens, select the **Office** icon.
+
+   ![](../images/office.png)
+
+   >**Note**: If the **Office** icon is not visible, browse to **[https://office.com](https://office.com)**.
+
+1. You will notice that access to the internet is now blocked.
+
+    ![](../images/blocked.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+  <validation step="6cb758ec-f211-4b8d-a8cc-02b361092388" />
 
 ### Review
 In this lab, you have completed:
