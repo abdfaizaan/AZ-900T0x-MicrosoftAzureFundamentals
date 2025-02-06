@@ -40,7 +40,7 @@ In this task, we will create a new container instance for the web application.
 1. In the Powershell session, within the Cloud Shell pane, run the following command. 
 
     ```cli
-    az container create --resource-group myRGContainer-<inject key="DeploymentID" enableCopy="false" /> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<inject key="DeploymentID" enableCopy="false" /> --ports 80
+    az container create --resource-group myRGContainer-<inject key="DeploymentID" enableCopy="false"/> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<inject key="DeploymentID" enableCopy="false"/> --ports 80 --os-type Linux
     ```
 
 1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder.
