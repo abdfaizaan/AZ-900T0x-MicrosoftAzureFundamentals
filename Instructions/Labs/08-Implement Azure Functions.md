@@ -44,6 +44,9 @@ In this task, we will create a Function app.
     | Region | **<inject key="Region" enableCopy="false"/>**|
     | Operating System  | **Windows**|
     | Pricing plan | Select **Basic B1** | 
+
+   ![](../images/create-funcapp-1702.png)
+   ![](../images/create-funcapp2-1702.png)
         
 1. Click **Review + create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
