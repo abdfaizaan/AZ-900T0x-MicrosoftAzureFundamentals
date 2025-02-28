@@ -31,7 +31,7 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/lab2-image2.png) 
 
-1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Container > (9)**.
+1. On the **Basics** tab of the **Create Web App** blade, specify the following and Click **Next : Database (9)>**:
  
     | Setting | Value |
     | -- | -- |
@@ -41,25 +41,37 @@ In this task, you will create an Azure App Service Web App.
     | Publish | **Container (4)** |
     | Operating System | **Linux (5)** |
     | Region | **<inject key="Region" enableCopy="false"/>** **(6)** (ignore any service plan availability warnings) |
+    |||
+
+     ![](../images/webapp.png)
+
+    | Setting | Value |
+    | -- | -- |
     | Linux Plan | **Pre Populated (7)** |
     | Pricing Plan | **Premium V3 POV3 (8)** |
     |||
 
-    ![](../images/webapp.png)
-
     ![](../images/az900lo2sri.png)
 
-1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (5)**.
+1. Keep everything unchanged and click **Next: Container >**.
+
+    ![](../images/container.png)
+
+1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (3)**.
 
     | Setting | Value |
     | -- | -- |
-    | Image Source | **Quickstart** |
-    | Sample | **NGINX** |
+    | Image Source | **Quickstart (1)** |
+    | Sample | **NGINX (2)** |
     |||
+
+     ![](../images/web-1.png)
 
      >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
-1. Once validation is passed click **Create**.
+1. Once the validation passes, click **Create**.
+
+    ![](../images/web-2.png)
 
 ### Task 2: Test the Web App
 
@@ -69,22 +81,22 @@ In this task, we will test the web app.
 
    ![](../images/lab2-image5.png)
 
-1. On the **Overview** blade, locate  the **Default Domain** entry.
+1. On the **Overview** blade, find the **Default Domain** entry.
 
      ![](../images/lab2-image6.png)
 
-1. Copy the URL and paste it into a new browser tab to observe the page.
+1. Copy the URL and paste it into a new browser tab to view the page.
 
     ![](images/linux-webapp.png)
 
-1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
-
-<validation step="4e49a9a7-41fd-406c-84a6-1c9b821b0217" />
+1. Switch back to the **Overview** blade of your web app and select the **Monitoring** tab. Note that it includes several charts. If you repeat step 4 a few times, you should see corresponding telemetry displayed in the charts, including the number of requests and the average response time.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+<validation step="4e49a9a7-41fd-406c-84a6-1c9b821b0217" />
 
 ### Review
 In this lab, you have completed:
