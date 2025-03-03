@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../images/az900lab04.PNG) 
+![](./images/az900lab04.PNG) 
 
 ### Task 1: Create a virtual network
 
@@ -30,6 +30,8 @@ In this task, we will create a virtual network.
    
 1. On **Virtual networks** page, click **+ Create**. 
 
+   ![](./images/vn.png)
+
 1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
       | Setting | Value | 
@@ -37,9 +39,9 @@ In this task, we will create a virtual network.
       | Name    | **vnet1** |
       | Subscription | **Keep default subscription**  |
       | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
-      | Location | **(US) East US** |
+      | Location | **<inject key="Region" enableCopy="false"/>** |
 
-      ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
+      ![](./images/0301a.png)
 
 1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
@@ -54,13 +56,15 @@ In this task, we will create a virtual network.
     | Subnet Name |**default**|
     | Subnet Address range | **10.1.0.0/24**|
   
-    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
+    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](./images/vnetnow.png)
 
     >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/).
 
 1. Click the **Review + create** button. Ensure the validation passes.
 
 1. Click the **Create** button to deploy the virtual network. 
+
+   ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](./images/vn1.png)
     
 ### Task 2: Create two virtual machines
 
@@ -138,7 +142,9 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    ![image](../images/vnet01.png)
 
-1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**.
+1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start (1)** button, typing **PowerShell (2)**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**.
+
+   ![image](../images/powershell.png)
 
 1. Try to ping vm2 (make sure vm2 is running). 
     ```

@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../images/az900lab01.PNG) 
+![](./images/az900lab01.PNG) 
 
 **Note**: Take time during this walk-through to click and read the Informational icons.
 
