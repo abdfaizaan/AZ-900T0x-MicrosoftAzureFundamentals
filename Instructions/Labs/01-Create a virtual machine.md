@@ -41,8 +41,13 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Subscription | **Accept default subscription** (1)|
     | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
-    | Location | **(US) East US** (4)|
+    | Location | **<inject key="Region" enableCopy="false"/>** (4)|
     | Image | **Windows Server 2019 Datacenter - x64 Gen2** (5)|
+
+     ![](./images/az900-1.png)
+
+    | Settings | Values |
+    |  -- | -- |     
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
@@ -50,33 +55,35 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Public Inbound ports  | **Allow select ports** (10)|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)** (11)|
     |||
-   
-    ![](../images/l1vmu.png)
-   
-    ![](../images/VM2u.png)
 
-1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
+    - Click on **Next:Disks >** (12).
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
+      ![](./images/az900--2.png)
 
-1. Within the Networking tab, look for the **Select inbound ports**.
+1. On the **Disks** tab and in the **OS Disk type** select **Standard HDD (1)** from the dropdown and leave everything else as default and click **Next : Networking > (2)**. 
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](./images/az900-3.png)
+
+1. Within the Networking tab, look for the **Select inbound ports** provide the below Values **(1)** and then click **Next : Management > (2)**.
 
     | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
+
+     ![Screenshot of the virtual machine properties with the Connect button highlighted.](./images/az900-4.png)    
    
-    >**Note:** - Verify that both port 80 and 3389 are selected.
+      >**Note:** - Verify that both port 80 and 3389 are selected.
 
-1. Click **Next : Management >** to switch to the **Management** tab and leave everything as default.
+1. On the **Management** tab and leave everything as default.
 
-1. Click **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting.
+1. Click **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting **(1)**. Leave the remaining defaults and then click the **Review + Create (2)** button at the bottom of the page.
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
-  
-1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
 
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](./images/az900-5.png)      
+  
 1. Once **Validation** is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
@@ -89,31 +96,46 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. Once the deployment is complete, click on **Go to resource** you will be directed to the page of the newly created Virtual Machine.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/goto.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](./images/az900-6.png)
    
-1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
+1. On the virtual machine **Overview** blade, click the **Connect (1)** button and choose the **Connect (2)** from the dropdown.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](./images/az900-7.png)
 
     >**Note:** The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
 1. Within the **Connect** page, click on **Download RDP File**.
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az900-8.png)
 
 1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
 
-1. **Open** the downloaded RDP file and click **Connect** when prompted. 
+1. **Open** the downloaded RDP file.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az900-9.png)
 
-1. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (.\azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
+1. Click **Connect** when prompted. 
 
-    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/(0103).png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az900-10.png)
+
+1. In the **Windows Security** window, select **More choices**.
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az900-11.png)
+
+1. Then **Use a different account**.
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az900-12.png)
+
+1. Provide the following credentials and then click on **OK (3)** to connect.
+
+    - username: `.\azureuser` **(1)**
+    - Password: `Pa$$w0rd1234` **(2)**
+
+      ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az900-13.png)
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
-    ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
+    ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](./images/az900-14.png)
 
 ### Task 3: Host a Basic Website on your New Azure Cloud VM
 
@@ -127,41 +149,69 @@ In this task, install the Web Server role on the server and host a basic website
     
     ![server manager](../images/network.png)
 
-2. In the **Add Roles and Features Wizard** dialog box, on the **Before You Begin** page, click **Next** to continue.
+1. In the **Add Roles and Features Wizard** dialog box, on the **Before You Begin** page, click **Next** to continue.
 
-3. Ensure **Role-based or feature-based installation** is selected in **Select installation type** page and  Click **Next**.
+    ![server manager](./images/az900-15.png)
 
-4. Ensure **Select a server from the server pool** is selected in **Select destianation server** page, and that your VM appears in the list below. Click on **Next**.
+1. Ensure **Role-based or feature-based installation (1)** is selected in **Select installation type** page and  Click **Next (2)**.
 
-5. On the **Select Server Roles** page, scroll down the list and check **Web Server (IIS)**. Then click **Add Features**.
+    ![server manager](./images/az900-16.png)
+
+1. Ensure **Select a server from the server pool (1)** is selected in **Select destianation server** page, and that your VM appears in the list below. Click on **Next (2)**.
+
+    ![server manager](./images/az900-17.png)
+
+1. On the **Select Server Roles** page, scroll down the list and check **Web Server (IIS)**. Then click **Add Features**.
 
     ![server pool](../images/az900-t3_s5.png)
 
-6. Click on **Next** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required** is checked. Then click on **Install**.
+    ![server manager](./images/az900-18.png)    
 
-    ![Restart the destination check box](../images/az900-t3_s7.png)
+1. Click on **Next** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required (1)** is checked. Then click on **Install (2)**.
+
+    ![server manager](./images/az900-20.png)
 
     >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
-7. When the installation completes, click on **Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
+1. When the installation completes **(1)**, click on **Close (2)** and back on the server manager portal.
 
-    ![](../images/az900-t3_s9.png)
+    ![server manager](./images/az900-21.png)
 
-8. In the **Internet Information Services (IIS) Manager** window, locate your server’s Default Web Site in the connections tree.
+1. Go to **Tools (1)** > **Internet Information Services (IIS) Manager (2)**.
+    
+    ![server manager](./images/az900-22.png)    
+
+1. In the **Internet Information Services (IIS) Manager** window, locate your server’s **Default Web Site** in the connections tree and then click on it.
 
     ![](../images/az900-t3_s10.png)
 
-9. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put 
-   your website html file.
+1. Now, click on **Basic Settings** in the **Actions** menu.
 
     ![](../images/az900-t3_s12.png)
 
-    ![](../images/az900t3s12u.png)
+1. In the new pop-up dialog box, locate the **Physical Path (1)** and click **OK (2)**. This is where you'll put your website html file.    
+
+    ![server manager](./images/az900-23.png)
 
    >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-11. Navigate to the Physical Path folder C:\inetpub\wwwroot, which is specified in the Basic Settings. Copy the **iisstart.html** file into this folder and rename it to  
-    **Default**. Right-click on Default.html, choose **Open with > Notepad**, replace the existing code with the below provided code, and then save the file.
+1. Navigate to `C:\inetpub\wwwroot` in the **File explorer**, which is specified in the Basic Settings. 
+
+    ![server manager](./images/az900-24.png)
+
+1. Copy the already presented **iisstart.html** file then paste into the into this folder.
+
+1. Right click on **iisstart-Copy (1)** and then **Rename (2)** it to  **Default**.
+
+    ![server manager](./images/az900-25.png)
+
+    ![server manager](./images/az900--27.png)    
+
+1. Right-click on **Default.html (1)**, choose **Open with (2) > Notepad (3)**.
+
+    ![server manager](./images/az900-26.png) 
+
+1. Replace the existing code with the below provided code, and then save the file.
 
     >**Note:** If you have trouble copying **iisstart.html**, select the iisstart.html and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
 
@@ -178,11 +228,11 @@ In this task, install the Web Server role on the server and host a basic website
     ```
     ![](../images/root.png)
 
-12. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
+1. Now back in the **Azure portal**, navigate back to the **Overview** blade of myVM and use the Copy to clipboard button to copy the **public IP address** of myVm.
 
-    ![](../images/az900-t3_vm_pip.png)
+    ![server manager](./images/az900-28.png) 
 
-13. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
+1. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
 
     ![](../images/az900-t3_last.png)
 
