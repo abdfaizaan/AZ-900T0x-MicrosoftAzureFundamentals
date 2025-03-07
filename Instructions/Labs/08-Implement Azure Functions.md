@@ -31,7 +31,7 @@ In this task, we will create a Function app.
 
    ![](../images/8-1.png)
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values: 
+1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values, click **Review + create (8)**: 
 
     | Settings | Value |
     | -- | --|

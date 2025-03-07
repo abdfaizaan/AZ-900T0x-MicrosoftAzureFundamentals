@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../images/az900lab04.PNG) 
+![](./images/az900lab04.PNG) 
 
 ### Task 1: Create a virtual network
 
@@ -30,6 +30,8 @@ In this task, we will create a virtual network.
    
 1. On **Virtual networks** page, click **+ Create**. 
 
+   ![](./images/vn.png)
+
 1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
       | Setting | Value | 
@@ -37,9 +39,9 @@ In this task, we will create a virtual network.
       | Name    | **vnet1** |
       | Subscription | **Keep default subscription**  |
       | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
-      | Location | **(US) East US** |
+      | Location | **<inject key="Region" enableCopy="false"/>** |
 
-      ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
+      ![](./images/0301a.png)
 
 1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
@@ -53,39 +55,60 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Subnet Name |**default**|
     | Subnet Address range | **10.1.0.0/24**|
-  
-    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
+
+    ![](./images/vnetnow.png)
 
     >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/).
 
 1. Click the **Review + create** button. Ensure the validation passes.
 
 1. Click the **Create** button to deploy the virtual network. 
+
+   ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](./images/vn1.png)
     
 ### Task 2: Create two virtual machines
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **Search resources, services, and docs(G+/)** blade, search for **Virtual machines** and then click **+ Create** and choose **Azure virtual machine**.
+1. From the **Search resources, services, and docs(G+/)** blade, search for **Virtual machines (1)** and select **Virtual machines (2)**.
+
+   ![](./images/vm.png)
+
+1. Click **+ Create** and choose **Azure virtual machine**.
+
+   ![](./images/vm1new.png)
 
 1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
    | Setting | Value | 
    | --- | --- |
-   | Subscription | **Use default supplied**  |
-   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
-   | Virtual machine name | **vm1**|
-   | Region | **(US) East US** |
+   | Subscription | **Use default supplied (1)**  |
+   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/> (2)** |
+   | Virtual machine name | **vm1 (3)**|
+   | Region | **(US) East US (4)** |
+
+    ![](./images/createvm.png)
+
+   | Setting | Value | 
+   | --- | --- |
    | Image | **Windows Server 2019 Datacenter - x64 Gen2** |
-   | Username| **azureuser** |
-   | Password| **Pa$$w0rd1234** |
-   | Public inbound ports| Select **Allow selected ports**  |
-   | Selected inbound ports| **RDP (3389)** |
+
+
+     ![](./images/imagevm1.png)
+
+   | Setting | Value | 
+   | --- | --- |
+   | Username| **azureuser (1)** |
+   | Password| **Pa$$w0rd1234 (2)** |
+   | Confirm Password| **Pa$$w0rd1234 (3)** |
+   | Public inbound ports| Select **Allow selected ports (4)**  |
+   | Selected inbound ports| **RDP (3389) (5)** |
+
+    ![](./images/vm1-1.png)
 
 1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
-
+   ![](../images/hdd.png)
 
 1. In **Networking** tab, make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
 
@@ -93,18 +116,67 @@ In this task, we will create two virtual machines in the virtual network.
    | --- | --- |
    | Virtual network | **vnet1** |
 
-1. Click **Review + create**. After the **Validation** passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
+1. Click **Review + create**.
+
+   ![](./images/vm1-2.png)
+
+1. After the **Validation** passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
+
+   ![](./images/vm1-3.png)
 
 1. Monitor your deployment, but continue on to the next step. 
 
-1. Create a second virtual machine by repeating steps **1 to 5** above from the task 2. Make sure you use a different virtual machine name as given below, and also the virtual machine is within the same virtual network, and is using a new public IP address. 
+1. From the **Search resources, services, and docs(G+/)** blade, search for **Virtual machines (1)** and select **Virtual machines (2)**.
 
-    | Setting | Value |
-    | --- | --- |
-    | Resource group | **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Virtual machine name |  **vm2** |
-    | Virtual network | **vnet1** |
-    | Public IP | (new) **vm2-ip** |
+   ![](./images/vm.png)
+
+1. Click **+ Create** and choose **Azure virtual machine**.
+
+   ![](./images/vm1new.png)
+
+1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
+
+   | Setting | Value | 
+   | --- | --- |
+   | Subscription | **Use default supplied (1)**  |
+   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/> (2)** |
+   | Virtual machine name | **vm2 (3)**|
+   | Region | **(US) East US (4)** |
+
+    ![](./images/createvm2.png)
+
+   | Setting | Value | 
+   | --- | --- |
+   | Image | **Windows Server 2019 Datacenter - x64 Gen2** |
+
+
+     ![](./images/imagevm1.png)
+
+   | Setting | Value | 
+   | --- | --- |
+   | Username| **azureuser (1)** |
+   | Password| **Pa$$w0rd1234 (2)** |
+   | Confirm Password| **Pa$$w0rd1234 (3)** |
+   | Public inbound ports| Select **Allow selected ports (4)**  |
+   | Selected inbound ports| **RDP (3389) (5)** |
+
+    ![](./images/vm1-1.png)
+
+1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
+
+   ![](../images/hdd.png)
+    
+
+1. In **Networking** tab, make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
+
+   | Setting | Value | 
+   | --- | --- |
+   | Virtual network | **vnet1 (1)** |
+   | Public IP | (new) **vm2-ip (2)** |
+
+1. Click **Review + create (3)**.
+
+   ![](./images/vm1-4.png)
 
 1. Wait for both virtual machines to deploy. 
 
@@ -116,7 +188,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/connect-vm1.png)
+    ![](../images/connect-vm1.png)
 
     >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
@@ -138,7 +210,9 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    ![image](../images/vnet01.png)
 
-1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**.
+1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start (1)** button, typing **PowerShell (2)**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**.
+
+   ![image](../images/powershell.png)
 
 1. Try to ping vm2 (make sure vm2 is running). 
     ```

@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../images/az900lab03.PNG) 
+![](./images/az900lab03.PNG) 
 
 ### Task 1: Create a container instance
 
@@ -33,7 +33,7 @@ In this task, we will create a new container instance for the web application.
    
 1. On the Getting started, select **No storage account required (1)** and select your **Subscription (2)** under storage account subscription. Click on **Apply (3)**.
 
-    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/new-az-900-lab3-3.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/new-az-900-lab3-3.png)
 
 1. In the upper-left menu of the Cloud Shell pane, make sure you are using **Powershell**. If not selected select **Switch to Powershell**. In **Switch to Powershell in Cloud Shell** pop-up select **Confirm**.
 
@@ -52,6 +52,10 @@ In this task, we will create a new container instance for the web application.
 ### Task 2: Verify deployment of the container instance
 
 In this task, we verify that the container instance is running by ensuring that the welcome page displays.
+
+1. On Azure Portal page, in **Search resources, services and docs (G+/) box** at the top of the portal, enter **resource groups (1)**, and then select **Resource groups(2)** under services.
+
+   ![](../images/resgrp.png)
 
 1. After the deployment is complete, navigate to **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** resource group and select **mycontainer** container instance.
 
