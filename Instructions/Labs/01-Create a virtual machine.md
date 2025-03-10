@@ -42,6 +42,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
     | Region | Select **<inject key="Region" enableCopy="false" />** (4)|
+    | Availability options | Select **Availability zone** |
+    | Zone options | Select **Self-selected zone** |
     | Image | **Windows Server 2019 Datacenter - x64 Gen2** (5)|
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
@@ -59,7 +61,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
-1. Within the Networking tab, look for the **Select inbound ports**:
+1. Within the Networking tab, look for **Select inbound ports** and leave other settings as default:
 
     | Settings | Values |
     | -- | -- |
