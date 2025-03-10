@@ -80,7 +80,7 @@ In this task, we will test the web app.
 
     ![](images/labnew-02-5.png)
 
-1. Switch back to the **Overview (1)** blade of your web app and select the **Monitoring (2)** tab. Note that it includes several charts. If you repeat **Step 4** a few times, you should be able to see the corresponding telemetry being displayed in the charts. This includes the number of requests and average response time.
+1. Switch back to the **Overview (1)** blade of your web app and select the **Monitoring (2)** tab. Note that it includes several charts. If you repeat **Step 3 and Step 4** a few times, you should be able to see the corresponding telemetry being displayed in the charts. This includes the number of requests and average response time.
 
     ![](images/az-900-40.png)
 
