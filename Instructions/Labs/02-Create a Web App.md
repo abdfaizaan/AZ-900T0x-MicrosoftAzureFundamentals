@@ -32,7 +32,7 @@ In this task, you will create an Azure App Service Web App.
 
 1. Within the **Basics** tab from the **Create Web App** blade, specify the following and click on **Next : Database > (9)**.
  
-    | Setting | Value |
+    | Setting | Values |
     | -- | -- |
     | Subscription | **Accept default subscription (1)** |
     | Resource Group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** **(2)** |
@@ -52,7 +52,7 @@ In this task, you will create an Azure App Service Web App.
 
 1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (4)**.
 
-    | Setting | Value |
+    | Setting | Values |
     | -- | -- |
     | Image Source | **Docker Hub or other registries (1)** |
     | Options | **Single container (2)** |
