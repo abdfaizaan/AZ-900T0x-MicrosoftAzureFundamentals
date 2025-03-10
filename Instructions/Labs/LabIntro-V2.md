@@ -10,13 +10,13 @@ The AZ-900: Microsoft Azure Fundamentals lab is an introductory, hands-on worksh
 
 The objective of the AZ-900: Microsoft Azure Fundamentals lab is to provide participants with a foundational understanding of cloud concepts and Microsoft Azure services. By the end of the workshop, attendees will have practical experience in using key Azure services, including virtual machines, storage, networking, and databases, while gaining insights into Azure’s pricing, governance, and security features. This hands-on experience is designed to empower participants to leverage Azure for building, managing, and deploying cloud applications and services, enabling them to make informed decisions and drive innovation within their organizations.
 
-- **Create a virtual machine in the portal:** Enable users to efficiently create and connect to virtual machines in the cloud, streamlining the setup of web hosting environments. Empower teams to host and manage basic websites with ease, directly on their new cloud VM.
+- **Create a Virtual Machine in the portal:** Enable users to efficiently create and connect to virtual machines in the cloud, streamlining the setup of web hosting environments. Empower teams to host and manage basic websites with ease, directly on their new cloud VM.
 
 - **Create a Web App:** Guide users to create and test a cloud-based web app, ensuring they can deploy and verify its functionality. This equips them with core skills in cloud-based web deployment and testing.
 
 - **Deploy Azure Container Instances:** Enable users to create and verify a container instance deployment in the cloud, providing foundational skills in containerized application setup and deployment validation.
 
-- **Create blob storage:** Enable users to create and manage cloud storage accounts, simplifying data storage and access. Empower teams to work with blob storage and monitor account performance for optimal data management and security.
+- **Create Blob storage:** Enable users to create and manage cloud storage accounts, simplifying data storage and access. Empower teams to work with blob storage and monitor account performance for optimal data management and security.
 
 - **Create a SQL database:** Enable users to efficiently create and configure databases, streamlining data storage and management. Empower teams to test database functionality, ensuring proper setup and performance for reliable data operations.
 
@@ -32,7 +32,7 @@ The objective of the AZ-900: Microsoft Azure Fundamentals lab is to provide part
 
 - **Implement Azure Key Vault:** Allow users to create an Azure Key Vault for securely storing sensitive information. Enable teams to add and manage secrets within the Key Vault, ensuring both data security and easy accessibility.
 
-- **Secure network traffic:** Allow users to create virtual machines and configure network security groups for controlled access. Enable teams to define inbound RDP rules and outbound security rules to manage network traffic and limit internet access.
+- **Secure Network traffic:** Allow users to create virtual machines and configure network security groups for controlled access. Enable teams to define inbound RDP rules and outbound security rules to manage network traffic and limit internet access.
 
 - **Manage access with RBAC:** Enable users to view and assign roles, streamlining access management. Empower teams to monitor role assignments and efficiently remove roles to maintain security and compliance.
 
@@ -58,10 +58,12 @@ In this lab, we have the following preconfigured:
 - You'll be provided with access to a pre-configured Microsoft user account, which comes with an active Azure subscription. 
 - The lab environment includes pre-established Resource Groups, simplifying the organization and management of related Azure resources.
 
-## Architechture
+## Architecture
 The architecture integrates various Azure services to manage and deploy resources efficiently. Key components include **Azure Virtual Machines** for computing, **Azure Storage Accounts** for data management, **Azure Key Vault** for security, and **Azure Resource Groups** for organization. **Azure CLI** and **Cloud Shell** are used for command-line management, while **Azure Policy** enforces compliance, ensuring a seamless cloud environment for resource orchestration, security, and cost management.
 
-## Architechture Diagram
+The architecture seamlessly integrates a range of Azure services to facilitate efficient resource management and deployment. Key components encompass **Azure Virtual Machines** for computing, **Azure Storage Accounts** for data management, **Azure Key Vault** for security measures, and **Azure Resource Groups** for organizational purposes. **Azure CLI** and **Cloud Shell** provide command-line management capabilities, while **Azure Policy** ensures compliance. This setup guarantees a cohesive cloud environment focused on resource orchestration, security, and cost management.
+
+## Architecture Diagram
 
 ![Azure Synapse Analytics Lab Exercises](../images/archdia.png "Solution architecture")
 
@@ -69,18 +71,18 @@ The architecture integrates various Azure services to manage and deploy resource
 
 The architecture for this lab involves the following key components:
 
-- **Virtual Machines (VMs)**: These are created and configured in several labs.
-- **Web Apps**: Tasks for creating and testing web apps.
-- **Storage Accounts**: Tasks for creating and working with storage accounts and blob storage.
-- **IoT Devices**: Tasks related to creating IoT devices and testing them using simulators.
-- **Resource Groups**: Used for organizing resources and configuring various permissions.
-- **Azure Key Vault**: Configured for secret management.
-- **Role-Based Access Control (RBAC)**: Assigning roles and permissions to users.
-- **Security Groups**: Configuring inbound and outbound security rules for network security.
-- **Azure CLI**: Used to create resources and execute commands.
-- **Azure Policies**: Assigning and testing policies like allowed locations and resource tags.
-- **Pricing Calculators**: Configuring cost estimations using the pricing calculator and TCO calculator.
-- **Microsoft Compliance Offerings**: Accessing compliance offerings and reviewing privacy policies.
+- **Azure Virtual Machines (VMs)**: Azure Virtual Machines (VMs) are on-demand, scalable computing resources provided by Microsoft Azure. They enable you to create and manage virtualized environments running various operating systems such as Windows and Linux.
+- **Azure Web Apps**: Azure Web Apps is a fully managed platform-as-a-service (PaaS) offering from Microsoft Azure that enables you to build, deploy, and scale web applications and services quickly and efficiently.
+- **Azure Storage Accounts**: Azure Storage Accounts provide a scalable, durable, and secure way to store and manage data in the cloud. They offer various storage options, including blobs, files, queues, and tables, catering to different data types and use cases. 
+- **Azure IoT Devices**: Azure IoT Devices are physical objects connected to the Microsoft Azure cloud platform, enabling the collection, analysis, and action on data from those devices in real-time.
+- **Azure Resource Groups**: Azure Resource Groups are logical containers in Microsoft Azure that hold related resources for an Azure solution. These resources can include virtual machines, storage accounts, virtual networks, and more. Resource groups provide an organizational structure that simplifies resource management, deployment, and monitoring.
+- **Azure Key Vault**: Azure Key Vault is a cloud service provided by Microsoft Azure that allows you to securely store and manage sensitive information such as keys, secrets, and certificates. 
+- **Role-Based Access Control (RBAC)**: Role-Based Access Control (RBAC) in Azure is a system for managing access to resources in the Azure cloud based on the roles assigned to users, groups, and applications. It allows you to enforce fine-grained permissions and ensure that users have only the access necessary to perform their tasks.
+- **Network Security Groups**: Network Security Groups (NSGs), are fundamental components for controlling network traffic to and from Azure resources. NSGs contain security rules that allow or deny inbound and outbound traffic based on various criteria such as source and destination IP addresses, ports, and protocols.
+- **Azure CLI**: Azure CLI (Azure Command-Line Interface) is a powerful tool for managing Azure resources through a command-line interface. It provides a consistent and scriptable way to interact with Azure services, enabling users to automate tasks, manage deployments, and perform various administrative functions.
+- **Azure Policies**: Azure Policy is a service in Microsoft Azure that enables you to create, enforce, and manage policies to ensure compliance and governance across your Azure resources. It helps you to implement organization-wide standards, regulatory requirements, and best practices.
+- **Azure Pricing Calculators**: Azure Pricing Calculator is a web-based tool that helps you estimate the costs of using various Azure services. It allows you to configure and calculate the estimated hourly or monthly costs for your specific scenarios, making it easier to plan and budget for your Azure usage.
+- **Microsoft Compliance Offerings**: Microsoft offers a comprehensive set of compliance offerings to help organizations meet regulatory requirements and industry standards.
 - **Support Plans**: Managing support plans and creating technical support requests.
 
 ## Getting Started with the Lab
