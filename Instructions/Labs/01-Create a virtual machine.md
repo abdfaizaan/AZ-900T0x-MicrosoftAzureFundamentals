@@ -111,6 +111,8 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
 
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/addimg1.png)
+
 1. **Open** the downloaded RDP file and click **Connect** when prompted. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
