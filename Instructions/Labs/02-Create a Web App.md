@@ -46,7 +46,7 @@ In this task, you will create an Azure App Service Web App.
 
     ![](../images/az-900-15.png)
 
-    ![](../images/az-900-new2.jpg)
+    ![image](../images/az-900-new2.jpg)
 
 1. On the **Database** tab, leave everything as default, and click on **Next: Container>**.
 
