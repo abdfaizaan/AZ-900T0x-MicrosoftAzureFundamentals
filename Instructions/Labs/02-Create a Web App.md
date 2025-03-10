@@ -1,36 +1,36 @@
 # Lab 02 - Create a Web App
 
-### Estimated timing: 20 minutes
+### Estimated Timing: 20 Minutes
 
-## Lab overview
+## Lab Overview
 
 Azure App Service is a fully managed web application hosting platform. This platform as a service (PaaS) is offered by Azure. 
 Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end, they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 
 In this walkthrough, we will create a new web app that runs a Docker container. 
 
-## Lab objectives
+## Lab Objectives
 
-In this lab, You will be able to complete the following tasks:
+In this lab, you will be able to complete the following tasks:
 + Task 1: Create a Web App
 + Task 2: Test the Web App
   
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab02.PNG) 
 
 ### Task 1: Create a Web App
 In this task, you will create an Azure App Service Web App.
 
-1. On the Azure Portal page, in the Search resources, services, and docs (G+/) box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
+1. On the Azure Portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
 
    ![](../images/az-900-11.png) 
 
-1. On **App Services** blade, click **+ Create (1)** then from dropdown select **+ Web App (2)**.
+1. On the **App Services** blade, click on the **+ Create (1)** option, and then from the dropdown, select **+ Web App (2)**.
 
    ![](../images/az-900-12.png) 
 
-1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Database > (9)**.
+1. Within the **Basics** tab from the **Create Web App** blade, specify the following and click on **Next : Database > (9)**.
  
     | Setting | Value |
     | -- | -- |
@@ -48,7 +48,7 @@ In this task, you will create an Azure App Service Web App.
 
     ![](../images/az-900-16.png)
 
-1. On the **Database** tab, leave everything as default, click on **Next: Container >**.
+1. On the **Database** tab, leave everything as default, and click on **Next: Container >**.
 
 1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (4)**.
 
@@ -61,7 +61,7 @@ In this task, you will create an Azure App Service Web App.
 
     ![](./images/az-900-39.png)
 
-    >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
+    >**Note:** This is the same container that was used in the Container Instances walkthrough to display a Hello World message.
 
 1. Once validation is passed click **Create**.
 
@@ -69,9 +69,9 @@ In this task, you will create an Azure App Service Web App.
 
 In this task, we will test the web app.
 
-1. Wait for the Web App to deploy. Once deployment gets success click **Go to resource**.
+1. Wait for the web app to deploy. Once deployment is successful, click on **Go to resource**.
 
-   ![](../images/lab2-image5.png)
+    ![](../images/lab2-image5.png)
 
 1. On the **Overview** blade, locate  the **Default Domain** entry.
 
@@ -81,7 +81,7 @@ In this task, we will test the web app.
 
     ![](images/labnew-02-5.png)
 
-1. Switch back to the **Overview (1)** blade of your web app and select **Monitoring (2)** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
+1. Switch back to the **Overview (1)** blade of your web app and select the **Monitoring (2)** tab. Note that it includes several charts. If you repeat **Step 4** a few times, you should be able to see the corresponding telemetry being displayed in the charts. This includes the number of requests and average response time.
 
     ![](images/az-900-40.png)
 
