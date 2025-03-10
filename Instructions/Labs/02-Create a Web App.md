@@ -46,7 +46,7 @@ In this task, you will create an Azure App Service Web App.
 
     ![](../images/az-900-15.png)
 
-    ![image](../images/az-new-1.jpg)
+    ![image](../images/new-az-900-2.jpg)
 
 1. On the **Database** tab, leave everything as default, and click on **Next: Container>**.
 
@@ -58,7 +58,7 @@ In this task, you will create an Azure App Service Web App.
     | Image and tag | **nginx (3)** |
     |||
 
-    ![image](../images/az-new-3.jpg)
+    ![image](../images/new-az-900-1.jpg)
 
     >**Note:** This is the same container that was used in the Container Instances walkthrough to display a Hello World message.
 
