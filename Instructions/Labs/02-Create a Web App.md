@@ -101,7 +101,7 @@ In this lab, you have completed:
 - Created a Web App
 - Tested the Web App
 
-## Reference links
+## Reference Links
 
 - https://azure.microsoft.com/en-us/products/app-service/?ref=jimmybogard.com
 
