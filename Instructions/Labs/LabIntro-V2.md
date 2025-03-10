@@ -59,7 +59,6 @@ In this lab, we have the following preconfigured:
 - The lab environment includes pre-established Resource Groups, simplifying the organization and management of related Azure resources.
 
 ## Architecture
-The architecture integrates various Azure services to manage and deploy resources efficiently. Key components include **Azure Virtual Machines** for computing, **Azure Storage Accounts** for data management, **Azure Key Vault** for security, and **Azure Resource Groups** for organization. **Azure CLI** and **Cloud Shell** are used for command-line management, while **Azure Policy** enforces compliance, ensuring a seamless cloud environment for resource orchestration, security, and cost management.
 
 The architecture seamlessly integrates a range of Azure services to facilitate efficient resource management and deployment. Key components encompass **Azure Virtual Machines** for computing, **Azure Storage Accounts** for data management, **Azure Key Vault** for security measures, and **Azure Resource Groups** for organizational purposes. **Azure CLI** and **Cloud Shell** provide command-line management capabilities, while **Azure Policy** ensures compliance. This setup guarantees a cohesive cloud environment focused on resource orchestration, security, and cost management.
 
