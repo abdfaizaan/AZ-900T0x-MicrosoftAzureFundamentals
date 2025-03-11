@@ -91,7 +91,7 @@ In this task, we will add a password to the key vault.
 
    ![](../images/lab12-image9.png)
 
-1. Under **properties**, note the **Secret Identifier**. This is the URL value that you can now use with applications. It provides a centrally managed and securely stored password. 
+1. Under **properties**, note the **Secret Identifier**. This is the URL value that you can use with applications. It provides a centrally managed and securely stored password. 
 
    ![](../images/lab12-image10.png)
    
