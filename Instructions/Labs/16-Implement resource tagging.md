@@ -1,4 +1,4 @@
-# Lab 16 - Implement resource tagging
+# Lab 16 - Implement Resource tagging
 
 ### Estimated timing: 30 minutes
 
