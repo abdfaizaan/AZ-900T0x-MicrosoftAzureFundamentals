@@ -1,4 +1,4 @@
-# Lab 11 - Create a VM with the CLI
+# Lab 11 - Create a VM with CLI
 
 ### Estimated timing: 15 minutes
 
@@ -18,7 +18,7 @@ In this lab, You will be able to complete the following tasks:
 
 ![](../images/az900lab11.png)
 
-### Task 1: Use CLI to create a virtual machine
+### Task 1: Use CLI to create Virtual machine
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.  
 
@@ -101,7 +101,7 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
 
 1. Close the **Cloud Shell** pane.
 
-### Task 3: Review Azure Advisor Recommendations
+### Task 3: Review Azure Advisor Recommendations (Optional)
 
 In this task, we will review Azure Advisor recommendations.
 
