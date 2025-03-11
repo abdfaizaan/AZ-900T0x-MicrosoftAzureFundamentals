@@ -12,15 +12,15 @@ In this walkthrough, we will create a virtual network, deploy two virtual machin
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Create a virtual network
-+ Task 2: Create two virtual machines
++ Task 1: Create a Virtual network
++ Task 2: Create two Virtual machines
 + Task 3: Test the connection
 
 ## Architecture diagram
 
 ![](../images/az900lab04.PNG) 
 
-### Task 1: Create a virtual network
+### Task 1: Create a Virtual network
 
 In this task, we will create a virtual network. 
 
@@ -65,7 +65,7 @@ In this task, we will create a virtual network.
 
 1. Click the **Create** button to deploy the virtual network. 
     
-### Task 2: Create two virtual machines
+### Task 2: Create two Virtual machines
 
 In this task, we will create two virtual machines in the virtual network. 
 
@@ -154,9 +154,10 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
 
-1. In the **Windows Security** window, select **More choices (1)** and then choose **Use a different account (2)**. Provide the username as `azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Then click **OK (5)** to connect.
+1. In the **Windows Security** window, provide the username as `azureuser`  if its not selected already, and the password `Pa$$w0rd1234` **(1)**. Then click **OK (2)** to connect.
 
-    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](./images/az-900-38.png)
+    ![](./images/new-az-900-3.jpg) 
+   
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
