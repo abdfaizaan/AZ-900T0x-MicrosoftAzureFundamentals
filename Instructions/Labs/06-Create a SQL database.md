@@ -39,7 +39,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
     | Database name| **db1 (3)** |       
     
-1. Next to the **Server** drop down list, click **Create new**. Click **OK (7)** when finished. **(4)**.
+1. Next to the **Server** drop down list, click **Create new**, and enter following details and click **OK (7)** when finished.
         
     | Setting | Value | 
     | --- | --- |
