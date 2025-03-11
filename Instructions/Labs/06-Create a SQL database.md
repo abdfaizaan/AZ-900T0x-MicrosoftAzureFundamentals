@@ -38,6 +38,15 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Subscription | **Choose your subscription (1)** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
     | Database name| **db1 (3)** |
+    | Server name | **sqlserver<inject key="DeploymentID" enableCopy="false"/> (1)** (must be unique) |
+    | Location | **(US) East US (2)** |
+    | Authentication method | **Use SQL authentication (3)** | 
+    | Server admin login | **sqluser (4)** |
+    | Password | **Pa$$w0rd1234 (5)** |
+    | Confirm Password | **Pa$$w0rd1234 (6)** |
+
+     ![](./images/az-900-65.png)  
+   
     | Workload Environment| **Development (5)** |
     | Compute + storage| **General Purpose - Serverless Gen 5 (6)** |
 
