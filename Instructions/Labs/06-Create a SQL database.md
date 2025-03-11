@@ -50,17 +50,20 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Password | **Pa$$w0rd1234 (5)** |
     | Confirm Password | **Pa$$w0rd1234 (6)** |
    
+   See the below picture as reference:
+   
+   ![](./images/az-900-65.png)
+   
 1. Enter the following parameters values
    
     | Setting | Value | 
     | --- | --- |
     | Workload Environment| **Development (5)** |
-    | Compute + storage| **General Purpose - Serverless Gen 5 (6)** |
+    | Compute + storage| **General Purpose - Serverless Gen 5 (6)** |  
 
-    ![](./images/az-900-65.png)
-
-    The final properties and values updated same as below pic for your reference  
+    The final properties and values updated same as below picture for your reference  
     ![](./images/az-900-66.png)
+   
 1. On the **Networking** tab and configure the following settings (leave others with their defaults) and then click on **Next: Security> (4)**
 
     | Setting | Value | 
