@@ -205,12 +205,13 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Destination service tag | **Internet (4)** |
     | Service | **Custom (5)** |
     | Destination port ranges | **\* (6)** |
-    | Protocol | **TCP (7)** |
+    | Protocol | **Any (7)** |
     | Action | **Deny (8)** |
     | Priority | **4000 (9)** |
     | Name | **DenyInternet (10)** |
    
-    ![](../images/az-900-140.png)      
+    ![](../images/new-az-900-4.jpg)
+    ![](../images/new-az-900-5.jpg)     
 
     >**Note**: Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly change it to **\*** and 
      click on **Save**.
