@@ -210,7 +210,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Priority | **4000 (9)** |
     | Name | **DenyInternet (10)** |
    
-    ![](../images/new-az-900-4.jpg)
+    ![](../images/new-az-900-6.jpg)
     ![](../images/new-az-900-5.jpg)     
 
     >**Note**: Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly change it to **\*** and 
