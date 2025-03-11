@@ -69,9 +69,9 @@ In this task, we will create storage accounts to test the required tagging.
 
     > **Note:** We are testing to see what happens when the tag is not supplied. 
 
-1. You will receive a Validation failed message. On the **Tags** tab note the error message stating that the Require a tag and its value on resources. 
+1. You will receive a Validation failed message. Select the **Validation failed. View error details** note the error message stating that the Require a tag and its value on resources. 
 
-    ![](../images/lab04-image18.png)
+    ![](../images/new-az-900-8.jpg)
 
 1. Provide the tagging information:- 
 
