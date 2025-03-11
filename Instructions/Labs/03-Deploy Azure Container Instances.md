@@ -36,10 +36,10 @@ In this task, we will create a new container instance for the web application.
 
 1. In the upper-left menu of the Cloud Shell pane, make sure you are using **Powershell**. If not selected select **Switch to Powershell**. In **Switch to Powershell in Cloud Shell** pop-up select **Confirm**.
 
-1. In the Powershell session, within the Cloud Shell pane, run the following command. 
+1. In the Powershell session, within the Cloud Shell pane, run the following command. Before running the command directly in the cloudshell, please open a notepad and paste the below code then add the Deployment ID (Lab VM's **Environment** tab) where ever it required in the code and then copy and paste it in the powershell session of the cloudshell and run it.
 
     ```cli
-    az container create --resource-group AZ-900-<YourDeploymentID> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<YourDeploymentID> --ports 80
+    az container create --resource-group AZ-900-<YourDeploymentID> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<YourDeploymentID> --ports 80 --os-type Linux
     ```
 
     >**Note:** Replace < YourDeploymentID> with the Deployment ID provided in the Lab VM's **Environment** tab.
