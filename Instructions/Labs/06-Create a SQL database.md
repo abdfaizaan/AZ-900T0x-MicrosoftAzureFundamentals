@@ -31,7 +31,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
    ![](./images/az-900-64.png)
    
-1. On the **Basics** tab, fill in this information and then click on **Next: Networking> (7)**.  
+1. On the **Basics** tab, fill in this information.  
 
     | Setting | Value | 
     | --- | --- |
@@ -54,7 +54,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
    
    ![](./images/az-900-65.png)
    
-1. Enter the following parameters values
+1. Complete the following details on the Basics tab and then click on **Next: Networking> (7)**
    
     | Setting | Value | 
     | --- | --- |
