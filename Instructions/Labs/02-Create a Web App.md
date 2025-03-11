@@ -55,7 +55,7 @@ In this task, you will create an Azure App Service Web App.
     | Setting | Values |
     | -- | -- |
     | Image Source | **Other registries (1)** |
-    | Image and tag | **nginx (3)** |
+    | Image and tag | **nginx (2)** |
     |||
 
     ![image](../images/new-az-900-1.jpg)
