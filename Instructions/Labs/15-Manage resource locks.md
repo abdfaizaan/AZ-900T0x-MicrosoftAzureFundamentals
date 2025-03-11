@@ -18,7 +18,7 @@ In this lab, You will be able to complete the following tasks:
 
 + Task 1: Verify the existing resource group
 + Task 2: Add a Lock to the resource group and test deletion
-+ Task 3: Test deleting a member of the resource group
++ Task 3: Test deleting a resource from the resource group
 + Task 4: Remove the resource lock
 
 ## Architecture diagram
@@ -67,7 +67,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
     ![](../images/lab15-image5.png)
 
-### Task 3: Test deleting a member of the resource group
+### Task 3: Test deleting a resource from the resource group
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
@@ -89,7 +89,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | Replication | **Locally redundant storage (LRS) (6)** |
     |||
 
-     ![](../images/lab15-image(7).png)
+     ![](../images/new-az-900-7.jpg)
 
 1. Once validated, click **Create**. Wait for the notification that the account was successfully created. 
 
