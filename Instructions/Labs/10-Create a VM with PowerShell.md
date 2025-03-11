@@ -19,7 +19,9 @@ In this lab, You will be able to complete the following tasks:
 
 ![](../images/az900lab10.JPG)
 
-### Task 1: Configure the Cloud Shell
+### Task 1: Configure the Cloud Shell(Optional)
+
+**If you are launching Cloud shell for th first time, then do this task, otherwise please go to next task.**
 
 In this task, we will configure Cloud Shell.
 
