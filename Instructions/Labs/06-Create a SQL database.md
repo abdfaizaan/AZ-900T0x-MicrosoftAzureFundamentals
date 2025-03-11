@@ -110,7 +110,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
    ![](./images/az-900-72.png)
 
-1. If you are able to login proceed with **Step 7**.
+1. If you are able to login proceed with **Step 5**.
 
 1. If you are not able to login, follow the below steps: 
 
