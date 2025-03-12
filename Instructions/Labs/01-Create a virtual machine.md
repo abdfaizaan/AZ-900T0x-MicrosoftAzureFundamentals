@@ -12,9 +12,9 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Create a virtual machine
-+ Task 2: Connect to the virtual machine
-+ Task 3: Host a basic website on your new cloud VM
++ Task 1: Create a Virtual Machine
++ Task 2: Connect to the Virtual Machine
++ Task 3: Host a Basic Website on your New Cloud VM
 
 ## Architecture Diagram
 
@@ -26,7 +26,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
-1. On the Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On the **Azure Portal** page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
    ![](../images/lab1-image1.png) 
 
@@ -207,9 +207,9 @@ In this exercise, we created a virtual machine (VM) in the cloud and connected t
 ## Review
 
 In this lab, you have completed:
-- Created a virtual machine
-- Connected to the virtual machine
-- Hosted a basic website on your new cloud VM.
+- Created a Virtual Machine
+- Connected to the Virtual Machine
+- Host a Basic Website on your New Cloud VM
 
 ## Reference links
 
