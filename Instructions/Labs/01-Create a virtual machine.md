@@ -2,39 +2,39 @@
 
 ### Estimated timing: 30 minutes
 
-## Lab overview
+## Lab Overview
 
-An Azure Virtual Machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
+An Azure virtual machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
 
 In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test.
 
-## Lab objectives
+## Lab Objectives
 
-In this lab, You will be able to complete the following tasks:
+In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Create the virtual machine
++ Task 1: Create a virtual machine
 + Task 2: Connect to the virtual machine
-+ Task 3: Host a Basic Website on your New Cloud VM
++ Task 3: Host a basic website on your new cloud VM
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab01.PNG) 
 
-**Note**: Take time during this walk-through to click and read the Informational icons.
+**Note**: Take time during this walkthrough to click and read the informational icons.
 
-### Task 1: Create the Virtual machine
+### Task 1: Create a Virtual Machine
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
-1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On the Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
    ![](../images/lab1-image1.png) 
 
-1. On the **Virtual machines** blade, click **+ Create (1)** and choose **Azure virtual machine (2)**.
+1. On the **Virtual machines** blade, click on **+ Create (1)** and choose **Azure virtual machine (2)**.
 
     ![](../images/lab1-image2.png) 
 
-1. On the **Basics** tab, fill in the following information (leave the defaults for everything else) then click on **Next: Disks (12)**
+1. On the **Basics** tab, fill in the following information (leave the defaults for everything else), then click on **Next: Disks (12)**
 
     | Settings | Values |
     |  -- | -- |
@@ -57,45 +57,45 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
    
     ![](../images/az-900-2.png)
 
-1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
+1. Click **Next : Disks >** to switch to the **Disks** tab. In the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
-1. Within the Networking tab, look for **Select inbound ports** and leave other settings as default:
+1. Within the **Networking** tab, look for **Select inbound ports** and leave other settings as default:
 
-    | Settings | Values |
+    | Settings | Value |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
 
     ![](../images/az-900-3.png)    
    
-    >**Note:** - Verify that both port 80 and 3389 are selected
+    >**Note:**  Verify that both port 80 and 3389 are selected
 
 1. Click **Next : Management >** to switch to the **Management** tab and leave everything as default.
 
 1. Click **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting:
 
-    | Settings | Values |
+    | Settings | Value |
     | -- | -- |
     | Boot diagnostics | **Disable**|
 
     ![](../images/az-900-4.png)        
   
-1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+1. Leave the remaining as default and then click on the **Review + create** button at the bottom of the page.
 
-1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+1. Once validation is passed, click on the **Create** button. It will take around five to seven minutes for the virtual machine to get deployed.
 
    ![](../images/az-900-5.png) 
 
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
-   >**Note**: Here is the reference link for virtual machine https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
+   >**Note**: Here is the reference link for the virtual machine https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
 
-### Task 2: Connect to the Virtual machine
+### Task 2: Connect to the Virtual Machine
 
 In this task, we will connect to our new virtual machine using RDP. 
 
-1. Once the deployment is complete, click on **Go to resource** you will be directed to the page of the newly created Virtual Machine.
+1. Once the deployment is complete, click on the **Go to resource** option. You will be redirected to the newly created virtual machine's page.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/az-900images.png)
    
@@ -121,15 +121,15 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/az-900-6.png)
 
-1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+1. You may receive a certificate warning during the sign-in process. Click on **Yes** to create the connection and connect to your deployed VM. You should be able to connect successfully.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](./images/az-900-61.png)
 
 ### Task 3: Host a Basic Website on your New Azure Cloud VM
 
-In this task, install the Web Server role on the server and host a basic website.
+In this task, you will install the web server role on the server and host a basic website.
 
-1. In the Server Manager (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
+1. In the **Server Manager** (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
 
     ![server manager](../images/az900-t3_s1.png)
 
@@ -149,21 +149,21 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![server pool](../images/az-900-8.png)
 
-1. Click on **Next >** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required (1)** is checked. Then click on **Install (2)**.
+1. Click on **Next >** until you reach the **Confirm installation selections** page, and make sure that the **Restart the destination server automatically if required (1)** is checked. Then click on **Install (2)**.
 
     ![Restart the destination check box](../images/az-900-9.png)
 
     >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
-1. When the installation completes, click on **Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
+1. When the installation completes, click on **Close**. Back on the **Server Manager** portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
 
     ![](../images/az900-t3_s9.png)
 
-1. In the Internet Information Services (IIS) Manager window, locate your server’s **Default Web Site** in the Connections tree.
+1. In the **Internet Information Services (IIS)** **Manager** window, locate your server’s **Default Web Site** in the **Connections** tree.
 
     ![](../images/az-900-10.png)
 
-1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put your website html file.
+1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you will put your website HTML file.
 
     ![](../images/az900-t3_s12.png)
 
@@ -171,7 +171,7 @@ In this task, install the Web Server role on the server and host a basic website
 
 1. Go to the Physical Path location specified in the Basic Settings(C:\inetpub\wwwroot). Navigate to the `File explore` from the botton then Copy and paste **iisstart.html** file in the same location. Rename the new file to **Default**. RIght click on Default.html file click on **Open With > Notepad** and delete the existing content then paste the below code into the same file and save the file.
 
-   >**Note**: If you have trouble copying iisstart.html, select the iisstart.html and use Ctrl + C to copy and Ctrl + V to paste it.
+    >**Note**: If you have trouble copying **iisstart.html**, select the **iisstart.html** and use **Ctrl + C** to copy and **Ctrl + V** to paste it.
 
     ```
     <html>
@@ -183,7 +183,8 @@ In this task, install the Web Server role on the server and host a basic website
     ```
     ![](../images/root.png)
 
-1. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the **public IP address** of myVm.
+1. Now, back in the **Azure Portal**, navigate back to the **Overview** blade of **myVM** and use the **Copy to clipboard** button to copy the **public IP address** of 
+   **myVm**.
 
     ![](../images/az-900-13.png)
 
@@ -206,9 +207,9 @@ In this exercise, we created a virtual machine (VM) in the cloud and connected t
 ## Review
 
 In this lab, you have completed:
-- Created the virtual machine
+- Created a virtual machine
 - Connected to the virtual machine
-- Hosted a Basic Website on your New Cloud VM
+- Hosted a basic website on your new cloud VM.
 
 ## Reference links
 
