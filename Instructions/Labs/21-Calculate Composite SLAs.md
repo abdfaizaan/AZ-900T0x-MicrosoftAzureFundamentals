@@ -1,8 +1,8 @@
 # Lab 21 - Calculate Composite SLAs
 
-### Estimated timing: 5 minutes
+### Estimated Timing: 5 minutes
 
-## Lab overview
+## Lab Overview
 
 Calculating Composite Service Level Agreements (SLAs) involves determining the overall availability or uptime of a system or service composed of multiple components, each with its own SLA. The composite SLA represents the combined reliability of all the individual components within the system.
 
@@ -15,14 +15,14 @@ Our example application consists of these Azure services. We will not go in to d
 + **Application Gateway**: To manage application access, and scaling. 
 + **Azure SQL Database**: To store application data. 
 
-## lab objectives
+## lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
 + Task 1: Determine the SLA uptime percentage values for our application
 + Task 2: Calculate the Application Composite SLA percentage uptime
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab21.png)
 
