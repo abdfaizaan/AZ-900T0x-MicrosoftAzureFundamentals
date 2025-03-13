@@ -14,29 +14,29 @@ In this lab, You will be able to complete the following tasks:
 + Task 1: Create a container instance
 + Task 2: Verify deployment of the container instance
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab03.PNG) 
 
-### Task 1: Create a container instance
+### Task 1: Create a Container Instance
 
-In this task, we will create a new container instance for the web application.
+In this task, we will create a new Container Instance for the web application.
 
 1. Open **Azure Cloud Shell** on **Azure Portal** by clicking on the icon (as shown in the screenshot) in the top right of the same.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](./images/az-900-19.png)
 
-1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+1. You might be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*) if you open the **Cloud Shell**, for the first time. If so, select **PowerShell**.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-20.png)
    
-1. On the Getting started, select **No storage account required (1)** and select your **Subscription (2)** under storage account subscription. Click on **Apply (3)**.
+1. On the **Getting Started** page, click on the **No storage account required (1)** option and select your **Subscription (2)** - **Storage Account Subscription**. Now, click on **Apply (3)**.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-21.png)
 
-1. In the upper-left menu of the Cloud Shell pane, make sure you are using **Powershell**. If not selected select **Switch to Powershell**. In **Switch to Powershell in Cloud Shell** pop-up select **Confirm**.
+1. In the upper-left menu of the Cloud Shell pane, make sure you are using **PowerShell**. If not selected, select **Switch to PowerShell**. In the **Switch to PowerShell in Cloud Shell** pop-up, select **Confirm**.
 
-1. In the Powershell session, within the Cloud Shell pane, run the following command. Before running the command directly in the cloudshell, please open a notepad and paste the below code then add the Deployment ID (Lab VM's **Environment** tab) where ever it required in the code and then copy and paste it in the powershell session of the cloudshell and run it.
+1. In the PowerShell session, within the Cloud Shell pane, run the following command. Before running the command directly in the cloudshell, please open a notepad and paste the below code then add the Deployment ID (Lab VM's **Environment** tab) where ever it required in the code and then copy and paste it in the powershell session of the cloudshell and run it.
 
     ```cli
     az container create --resource-group AZ-900-<YourDeploymentID> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<YourDeploymentID> --ports 80 --os-type Linux
@@ -46,15 +46,15 @@ In this task, we will create a new container instance for the web application.
 
 1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder.
 
-1. You will see the resource created in the **powershell** window.
+1. You will be able to see the resource created in the **PowerShell** window..
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-17.png)
 
-### Task 2: Verify deployment of the container instance
+### Task 2: Verify Deployment of the Container Instance
 
-In this task, we verify that the container instance is running by ensuring that the welcome page displays.
+In this task, we will verify that the Container Instance is running. This we will ensure by checking if the welcome page is displayed.
 
-1. After the deployment is complete, navigate to **AZ-900-<inject key="DeploymentID" enableCopy="false" />** resource group and select **mycontainer** container instance.
+1. After the deployment is complete, navigate to the **AZ-900-<inject key="DeploymentID" enableCopy="false" />** resource group and select **mycontainer** container instance.
 
    ![](./images/az-900-18.png)
 
@@ -66,7 +66,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
     ![](../images/lab3-image4.png)
 
-1. Paste the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
+1. Paste the container's FQDN into the new browser tab and press **Enter**. The welcome page should be displayed.
 
    >**Note**: It might take 3 - 5 minutes to load the page.
  
@@ -86,10 +86,10 @@ In this exercise, we created a container instance and verified its successful de
 
 ## Review
 In this lab, you have completed:
-- Created a container instance
-- Verified deployment of the container instance
+- Created a Container Instance.
+- Verified deployment of the Container Instance.
 
-## Reference links
+## Reference Links
 
 - https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview
 
