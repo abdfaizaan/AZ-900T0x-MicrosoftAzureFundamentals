@@ -1,28 +1,28 @@
 # Lab 11 - Create a VM with CLI
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 minutes
 
-## Lab overview
+## Lab Overview
 
 In this walkthrough, we will configure the Cloud Shell, use Azure CLI to create a virtual machine, and review Azure Advisor recommendations.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Use CLI to create a virtual machine
-+ Task 2: Execute commmands in the Cloud Shell
++ Task 1: Use CLI to Create a Virtual Machine
++ Task 2: Execute Commmands in the Cloud Shell
 + Task 3: Review Azure Advisor Recommendations
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab11.png)
 
-### Task 1: Use CLI to create Virtual machine
+### Task 1: Use CLI to Create Virtual Machine
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.  
 
-1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. From the Azure portal page, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
 
@@ -64,13 +64,13 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
     >**Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
-1. When the command finishes running, in the cloudshell pane, close the Cloud Shell pane.
+1. When the command finishes running, in the cloud Shell pane, close the Cloud Shell pane.
 
-1. In the Azure portal, search for **Virtual machines** and verify that **myVMCLI1** is running.
+1. On the Azure portal, search for **Virtual machines** and verify that **myVMCLI1** is running.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](./images/az-900-111.png)
 
-### Task 2: Execute commmands in the Cloud Shell
+### Task 2: Execute Commmands in the Cloud Shell
 
 In this task, we will practice executing CLI commands from the Cloud Shell. 
 
@@ -127,9 +127,9 @@ In this task, we will review Azure Advisor recommendations.
 
     ![Screenshot of the Advisor All recommendations page. ](./images/az-900-103.png)
 
-1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
+1. Notice that from the **Alerts (Preview)** in the left navigation pane, you can create alerts.
 
-   ![](./images/az-900-104.png)
+    ![](./images/az-900-104.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -144,11 +144,11 @@ In this exercise, we configured the Cloud Shell and used the CLI to create a vir
 ## Review
 In this lab, you have completed:
 - Configured the Cloud Shell
-- Used CLI to create a virtual machine
-- Executed commands in the Cloud Shell
+- Used CLI to Create a Virtual Machine
+- Executed Commands in the Cloud Shell
 - Reviewed Azure Advisor Recommendations
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
    
