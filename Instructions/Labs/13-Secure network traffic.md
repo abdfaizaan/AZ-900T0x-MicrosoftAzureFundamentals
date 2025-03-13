@@ -1,27 +1,27 @@
-# Lab 13 - Secure network traffic
+# Lab 13 - Secure Network Traffic
 
-### Estimated timing: 30 minutes
+### Estimated Timing: 30 minutes
 
-## Lab overview
+## Lab Overview
 
 A Network Security Group (NSG) is a fundamental component of the network security architecture within Microsoft Azure. It acts as a basic, stateful, and centralized firewall for controlling inbound and outbound traffic to network interfaces (NIC), virtual machines (VM), and Azure Virtual Network (VNet) resources.
 
 In this walkthrough, we will configure a network security group.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Create a Virtual machine
-+ Task 2: Create a network security group
-+ Task 3: Configure an inbound security port rule to allow RDP
-+ Task 4: Configure an outbound security port rule to deny Internet access
++ Task 1: Create a Virtual Machine
++ Task 2: Create a Network Security Group
++ Task 3: Configure an Inbound Security Port Rule to Allow RDP
++ Task 4: Configure an Outbound Security Port Rule to Deny Internet Access
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab13.png)
 
-### Task 1: Create a virtual machine 
+### Task 1: Create a Virtual Machine 
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
@@ -56,7 +56,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
    
 1. Switch to the **Networking** tab, and configure the following setting:
 
-    | Settings | Values |
+    | Settings | Value |
     | -- | -- |
     | NIC network security group | **None**|
    
@@ -64,7 +64,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. Switch to the **Monitoring** tab, select the following setting and then click on **Review + create (2)** button at the bottom of the page.
 
-    | Settings | Values |
+    | Settings | Value |
     | -- | -- |
     | Boot diagnostics | **Disable (1)**|
 
@@ -84,7 +84,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
     ![](./images/az-900-129.png)             
 
-### Task 2: Create a network security group
+### Task 2: Create a Network Security Group
 
 In this task, we will create a network security group and associate it with the network interface.
 
@@ -98,7 +98,7 @@ In this task, we will create a network security group and associate it with the 
 
 1. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings and then click on **Review + create (5)**
 
-    | Setting | Value |
+    | Setting | Values |
     | -- | -- |
     | Subscription | **Choose your subscription (1)** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)**|
@@ -123,7 +123,7 @@ In this task, we will create a network security group and associate it with the 
 
     ![](./images/az-900-134.png)    
 
-### Task 3: Configure an inbound security port rule to allow RDP
+### Task 3: Configure an Inbound Security Port Rule to Allow RDP
 
 In this task, we will allow RDP traffic to the virtual machine by configuring an inbound security port rule. 
 
@@ -155,7 +155,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. On the **Add inbound security rule** provide the below values to the respective settings and  Click **Add (10)**. 
 
-    | Setting | Value |
+    | Setting | Values |
     | -- | -- |
     | Source | **Any (1)**|
     | Source port ranges | **\* (2)** |
@@ -171,7 +171,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine using downloaded rdp file. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
-### Task 4: Configure an outbound security port rule to deny Internet access
+### Task 4: Configure an Outbound Security Port Rule to Deny Internet Access
 
 In this task, we will create a NSG outbound port rule that will deny Internet access and then test to ensure the rule is working.
 
@@ -197,7 +197,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add (11)** after configuring the below settings. 
 
-    | Setting | Value |
+    | Setting | Values |
     | -- | -- |
     | Source | **Any (1)**|
     | Source port ranges | **\* (2)** |
@@ -238,10 +238,10 @@ In this exercise, we created a virtual machine and a network security group (NSG
 
 ## Review
 In this lab, you have completed:
-- Created a virtual machine
-- Created a network security group
-- Configured an inbound security port rule to allow RDP
-- Configure an outbound security port rule to deny Internet access
+- Created a Virtual Machine
+- Created a Network Security Group
+- Configured an Inbound Security Port Rule to Allow RDP
+- Configured an Outbound Security Port Rule to Deny Internet Access
 
 ## Reference Links
 - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
