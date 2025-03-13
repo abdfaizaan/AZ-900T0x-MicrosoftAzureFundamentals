@@ -1,10 +1,10 @@
 # Lab 07 - Implement an Azure IoT Hub
 
-### Estimated timing: 20 minutes
+### Estimated Timing: 20 minutes
 
-## Lab overview
+## Lab Overview
 
-The Internet of Things (IoT) is a network of physical devices that connect to and exchange data with other devices and services over the Internet or other network. Azure IoT Hub is a managed service hosted in the cloud that acts as a central message hub for communication between an IoT application and its attached devices.
+The Internet of Things (IoT) is a network of physical devices that connect to and exchange data with other devices and services over the Internet or other networks. Azure IoT Hub is a managed service hosted in the cloud that acts as a central message hub for communication between an IoT application and its attached devices.
 
 Azure IoT Edge is a device-focused runtime that enables you to deploy, run, and monitor containerized Linux workloads.
 
@@ -16,15 +16,15 @@ Azure IoT Edge is made up of three components:
 
  - A cloud-based interface enables you to remotely monitor and manage IoT Edge devices.
 
-In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi simulator to your Azure IoT Hub, and you view metrics for the messaging activity in Azure Portal.
+In this walkthrough, we will configure a new Azure IoT Hub in Azure portal and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi Simulator to your Azure IoT Hub, and you will be able to view relevant metrics related to the messaging activity in the Azure portal.
 
-## Lab objectives
+## Lab Objectives
 
-In this lab, You will be able to complete the following tasks:
+In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Create an IoT hub
-+ Task 2: Add an IoT device
-+ Task 3: Test the device using the Raspberry Pi Simulator
++ Task 1: Create an IoT Hub
++ Task 2: Add an IoT Device
++ Task 3: Test the Device using the Raspberry Pi Simulator
 
 ## Architecture diagram
 
@@ -32,17 +32,17 @@ In this lab, You will be able to complete the following tasks:
 
 ### Task 1: Create an IoT hub
 
-In this task, we will create an IoT hub. 
+In this task, we will create an IoT Hub. 
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
+1. On Azure portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
 
    ![](./images/az-900-77.png)
   
-1. On the **Iot Hub** blade, click **+ Create**.
+1. On the **IoT Hub** blade, click on **+ Create**.
 
 1. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details and click **Review + create (6)**.
 
-    | Settings | Value |
+    | Settings | Values |
     |--|--|
     | Subscription | **Accept default subscription (1)** |
     | Resource Group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)**  |
@@ -53,17 +53,17 @@ In this task, we will create an IoT hub.
 
     ![](./images/az-900-78.png)
   
-1. Click the **Create** button on **Review + create** tab to begin creating your new Azure IoT Hub instance.
+1. Click on the **Create** button on the **Review + create** tab to begin creating your new Azure IoT Hub instance.
 
    ![](./images/az-900-79.png)
 
 1. Wait until the Azure IoT Hub instance is deployed. 
 
-### Task 2: Add an IoT device
+### Task 2: Add an IoT Device
 
 In this task, we will add an IoT device to the IoT hub. 
 
-1. When the deployment has completed, click **Go to resource** from the deployment blade. 
+1. When the deployment has been completed, click on the **Go to resource** option from the deployment blade. 
 
 	![](../images/lab7-image3.png)
 
@@ -71,7 +71,7 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![](../images/lab7-image4.png)
 
-   >**Note:** If you are not able to see the left navigation pane, please try out zoom out/in in the browser settings inside the lab vm.
+   >**Note:** If you are not able to see the left navigation pane, please try zooming out/in in the browser settings inside the lab VM.
 
 1. Provide a **Device ID** for your new IoT device, **<inject key="DeploymentID" enableCopy="false" />** **(1)**, and click the **Save (2)** button. This will create a new IoT device identity in your Azure IoT Hub.
 
@@ -81,7 +81,7 @@ In this task, we will add an IoT device to the IoT hub.
 
    ![](../images/lab7-image6.png)
 
-1. Select **<inject key="DeploymentID" enableCopy="false" />** and copy the **Primary Connection String** value then paste it in any text editor like Notepad. You will use this key in the next task to authenticate a connection to the Raspberry Pi simulator.
+1. Select **<inject key="DeploymentID" enableCopy="false" />** and copy the **Primary Connection String** value then paste it into any text editor like Notepad. You will use this key in the next task to authenticate a connection to the Raspberry Pi Simulator.
 
 	![](../images/lab7-image7.png)
 
@@ -131,7 +131,7 @@ In this lab, you have completed:
 - Added an IoT device
 - Tested the device using the Raspberry Pi Simulator
 
-## Reference links
+## Reference Links
 
 - https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub
   
