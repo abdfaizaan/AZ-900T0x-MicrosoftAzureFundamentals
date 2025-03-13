@@ -1,14 +1,14 @@
 # Lab 03 - Deploy Azure Container Instances
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 minutes
 
-## Lab overview
+## Lab Overview
 
 Azure Container Instances enables exposing your container groups directly to the internet with an IP address and a fully qualified domain name (FQDN). When you create a container instance, you can specify a custom DNS name label so your application is reachable. Azure Container Instances offers the fastest and simplest way to run a container in Azure, without having to manage any virtual machines and without having to adopt a higher-level service.
 
-In this walkthrough, we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page.
+In this walkthrough, we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure portal. The container is a Welcome to ACI web application that displays a static HTML page.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 + Task 1: Create a container instance
@@ -22,7 +22,7 @@ In this lab, You will be able to complete the following tasks:
 
 In this task, we will create a new container instance for the web application.
 
-1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. Open **Azure Cloud Shell** on **Azure Portal** by clicking on the icon (as shown in the screenshot) in the top right of the same.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](./images/az-900-19.png)
 
@@ -46,7 +46,7 @@ In this task, we will create a new container instance for the web application.
 
 1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder.
 
-1. You will see the resource created in the powershell window.
+1. You will see the resource created in the **powershell** window.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-17.png)
 
