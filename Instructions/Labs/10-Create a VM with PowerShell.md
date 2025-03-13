@@ -1,21 +1,21 @@
 # Lab 10 - Create a VM with PowerShell 
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 minutes
 
-## Lab overview
+## Lab Overview
 
 In this walkthrough, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
 + Task 1: Configure the Cloud Shell
-+ Task 2: Create a virtual machine
-+ Task 3: Execute commands in the Cloud Shell
++ Task 2: Create a Virtual Machine
++ Task 3: Execute Commands in the Cloud Shell
 + Task 4: Review Azure Advisor Recommendations
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab10.JPG)
 
@@ -31,19 +31,19 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1001.png)
 
-1. If you're launching Cloud Shell for the first time, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+1. If you're launching Cloud Shell for the first time, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **PowerShell**.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-20.png)
 
-1. On the Getting started, select **Mount storage account (1)** and select your subscription **(2)** under storage account subscription. Click on **Apply (3)**.
+1. On the **Getting started** page, select **Mount storage account (1)** and select your subscription under **Storage account subscription (2)**. Click on **Apply (3)**.
 
    ![](./images/az-900-105.png)
 
-1. On the Mount storage account tab, select **I want to create a storage account (1)** and then click on **Next (2)**.
+1. On the **Mount storage account** tab, select **I want to create a storage account (1)** and then click on **Next (2)**.
 
    ![](./images/az-900-106.png)
 
-1. On the create storage account tab, provide the details and select **Create (6)**
+1. On the **Create storage account** tab, provide the following details and select **Create (6)**.
 
     | Settings | Values |
     |  -- | -- |
@@ -55,7 +55,7 @@ In this task, we will configure Cloud Shell.
 
     ![](./images/az-900-107.png)    
 
-### Task 2: Create a virtual machine
+### Task 2: Create a Virtual Machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.
 
@@ -91,7 +91,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
     ![](./images/az-900-96.png)    
 
-    >**Note**: Wait for VM to deploy before closing PowerShell
+    >**Note**: Wait for the VM to deploy before closing the PowerShell.
 
 1. Close the PowerShell session Cloud Shell pane.
 
@@ -110,11 +110,11 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 >**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
 
-### Task 3: Execute commands in the Cloud Shell
+### Task 3: Execute Commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell.
 
-1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. From the Azure portal page, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
@@ -166,7 +166,7 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
     ![Screenshot of the Advisor All recommendations page. ](./images/az-900-103.png)
 
-1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
+1. 1. Notice that from the **Alerts (Preview)** option in the left navigation pane, you can create alerts.
 
    ![](./images/az-900-104.png)
 
@@ -180,7 +180,7 @@ In this lab, you have completed:
 - Executed commands in the Cloud Shell
 - Reviewed Azure Advisor Recommendations
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
 
