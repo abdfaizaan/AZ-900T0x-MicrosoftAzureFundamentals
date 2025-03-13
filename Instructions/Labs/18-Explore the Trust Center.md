@@ -1,21 +1,21 @@
 # Lab 18 - Explore Microsoft Compliance Offerings
 
-### Estimated timing: 5 minutes
+### Estimated Timing: 5 minutes
 
-## Lab overview
+## Lab Overview
 
 Microsoft offers a comprehensive set of compliance offerings to help organizations meet regulatory standards. These offerings span across Microsoft 365, Azure, and other Microsoft services.
 
 In this walkthrough, we will access the Compliance Offerings and Service Trust Portal (STP).
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
 + Task 1: Access Microsoft Compliance Offerings
 + Task 2: Access the Service Trust Portal (STP)
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab18.png)
 
