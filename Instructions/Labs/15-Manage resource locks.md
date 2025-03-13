@@ -1,8 +1,8 @@
 # Lab 15 - Manage resource locks
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 minutes
 
-## Lab overview
+## Lab Overview
 
 To protect your Azure resources from accidental deletions or modifications, you can use management locks. These locks allow you to enforce restrictions at different levels: subscription, resource group, or individual resource.
 
@@ -12,20 +12,20 @@ Delete Locks: Can’t delete the resource but the authorized user can read and m
 
 In this walkthrough,  we will verify the existing resource group, add a lock to the resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Verify the existing resource group
-+ Task 2: Add a Lock to the resource group and test deletion
-+ Task 3: Test deleting a resource from the resource group
-+ Task 4: Remove the resource lock
++ Task 1: Verify the Existing Resource Group
++ Task 2: Add a Lock to the Resource Group and Test Deletion
++ Task 3: Test Deleting a Member of the Resource Group
++ Task 4: Remove the Resource Lock
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab15.png)
 
-### Task 1: Verify the existing resource group
+### Task 1: Verify the Existing Resource Group
 
 In this task, we will verify the existing resource group for this exercise. 
 
@@ -35,21 +35,21 @@ In this task, we will verify the existing resource group for this exercise.
 
 1. View the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
-### Task 2:  Add a Lock to the resource group and test deletion
+### Task 2:  Add a Lock to the Resource Group and Test Deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. In the Azure portal, navigate to the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
+1. In the Azure portal page, navigate to the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
 
 1. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
-1. Expand **Settings** section, click **Locks (1)**, and then click **+ Add (2)**. 
+1. Expand the **Settings** section, click on **Locks (1)**, and then click on **+ Add (2)**. 
 
     ![](../images/lab15-image2.png)
 
-1. Configure the new lock. When you are done click **OK (3)**. 
+1. Configure the new lock. When you are done click on **OK (3)**. 
 
-    | Setting | Value | 
+    | Setting | Values | 
     | --- | --- |
     | Lock name | **RGLock (1)** |
     | Lock Type | **Delete (2)** |
@@ -59,15 +59,15 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 1. On **AZ-900-<inject key="DeploymentID" enableCopy="false"/> | Locks** blade, from the left navigation select **Overview**.
 
-1. On **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** blade, click on **Delete resource group (1)**. Copy the **Resource Group** name **(2)** and paste it into the **Enter resource group name to confirm deletion (3)** and click **Delete** **(4)** then confirm the deletion by selecting **Delete** on **Delete Confirmtion** window.
+1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** blade, click on **Delete resource group (1)**. Copy the **Resource Group** name **(2)** and paste it into the **Enter resource group name to confirm deletion (3)** and click on **Delete** **(4).** Confirm the deletion by selecting **Delete** on the **Delete Confirmation** window.
 
    ![](../images/lab15-image4.png)
 
-1. You receive an error message stating the resource group is locked and can't be deleted.
+1. You will receive an error message stating the resource group is locked and cannot be deleted.
 
     ![](../images/lab15-image5.png)
 
-### Task 3: Test deleting a resource from the resource group
+### Task 3: Test Deleting a Member of the Resource Group
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
@@ -79,7 +79,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information. Leave the defaults for everything else and click on **Review + create (7)**.
 
-    | Setting | Value |
+    | Setting | Values |
     | --- | --- |
     | Subscription | **accept the default (1)** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
@@ -103,11 +103,11 @@ In this task, we will test if the resource lock protects a storage account in th
 
     **Note**: Although we did not create a lock specifically for the storage account, we did create a lock at the resource group level, which contains the storage account. As such, this *parent* level lock prevents us from deleting the resource and the storage account inherits the lock from the parent.
 
-### Task 4: Remove the resource lock
+### Task 4: Remove the Resource Lock
 
 In this task, we will remove the resource lock and test. 
 
-1. Return to the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** resource group blade and, in the **Settings** section, click **Locks (1)**. Click the **Delete (2)** link to the right of the **RGLock** entry.
+1. Return to the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** resource group blade and, in the **Settings** section, click on **Locks (1)**. Click on the **Delete (2)** option to the right of the **RGLock** entry.
 
     ![](../images/lab15-image10.png)
 
@@ -140,7 +140,7 @@ In this lab, you have completed:
 - Test deleting a member of the resource group
 - Remove the resource lock
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/azure/storage/common/lock-account-resource?tabs=portal
   
