@@ -1,29 +1,29 @@
-# Lab 06 - Create a SQL database
+# Lab 06 - Create a SQL Database
 
-### Estimated timing: 20 minutes
+### Estimated Timing: 20 minutes
 
-## Lab overview
+## Lab Overview
 
 A SQL database is a collection of tables that stores a specific set of structured data using a relational model. It is designed to efficiently organize and retrieve data using a language called Structured Query Language (SQL).
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Create the database
-+ Task 2: Test the database
++ Task 1: Create the Database
++ Task 2: Test the Database
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab06.PNG) 
 
-### Task 1: Create the database
+### Task 1: Create the Database
 
-In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
+In this task, we will create an SQL database based on the AdventureWorksLT sample database.
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for **SQL databases (1)** and select **SQL databases (2)**. 
+1. On the Azure portal page, from the **Search resources, services, and docs** blade, search for **SQL databases (1)** and select **SQL databases (2)**. 
 
    ![](./images/az-900-63.png)
 
@@ -33,7 +33,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
    
 1. On the **Basics** tab, fill in this information.  
 
-    | Setting | Value | 
+    | Setting | Values | 
     | --- | --- |
     | Subscription | **Choose your subscription (1)** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
@@ -41,7 +41,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     
 1. Next to the **Server** drop down list, click **Create new**, and enter following details and click **OK (7)** when finished.
         
-    | Setting | Value | 
+    | Setting | Values | 
     | --- | --- |
     | Server name | **sqlserver<inject key="DeploymentID" enableCopy="false"/> (1)** (must be unique) |
     | Location | **(US) East US (2)** |
@@ -54,9 +54,9 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
    
    ![](./images/az-900-65.png)
    
-1. Complete the following details on the Basics tab and then click on **Next: Networking> (7)**
+1. Complete the following details on the **Basics** tab and then click on **Next: Networking> (7)**
    
-    | Setting | Value | 
+    | Setting | Values | 
     | --- | --- |
     | Workload Environment| **Development (5)** |
     | Compute + storage| **General Purpose - Serverless Gen 5 (6)** |  
@@ -66,7 +66,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
    
 1. On the **Networking** tab and configure the following settings (leave others with their defaults) and then click on **Next: Security> (4)**
 
-    | Setting | Value | 
+    | Setting | Values | 
     | --- | --- |
     | Connectivity method | **Public endpoint (1)** |    
     | Allow Azure services and resources to access this server | **Yes (2)** |
@@ -76,13 +76,13 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 1. On the **Security** tab. Verfy the below Setting and then click on **Next: Additional settings >**
  
-    | Setting | Value | 
+    | Setting | Values | 
     | --- | --- |
     | Enable Microsoft Defender for SQL| **Not now** |
 
-1. On the **Additional settings** tab, provide the below information. We will be using the **AdventureWorksLT** sample database, if pop-up comes, click on **OK (2)** and then click on **Review + create (3)**.
-
-    | Setting | Value | 
+1. 1. On the **Additional settings** tab, insert the information available below. We will be using the **AdventureWorksLT** **sample (1)** database. If a pop-up comes up, click on **OK (2)** and then click on **Review + create (3)**.
+      
+    | Setting | Values | 
     | --- | --- |
     | Use existing data | **Sample (1)** |
 
@@ -92,7 +92,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
    ![](./images/az-900-69.png)
 
-1. Wait for the deployment to get succeeded.
+1. Wait for the deployment to succeed.
 
 ### Task 2: Test the database
 
@@ -153,14 +153,14 @@ In this task, we will configure the SQL server and run a SQL query.
 <validation step="3f6d725f-f26f-461d-a922-9f871108d2f1" />
 
 ## Summary
-In this exercise, we created a database and tested its functionality to ensure it was set up correctly. We explored the process of database creation, followed by verifying its performance and accessibility. Throughout the exercise, we gained hands-on experience in setting up and testing databases in the cloud environment.
+In this exercise, we have created a database and tested its functionality to ensure it was set up correctly. We explored the process of database creation, followed by verifying its performance and accessibility. Throughout the exercise, we gained hands-on experience in setting up and testing databases in the cloud environment.
 
 ## Review
 In this lab, you have completed:
 - Created the database
 - Tested the database
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/sql/relational-databases/databases/create-a-database?view=sql-server-ver16
   
