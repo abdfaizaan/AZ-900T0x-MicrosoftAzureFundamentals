@@ -22,7 +22,7 @@ In this lab, you will be able to complete the following tasks:
 ### Task 1: Create a Web App
 In this task, you will create an Azure App Service Web App.
 
-1. On the Azure Portal, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
+1. On the Azure portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
 
    ![](../images/az-900-11.png) 
 
@@ -50,7 +50,7 @@ In this task, you will create an Azure App Service Web App.
 
 1. On the **Database** tab, leave everything as default, and click on **Next: Container>**.
 
-1. On **Container** tab specify the following to configure the container information. The startup command is optional and not needed in this exercise and click **Review + create (4)**.
+1. Within the **Container** tab, specify the following to configure the container information. The startup command is optional and not needed in this exercise. Next, click on **Review + create (4)**.
 
     | Setting | Values |
     | -- | -- |
