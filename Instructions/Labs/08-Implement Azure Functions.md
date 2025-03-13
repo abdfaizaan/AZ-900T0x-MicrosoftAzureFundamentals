@@ -1,33 +1,33 @@
 # Lab 08 - Implement Azure Functions
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 minutes
 
-## Lab overview
+## Lab Overview
 
 Azure Functions is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs. Instead of worrying about deploying and maintaining servers, the cloud infrastructure provides all the up-to-date resources needed to keep your applications running.
 
-In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request.
+In this walkthrough, we will create a Function App to display a 'hello' message when there is an HTTP request.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Create a Function app
++ Task 1: Create a Function App
 + Task 2: Create a HTTP triggered function and test
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab08.PNG) 
 
-### Task 1: Create a Function app
+### Task 1: Create a Function App
 
-In this task, we will create a Function app.
+In this task, we will create a Function App.
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Function App (1)** and then select **Function App (2)** under services.
+1. On Azure portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Function App (1)** and then select **Function App (2)** under services.
 
     ![](../images/lab8-image1.png)
       
-1. On the **Function App** blade, click **+ Create**. 
+1. On the **Function App** blade, click on **+ Create**. 
 
     ![](./images/az-900-81.png)
 
@@ -37,7 +37,7 @@ In this task, we will create a Function app.
 
 1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values then click on **Review + create (10)**.
 
-    | Settings | Value |
+    | Settings | Values |
     | -- | --|
     | Subscription | select existing Azure subscription **(1)** |
     | Resource group | select **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
@@ -51,13 +51,13 @@ In this task, we will create a Function app.
 
     ![](./images/az-900-83.png)    
         
-1. After successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+1. After a successful validation, click on **Create** to begin provisioning and deploying your new Azure Function App.
 
 1. Wait for the notification that the resource has been created, select **Go to resource**.
 
     ![](./images/az-900-84.png)
 
-1. On the **function-<inject key="DeploymentID" enableCopy="false"/>** blade, verify that the function app has the **Running** status. 
+1. On the **function-<inject key="DeploymentID" enableCopy="false"/>** blade, verify that the Function App has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/functionapp.png)
 
@@ -69,17 +69,17 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![](./images/az-900-85.png)
 
-1. On the **Select a Templates** tab of the **Create function** blade, click **HTTP trigger (1)** then click on **Next (2)**  
+1. On the **Select a template** tab of the **Create function** blade, click on the **HTTP trigger (1)** option and then click on **Next (2).**  
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/fun4.png)
 
-1. On **Template details** tab accept default values and click on **Create**.
+1. On the **Template details** tab, accept default values and click on **Create**.
 
    ![](../images/fun5.png)
 
 1. On the **HttpTrigger1 \| Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
 
-1. Click **Get function URL (1)** from the top section of function editor and Ensure to copy the value in the **default (function key) (2)** URL. 
+1. Click on the **Get function URL (1)** from the top section of the function editor and ensure to copy the value in the **default (Function key) (2)** URL. 
 
    ![](./images/az-900-86.png)
    
@@ -101,11 +101,11 @@ In this task, we will use the Webhook + API function to display a message when t
 <validation step="cd925c8a-afaf-4fdc-8ce1-8557195ba7e5" />
 
 ## Summary
-In this exercise, we created a Function app and developed an HTTP-triggered function. We then tested the function to ensure it was triggered correctly and performed as expected. Throughout the exercise, we gained hands-on experience in setting up serverless applications and testing HTTP-triggered functions in a cloud environment.
+In this exercise, we created a Function App and developed an HTTP-triggered function. We then tested the function to ensure it was triggered correctly and performed as expected. Throughout the exercise, we gained hands-on experience in setting up serverless applications and testing HTTP-triggered functions in a cloud environment.
 
 ## Review
 In this lab, you have completed:
-- Created a Function app
+- Created a Function App
 - Created a HTTP triggered function and test
 
 ## Reference link
