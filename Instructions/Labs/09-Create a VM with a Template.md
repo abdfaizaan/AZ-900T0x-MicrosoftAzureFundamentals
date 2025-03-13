@@ -1,23 +1,23 @@
 # Lab 09 - Create a VM with a Template
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 minutes
 
-## Lab overview
+## Lab Overview
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
-## Lab objectives
+## Lab Objectives
 
 In this lab, You will be able to complete the following tasks:
 
-+ Task 1: Explore the gallery and locate a template
-+ Task 2: Verify and monitor your virtual machine deployment
++ Task 1: Explore the Gallery and Locate a Template
++ Task 2: Verify and Monitor your Virtual Machine Deployment
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab09.PNG) 
 
-### Task 1: Explore the gallery and locate a template
+### Task 1: Explore the Gallery and Locate a Template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine.
 
@@ -37,7 +37,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. If prompted, sign in to the Azure with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. 
+1. Click on **Edit template**. 
 
     ![](./images/az-900-88.png)
 
@@ -45,15 +45,15 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
    ![](../images/l9os.png)
    
-1. Next, go to line number **110** change the VM name to `myVMTemplate` **(1)** and save the changes made to the template file by clicking on **Save (2)**.
+1. Next, go to line number **110** and change the VM name to `myVMTemplate` **(1)**. Moving on, save the changes made to the template file by clicking on **Save (2)**.
 
    ![](./images/az-900-89.png)
 
-3. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**.
+1. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**.
   
-1. Now configure the parameters required by the template. Leave the defaults for everything else and then click **Review + create (9)**.
+1. Now, configure the parameters required by the template. Leave the rest as defaults and then click on **Review + create (9)**.
 
-    | Setting| Value|
+    | Setting| Values|
     |----|----|
     | Subscription | **Accept default subscription** (1)|
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** (2) |
@@ -71,11 +71,11 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Monitor your deployment, wait until your deployment is completed.
 
-### Task 2: Verify and monitor your virtual machine deployment
+### Task 2: Verify and Monitor your Virtual Machine Deployment
 
 In this task, we will verify the virtual machine is deployed correctly. 
 
-1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On Azure portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
    ![](../images/lab1-image1.png) 
 
@@ -99,11 +99,11 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. Return to the **Overview** blade.
 
-1. Click on the **Activity log** from the left navigation pane. Activity logs record such events as the creation or modification of resources. 
+1. Click on the **Activity log** option from the left navigation pane. Activity logs record the creation or modification of resources.
 
     ![](./images/az-900-93.png)
 
-1. Click **Add filter**, and experiment with searching for different event types and operations. 
+1. Click on **Add filter**, and experiment with searching for different event types and operations. 
 
    ![Screenshot of the Add filters page with Event type selected.](./images/az-900-94.png)
 
@@ -122,7 +122,7 @@ In this lab, you have completed:
 - Explored the gallery and locate a template
 - Verified and monitor your virtual machine deployment
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/ps-template  
 
